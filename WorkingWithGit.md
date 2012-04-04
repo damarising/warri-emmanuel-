@@ -36,5 +36,72 @@ git push origin master
 
 Note in this case that your local "master" branch has diverged from the repo "master" branch only the time it took to run the merge command (which ran without conflict if you respected the previous steps) and the time taken to push the changes.
 
+###Working with release branches
+Following the workflow described here
+http://www.net-snmp.org/wiki/index.php/Git_Workflow,
+I've setup a script in our repository that changes the way fixes
+should be applied to stable branches. The aim is to simplify the task
+of applying a fix to multiple branches. So, in the case where a fix
+needs to be applied to more than just master, this is the workflow to
+use:
 
+- make sure you have an uptodate clone, and that your master and
+stable branches don't have any uncommited or unpushed changes
 
+- pick the oldest branch your fix applies to (or that you are willing
+to support), for the example let's say it is branch-5-4
+
+- set your working copy to this branch:
+
+```bash
+git checkout branch-5-4
+```
+- create a temporary branch for your fix
+
+```bash
+git checkout -b bug1234
+```
+
+- code, test your fix, commit, restart,etc...
+
+```bash
+git add changed_file.c
+git commit -m "fixing bug 1234, first step"
+```
+
+- once the fix is ready merge it into branch-5-4
+
+```bash
+git checkout branch-5-4
+git merge bug1234
+```
+- you are now ready to apply this fix in the newer release branches. A
+script automates this process:
+
+```bash
+sh stablemerge.sh
+```
+
+- what the script does is iteratively merge 4-10 into 5-0, then 5-0
+into 5-2, etc, up till 6-0 into master. This means your fix is
+propagated to all newer branches down into master.
+
+- for more complex fixes and/or very old branches, the fix will likely
+not always apply cleanly from one branch to the next. You'll be
+returned back to your shell with a message indicating which file has a
+conflict and asked to manually edit it to resolve. Once you've fixed
+the conflict, commit your edited file, and rerun the stablemerge.sh
+script to continue propagating your updated fix to newer branches.
+
+- push your changes back to the repo
+
+```bash
+git push origin branch-5-4
+git push origin branch-5-6
+git push origin branch-6-0
+git push origin master
+```
+
+Please try to avoid copy-pasting a fix in multiple branches to
+accomplish the same task, as it will result in conflicts the next time
+someone runs the process.
