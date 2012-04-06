@@ -1,0 +1,53 @@
+                                                                              
+MapServer Users's Groups                                                      
+--------------------------                                                    
+                                                                              
+OSGeo Local Chapters                                                          
+....................................................................          
+                                                                              
+OSGeo Local Chapters are a great way to get local help with MapServer.  Find  
+one near you!                                                                 
+                                                                              
+http://wiki.osgeo.org/wiki/Local_Chapters                                     
+                                                                              
+                                                                              
+                                                                              
+MapServer West                                                                
+....................................................................          
+                                                                              
+This is a virtual group of Western North American MapServer users and         
+developers.                                                                   
+                                                                              
+http://lists.maptools.org/mailman/listinfo/mapserver-west                     
+                                                                              
+Ottawa OSGeo Chapter                                                          
+....................................................................          
+                                                                              
+Two groups in Ottawa, Ontario, Canada (the GRASS User Group and the MapServer 
+User Group) merged to create a local OSGeo chapter. The chapter meets once a  
+month in a relaxed setting to discuss Open Source geospatial topics.          
+                                                                              
+http://wiki.osgeo.org/index.php/Ottawa_Chapter                                
+                                                                              
+                                                                              
+Pine to Prairie                                                               
+....................................................................          
+                                                                              
+Pine To Prairie is a general Minnesota, South Dakota, North Dakota GIS users  
+group that also discusses Open Source GIS software, including MapServer. For  
+more information contact Wayne Hurley at wayne@wcif.org.                      
+                                                                              
+http://www.pinetoprairie.org/                                                 
+                                                                              
+TCMUG - Twin Cities MapServer User's Group                                    
+....................................................................          
+                                                                              
+The Twin Cities Mapserver Users Group is a group of Mapserver and other Open  
+Source GIS software users that get together on the third Tuesday of each month
+in the Minneapolis/St. Paul Minnesota area. For further information contact   
+David Bitner at 612-725-6156.                                                 
+                                                                              
+http://lists.osgeo.org/mailman/listinfo/tcmug                                 
+                                                                              
+                                                                              
+}}

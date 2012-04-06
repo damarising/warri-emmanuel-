@@ -1,0 +1,6 @@
+If you compile a new version of !MapScript, using new libraries (this will probably be the case when using !MapServer 3.7, with the new GD 2.0), you must recompile PHP to make it use the exact same libraries as php_mapscript.[so|dll].
+                                                                                                                                                                                                                                          
+If you don't you'll get strange crashes and weird behavior.                                                                                                                                                                               
+                                                                                                                                                                                                                                          
+----                                                                                                                                                                                                                                      
+Go back to: [wiki:PHPMapScript
