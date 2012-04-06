@@ -2,4 +2,4 @@ Welcome to the mapserver wiki!
 
 
 ## Tricks, Tips, and HowTos
-[[DatabaseTileIndex]]
+[Using TILEINDEXes with Database RASTERS](DatabaseTileIndex)
