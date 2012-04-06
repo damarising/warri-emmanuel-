@@ -3,7 +3,12 @@ Database TILEINDEXes are a little odd in MapServer, they require 2 separate laye
 In Oracle, you'll want to create the TILEINDEX as a view to the GEORASTER table of interest.                                                                                                     
                                                                                                                                                                                                  
 
-```create or replace view my_raster_tindex as select some_attribute, 'geor: user/pass@tns, raster_table_DATA,'||r.raster.rasterid location, R.RASTER.spatialextent shape from rasters_table r;```
+```
+create or replace view my_raster_tindex as 
+select some_attribute, 'geor: user/pass@tns, 
+       raster_table_DATA,'||r.raster.rasterid location, 
+       R.RASTER.spatialextent shape from rasters_table r;
+```
                                                                                                                                                                                                  
 This view will then be used for the TILEINDEX layer                                                                                                                                              
                                                                                                                                                                                                  
