@@ -2,7 +2,8 @@ Much of this code is hard coded specifically for this application, but hopefully
                                                                                                                                                                         
 Code sample created by David Bitner, frequent lurker on !MapServer mailing list and IRC channels.                                                                       
                                                                                                                                                                         
-{{{                                                                                                                                                                     
+
+```                                                                                                                                                                     
 <?php                                                                                                                                                                   
 set_time_limit(60000);                                                                                                                                                  
 ini_set('max_execution_time',0);                                                                                                                                        
@@ -191,7 +192,7 @@ $pdf->draw_legend($classnames,$classimages,.45,$legstart+.05,$nrows);
 $pdf->Output();                                                                                                                                                         
 //$pdf->Output('macnoise.pdf','D');                                                                                                                                     
 ?>                                                                                                                                                                      
-}}}                                                                                                                                                                     
+```                                                                                                                                                                     
                                                                                                                                                                         
                                                                                                                                                                         
 ----                                                                                                                                                                    

@@ -1,4 +1,5 @@
-{{{                                                                                          
+
+```                                                                                          
 #!perl                                                                                       
 $class = new mapscript::classObj($layer);                                                    
                                                                                              
@@ -17,7 +18,7 @@ $class->{color} = $map->addColor(0,255,0);
 # Example of creating a "canvas" image for adding legend icons to & adding 1 really big icon.
 my $legend_img =  $class->createLegendIcon($rmap,$layer,200,100);                            
 $class->drawLegendIcon($map,$layer,150,50,$legend_img,25,25);                                
-}}}                                                                                          
+```                                                                                          
 ----                                                                                         
 back to PerlMapScript                                                                        
 

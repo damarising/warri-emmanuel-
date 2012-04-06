@@ -1,5 +1,6 @@
 creates an image and saves it:                                                                           
-{{{                                                                                                      
+
+```                                                                                                      
 #!perl                                                                                                   
 #!/usr/bin/perl -w                                                                                       
 use mapscript;                                                                                           
@@ -18,6 +19,6 @@ my $img = $map->draw() or die('Unable to draw map');
 #                                                                                                        
 # Save the rendered image.                                                                               
 my $void = $img->saveImage('example.png', $mapscript::MS_PNG, $map->{transparent}, $map->{interlace}, 0);
-}}}                                                                                                      
+```                                                                                                      
 ----                                                                                                     
 back to PerlMapScrip

@@ -274,10 +274,11 @@ sub get_click {
                                                                                                                   
         return ($x, $y);                                                                                          
 }                                                                                                                 
-}}}                                                                                                               
+```                                                                                                               
                                                                                                                   
 = points42.map =                                                                                                  
-{{{                                                                                                               
+
+```                                                                                                               
 MAP                                                                                                               
   NAME "points42"                                                                                                 
   STATUS ON                                                                                                       
@@ -364,6 +365,6 @@ LAYER
 END                                                                                                               
                                                                                                                   
 END                                                                                                               
-}}}                                                                                                               
+```                                                                                                               
 ----                                                                                                              
 back to PerlMapScrip

@@ -1,4 +1,5 @@
-{{{                                                                                                                                                                                               
+
+```                                                                                                                                                                                               
 #!perl                                                                                                                                                                                            
 #!/usr/bin/perl -w                                                                                                                                                                                
 #                                                                                                                                                                                                 
@@ -67,6 +68,6 @@ for ($table->field_names) {
 #                                                                                                                                                                                                 
 # Close the dbf file.                                                                                                                                                                             
 undef $table;                                                                                                                                                                                     
-}}}                                                                                                                                                                                               
+```                                                                                                                                                                                               
 ----                                                                                                                                                                                              
 back to PerlMapScrip

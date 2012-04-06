@@ -15,6 +15,6 @@ my $point = $label->{point};
 $box_minx = $point->{x} - 15;                        
                                                      
 $line->add($point);                                  
-}}}                                                  
+```                                                  
 ----                                                 
 back to PerlMapScrip

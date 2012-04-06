@@ -1,5 +1,6 @@
                                                                                                                                                                                                             
-{{{                                                                                                                                                                                                         
+
+```                                                                                                                                                                                                         
 #!perl                                                                                                                                                                                                      
 #!/usr/bin/perl -w                                                                                                                                                                                          
 #                                                                                                                                                                                                           
@@ -285,6 +286,6 @@ close ORTHOS;
 #                                                                                                                                                                                                           
 # Remove the orthos list.                                                                                                                                                                                   
 unlink "orthos.list";                                                                                                                                                                                       
-}}}                                                                                                                                                                                                         
+```                                                                                                                                                                                                         
 ----                                                                                                                                                                                                        
 back to PerlMapScrip

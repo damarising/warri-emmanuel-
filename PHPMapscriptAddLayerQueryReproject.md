@@ -13,7 +13,8 @@ Example based on http://dl.maptools.org/dl/omsug/osgis2004/php_mapscript_mum2.pp
                                                                                                                                                                                    
 Contributed by Tom Kralidis.                                                                                                                                                       
                                                                                                                                                                                    
-{{{                                                                                                                                                                                
+
+```                                                                                                                                                                                
 <?php                                                                                                                                                                              
                                                                                                                                                                                    
 // load mapscript                                                                                                                                                                  
@@ -56,13 +57,14 @@ $image=$map->drawQuery();
 $image->saveImage("/tmp/out.png");                                                                                                                                                 
                                                                                                                                                                                    
 ?>                                                                                                                                                                                 
-}}}                                                                                                                                                                                
+```                                                                                                                                                                                
                                                                                                                                                                                    
 == Example 2 ==                                                                                                                                                                    
                                                                                                                                                                                    
 The example below works under !MapServer 5.2.1 (tested under Fedora 10).  Contributed by Tim Wood.                                                                                 
                                                                                                                                                                                    
-{{{                                                                                                                                                                                
+
+```                                                                                                                                                                                
 <?PHP                                                                                                                                                                              
                                                                                                                                                                                    
 /**                                                                                                                                                                                
@@ -194,7 +196,7 @@ $image->saveImage( $output_file_path );
     <img src="<?PHP print $output_file_rel; ?>">                                                                                                                                   
 </body>                                                                                                                                                                            
 </html>                                                                                                                                                                            
-}}}                                                                                                                                                                                
+```                                                                                                                                                                                
                                                                                                                                                                                    
 ----                                                                                                                                                                               
 back to [wiki:PHPMapScript

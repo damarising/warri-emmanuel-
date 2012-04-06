@@ -2,7 +2,8 @@ A perl mapscript 3.6.4 sub-routine which converts a reference map mouse click in
                                                                                                                                                                         
 Author: Eric Bridger eric@gomoos.org, eric@maine.com                                                                                                                    
 ----                                                                                                                                                                    
-{{{                                                                                                                                                                     
+
+```                                                                                                                                                                     
 #!perl                                                                                                                                                                  
 # This is based entirely on the code in mapserver3.6.4 maptemplate.c::setExtent() case FROMREFPT                                                                        
 # calculate new map extents from mouse click in reference map.                                                                                                          
@@ -66,9 +67,10 @@ sub ref_to_map_ext {
                                                                                                                                                                         
     return($mapext);                                                                                                                                                    
 }                                                                                                                                                                       
-}}}                                                                                                                                                                     
+```                                                                                                                                                                     
 = Partial map file =                                                                                                                                                    
-{{{                                                                                                                                                                     
+
+```                                                                                                                                                                     
 ############################################################                                                                                                            
 # A patial map file.                                                                                                                                                    
 #######################                                                                                                                                                 
@@ -88,7 +90,7 @@ REFERENCE
   COLOR -1 -1 -1                                                                                                                                                        
   OUTLINECOLOR 255 0 0                                                                                                                                                  
 END                                                                                                                                                                     
-}}}                                                                                                                                                                     
+```                                                                                                                                                                     
 ----                                                                                                                                                                    
 back to PerlMapScript                                                                                                                                                   
 

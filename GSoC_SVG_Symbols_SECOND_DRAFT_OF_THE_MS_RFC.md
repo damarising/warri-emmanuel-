@@ -10,12 +10,13 @@ as an alternate method to define vector symbols in the MapServer symbolset.
                                                                                                                              
 The SVG parsing and rendering will be triggered by the following syntax:                                                     
                                                                                                                              
-{{{                                                                                                                          
+
+```                                                                                                                          
 SYMBOL                                                                                                                       
 TYPE SVG                                                                                                                     
 SVGPATH / p a t h / t o / f i l e . svg                                                                                      
 END                                                                                                                          
-}}}                                                                                                                          
+```                                                                                                                          
                                                                                                                              
 The choice for using a SYMBOL for the task is to allow for the reuse of the SVG symbol easily within classes.                
                                                                                                                              
@@ -60,9 +61,10 @@ to support the new symbol type by using the createBrushFromSVG function.
 '''4.1 AGG/SVG Parser.'''                                                                                                    
 The SVG parsing and pixmap generation functions will be stored in source files stored at                                     
                                                                                                                              
-{{{                                                                                                                          
+
+```                                                                                                                          
 / mapserver / r e n d e r e r s / agg / svg /                                                                                
-}}}                                                                                                                          
+```                                                                                                                          
                                                                                                                              
 The files within the above directory include the files for:                                                                  
 a. SVG Parsing                                                                                                               

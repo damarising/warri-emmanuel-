@@ -11,7 +11,8 @@ Basically, the tasks this script does are:
    7. Draw the map                                                                                                                                                                                                                
                                                                                                                                                                                                                                   
 This is the layer "lines" used in the code:                                                                                                                                                                                       
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
   LAYER                                                                                                                                                                                                                           
     GROUP "user"                                                                                                                                                                                                                  
     NAME "lines"                                                                                                                                                                                                                  
@@ -25,11 +26,12 @@ This is the layer "lines" used in the code:
        END #style                                                                                                                                                                                                                 
    END #class                                                                                                                                                                                                                     
   END #layer                                                                                                                                                                                                                      
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
 == PHP code ==                                                                                                                                                                                                                    
                                                                                                                                                                                                                                   
 The file is called query3.php                                                                                                                                                                                                     
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
 <?php                                                                                                                                                                                                                             
                                                                                                                                                                                                                                   
 dl('php_mapscript.so');                                                                                                                                                                                                           
@@ -98,7 +100,7 @@ for($i=0;$i<$line->numpoints;$i++) {
 <a href="query3.php">Clear</a>                                                                                                                                                                                                    
  </ body>                                                                                                                                                                                                                         
 </ html>                                                                                                                                                                                                                          
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
 -- Merlos                                                                                                                                                                                                                         
                                                                                                                                                                                                                                   
 Go to [wiki:PHPMapScript]

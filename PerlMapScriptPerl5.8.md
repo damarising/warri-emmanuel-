@@ -12,7 +12,8 @@ Contributed by Joe Bussell
 How does this bug manifest itself? In what mapserver version?                                       
                                                                                                     
 My mapserver-4.2.3/mapscript/perl/mapscript_wrap.c:811 has                                          
-{{{                                                                                                 
+
+```                                                                                                 
 #!perl                                                                                              
  #define SWIG_init    boot_mapscript                                                                
                                                                                                     
@@ -28,7 +29,7 @@ My mapserver-4.2.3/mapscript/perl/mapscript_wrap.c:811 has
  #else                                                                                              
  SWIGEXPORT(void) SWIG_init (pTHXo_ CV* cv);                                                        
  #endif                                                                                             
-}}}                                                                                                 
+```                                                                                                 
 Which looks like it has some changes.                                                               
 ----                                                                                                
 back to PerlMapScrip

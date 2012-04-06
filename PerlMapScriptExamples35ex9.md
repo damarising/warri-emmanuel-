@@ -1,5 +1,6 @@
 The cl.tar.gz url is http://www.highwayengineer.co.medina.oh.us/cl.tar.gz , unfortunately it is large for modem download but hopefully it will be useful to other users.                                                                                
-{{{                                                                                                                                                                                                                                                     
+
+```                                                                                                                                                                                                                                                     
 #!perl                                                                                                                                                                                                                                                  
 #!/usr/bin/perl                                                                                                                                                                                                                                         
 #                                                                                                                                                                                                                                                       
@@ -329,6 +330,6 @@ for ($inpntnum=0; $inpntnum<$innumshp; $inpntnum++ ) {
 unlink "$sfile.map";                                                                                                                                                                                                                                    
                                                                                                                                                                                                                                                         
 unlink "$sfile.sym";                                                                                                                                                                                                                                    
-}}}                                                                                                                                                                                                                                                     
+```                                                                                                                                                                                                                                                     
 ----                                                                                                                                                                                                                                                    
 back to PerlMapScrip

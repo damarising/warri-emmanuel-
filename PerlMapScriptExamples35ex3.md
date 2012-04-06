@@ -1,5 +1,6 @@
                                                                                                                                                                                                       
-{{{                                                                                                                                                                                                   
+
+```                                                                                                                                                                                                   
 #!perl                                                                                                                                                                                                
 #!/usr/bin/perl -w                                                                                                                                                                                    
 #                                                                                                                                                                                                     
@@ -114,7 +115,7 @@ for($i=0; $i<$shapefile->{numshapes}; $i++) {
 #                                                                                                                                                                                                     
 # Print the shapefiles bounding rectangle.                                                                                                                                                            
 print "$file\'s Bounding Rectangle is $shapeminx, $shapeminy, $shapemaxx, $shapemaxy\n";                                                                                                              
-}}}                                                                                                                                                                                                   
+```                                                                                                                                                                                                   
                                                                                                                                                                                                       
 ----                                                                                                                                                                                                  
 back to [wiki:PerlMapScript]

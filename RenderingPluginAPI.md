@@ -1,7 +1,8 @@
 Symbolization Structures                                                                                        
                                                                                                                 
 Stroke:                                                                                                         
-{{{                                                                                                             
+
+```                                                                                                             
 typedef struct {                                                                                                
     double width; /* line width in pixels */                                                                    
                                                                                                                 
@@ -17,10 +18,11 @@ typedef struct {
     int linejoin; /* MS_CJC_BEVEL MS_CJC_ROUND MS_CJC_MITER */                                                  
     double linejoinmaxsize;                                                                                     
 } strokeStyleObj;                                                                                               
-}}}                                                                                                             
+```                                                                                                             
                                                                                                                 
 Fill:                                                                                                           
-{{{                                                                                                             
+
+```                                                                                                             
 typedef struct {                                                                                                
     /* must not be NULL, must be a valid color *                                                                
      * color.alpha must be used if supported by the renderer */                                                 
@@ -32,7 +34,7 @@ typedef struct {
     void *tile;                                                                                                 
                                                                                                                 
 } fillStyleObj;                                                                                                 
-}}}                                                                                                             
+```                                                                                                             
                                                                                                                 
 Booleans                                                                                                        
                                                                                                                 

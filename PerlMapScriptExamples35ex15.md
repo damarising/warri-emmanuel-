@@ -1,4 +1,5 @@
-{{{                                                                                                                                                                             
+
+```                                                                                                                                                                             
 #!perl                                                                                                                                                                          
 #!/usr/bin/perl                                                                                                                                                                 
 #                                                                                                                                                                               
@@ -178,6 +179,6 @@ for (my $innum=0; $innum<$innumshp; $innum++ ) {
 # Get rid of the temporary mapfile & symbol file.                                                                                                                               
 unlink "$sfile.map";                                                                                                                                                            
 unlink "$sfile.sym";                                                                                                                                                            
-}}}                                                                                                                                                                             
+```                                                                                                                                                                             
 ----                                                                                                                                                                            
 back to PerlMapScrip

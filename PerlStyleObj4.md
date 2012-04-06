@@ -1,7 +1,8 @@
 Illustrating use of new 4.x styleObj, two approaches:                                                   
                                                                                                         
 == One - Using an existing style from map file. Default values will come from values set in map file. ==
-{{{                                                                                                     
+
+```                                                                                                     
 #!perl                                                                                                  
 my $layerObj = $map->getLayerByName('data_points');                                                     
 my $class = $layerObj->getClass(0);                                                                     
@@ -11,10 +12,11 @@ my $style = $class->getStyle(0);
 $style->{size} = 20;                                                                                    
 $style->{color}->setRGB(255,0,0);                                                                       
 $layerObj->draw($map,$img);                                                                             
-}}}                                                                                                     
+```                                                                                                     
                                                                                                         
 == Two - Creating a new style. All values must be set. ==                                               
-{{{                                                                                                     
+
+```                                                                                                     
 #!perl                                                                                                  
 my $circle_idx = $map->getSymbolByName('circle');                                                       
 my $layerObj = $map->getLayerByName('data_points');                                                     
@@ -29,9 +31,10 @@ $class->insertStyle($style, 0);
 $layerObj->draw($map,$img);                                                                             
 # remove the style, this is important when in a loop. There is a maximum of 5 styles/class.             
 $class->removeStyle(0);                                                                                 
-}}}                                                                                                     
+```                                                                                                     
 == Map file fragment ==                                                                                 
-{{{                                                                                                     
+
+```                                                                                                     
 LAYER                                                                                                   
   NAME "data_points"                                                                                    
   TYPE POINT                                                                                            
@@ -50,7 +53,7 @@ LAYER
     "proj=latlong"                                                                                      
   END                                                                                                   
 END                                                                                                     
-}}}                                                                                                     
+```                                                                                                     
                                                                                                         
 == Access to styles has been changed in version 4.2. ==                                                 
                                                                                                         

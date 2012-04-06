@@ -1,7 +1,8 @@
                                                                                                 
 User view:                                                                                      
                                                                                                 
-{{{                                                                                             
+
+```                                                                                             
 LAYER                                                                                           
  ...                                                                                            
  TYPE TABLE                                                                                     
@@ -10,7 +11,7 @@ LAYER
  # PROJECTION object would not be needed                                                        
  # would DUMP be needed here, or TRUE implied?                                                  
 END                                                                                             
-}}}                                                                                             
+```                                                                                             
                                                                                                 
 Other notes                                                                                     
    * extend OGR to interpret just tables without looking for spatial                            

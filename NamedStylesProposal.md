@@ -1,6 +1,7 @@
 == Proposed Map File Syntax Example ==                                                                                                                  
                                                                                                                                                         
-{{{                                                                                                                                                     
+
+```                                                                                                                                                     
 MAP                                                                                                                                                     
   STYLE                                                                                                                                                 
     # define a named style with global visibility                                                                                                       
@@ -28,7 +29,7 @@ MAP
     END                                                                                                                                                 
   END                                                                                                                                                   
 END                                                                                                                                                     
-}}}                                                                                                                                                     
+```                                                                                                                                                     
                                                                                                                                                         
 == Mapfile Extensions ==                                                                                                                                
                                                                                                                                                         

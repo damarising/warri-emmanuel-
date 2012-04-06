@@ -5,7 +5,8 @@ Available by re-swigging(sp?) with NEXT_GENERATION_NAMES swig -perl5 -shadow -DN
                                                                                                                 
 == Example ==                                                                                                   
 Here is a simple perl example that loads a mapfile, creates an image and saves it:                              
-{{{                                                                                                             
+
+```                                                                                                             
 #!perl                                                                                                          
 #!/usr/bin/perl -w                                                                                              
 use mapscript;                                                                                                  
@@ -24,7 +25,7 @@ my $img = $map->draw() or die('Unable to draw map');
 #                                                                                                               
 # Save the rendered image.                                                                                      
 my $void = $img->save('example.png');                                                                           
-}}}                                                                                                             
+```                                                                                                             
 ----                                                                                                            
 back to PerlMapScript                                                                                           
 

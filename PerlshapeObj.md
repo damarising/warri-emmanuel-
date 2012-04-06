@@ -1,4 +1,5 @@
-{{{                                                                          
+
+```                                                                          
 #!perl                                                                       
 $shape = new mapscript::shapeObj(-1);                                        
                                                                              
@@ -21,9 +22,10 @@ for($i=0; $i<$numshapes; i++) {
   $shapefile->get($i, $shape);                                               
   ...                                                                        
 }                                                                            
-}}}                                                                          
+```                                                                          
 This example retrieves all of the x,y's for all the lines in a polygon shape.
-{{{                                                                          
+
+```                                                                          
 #!perl                                                                       
 #                                                                            
 # Create shape object.                                                       
@@ -60,6 +62,6 @@ for ( $line_num=0; $line_num<$num_lines; $line_num++ ) {
 }                                                                            
 print "\n";                                                                  
                                                                              
-}}}                                                                          
+```                                                                          
 ----                                                                         
 back to PerlMapScrip

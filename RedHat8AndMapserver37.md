@@ -4,7 +4,8 @@
                                                                                                                                                                                                                                   
 A solution to the problem below is to edit php.ini:                                                                                                                                                                               
                                                                                                                                                                                                                                   
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
  # cgi.fix_pathinfo provides *real* PATH_INFO/PATH_TRANSLATED support for CGI.  PHP's                                                                                                                                             
  # previous behaviour was to set PATH_TRANSLATED to SCRIPT_FILENAME, and to not grok                                                                                                                                              
  # what PATH_INFO is.  For more information on PATH_INFO, see the cgi specs.  Setting                                                                                                                                             
@@ -12,7 +13,7 @@ A solution to the problem below is to edit php.ini:
  # of zero causes PHP to behave as before.  Default is zero.  You should fix your scripts                                                                                                                                         
  # to use SCRIPT_FILENAME rather than PATH_TRANSLATED.                                                                                                                                                                            
  cgi.fix_pathinfo = 1                                                                                                                                                                                                             
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
                                                                                                                                                                                                                                   
     27 June 2003                                                                                                                                                                                                                  
                                                                                                                                                                                                                                   
@@ -44,7 +45,8 @@ A solution to the problem below is to edit php.ini:
           o PHP-4.3.0 has a serious security issue, you should use PHP-4.3.1                                                                                                                                                      
           o PHP-4.3.x built as a CGI module (required for mapscript) has a bug that causes PHP_SELF to get clobbered. This should be fixed in CVS and PHP-4.3.2. I fixed this by creating an auto_prepend.php file the contained: 
                                                                                                                                                                                                                                   
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
 <?php                                                                                                                                                                                                                             
 ///// Quick fix until the PHP guys fix $_SERVER['PHP_SELF'] /////                                                                                                                                                                 
 $_SERVER['SCRIPT_NAME'] = substr($_SERVER['PATH_TRANSLATED'],                                                                                                                                                                     
@@ -58,11 +60,12 @@ $PHP_SELF = $SCRIPT_NAME = $_SERVER['PHP_SELF'] =
 $_SERVER['SCRIPT_NAME'];                                                                                                                                                                                                          
 /////////////////////////////////////////////////////////////////                                                                                                                                                                 
 ?>                                                                                                                                                                                                                                
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
                                                                                                                                                                                                                                   
 == Build Notes ==                                                                                                                                                                                                                 
                                                                                                                                                                                                                                   
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
 # Here are my build notes for installing Mapserver et al on RH 8.0                                                                                                                                                                
 # many thanks to Vincent Schut for his build notes                                                                                                                                                                                
                                                                                                                                                                                                                                   
@@ -222,5 +225,5 @@ phpinfo();
                                                                                                                                                                                                                                   
 # check the output of http://yourhost/info.php                                                                                                                                                                                    
 # for mapserver support                                                                                                                                                                                                           
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
 

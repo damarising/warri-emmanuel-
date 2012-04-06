@@ -1,7 +1,8 @@
 This is a simple example of how to use PHPMapScript. It is intended to be for begginers (as me). We are going to add a point on the position the user clicked on a map.
                                                                                                                                                                        
 On our !MapFile, we have blank Point layer called "INLINE", This is the layer where we are going to add our dynamic point. Here you have a sample:                     
-{{{                                                                                                                                                                    
+
+```                                                                                                                                                                    
   LAYER                                                                                                                                                                
     NAME "INLINE"                                                                                                                                                      
     TYPE POINT                                                                                                                                                         
@@ -16,11 +17,12 @@ On our !MapFile, we have blank Point layer called "INLINE", This is the layer wh
        END #style                                                                                                                                                      
    END #class                                                                                                                                                          
  END #layer                                                                                                                                                            
-}}}                                                                                                                                                                    
+```                                                                                                                                                                    
 = PHP code =                                                                                                                                                           
                                                                                                                                                                        
 The source filename is query2.php                                                                                                                                      
-{{{                                                                                                                                                                    
+
+```                                                                                                                                                                    
 <?php                                                                                                                                                                  
                                                                                                                                                                        
 //Load the dynamic library.                                                                                                                                            
@@ -71,7 +73,7 @@ print_r($pt); ?>
 < /pre>                                                                                                                                                                
 < /body>                                                                                                                                                               
 < /html>                                                                                                                                                               
-}}}                                                                                                                                                                    
+```                                                                                                                                                                    
 -- Merlos                                                                                                                                                              
                                                                                                                                                                        
 Go back to: [wiki:PHPMapScript

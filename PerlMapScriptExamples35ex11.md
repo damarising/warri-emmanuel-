@@ -49,6 +49,6 @@ for($i=0; $i<$in_shapefile->{numshapes}; $i++) {
                                                                                                              
 undef $out_shapefile;                                                                                        
 exit;                                                                                                        
-}}}                                                                                                          
+```                                                                                                          
 ----                                                                                                         
 back to PerlMapScrip

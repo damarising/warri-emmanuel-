@@ -8,6 +8,6 @@ $rectangle->{maxy} = 10;
 my $query_status = $st_poly_layer->queryByRect($map,$rectang);
                                                               
 my $rectang = $sing_shpfile->{bounds};                        
-}}}                                                           
+```                                                           
 ----                                                          
 back to PerlMapScrip

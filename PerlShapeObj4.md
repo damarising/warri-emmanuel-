@@ -1,7 +1,8 @@
 == drawing lines with mapscript ==                                                 
                                                                                    
 ...class definition in the map file needed a style section (even if it is empty)...
-{{{                                                                                
+
+```                                                                                
 #!perl                                                                             
 $layer = $map->getLayerByName('line_layer');                                       
 $layer->{status} = 1;                                                              
@@ -16,9 +17,10 @@ my $shape = new mapscript::shapeObj($mapscript::MS_SHAPE_LINE);
 $shape->add($line);                                                                
 $shape->{text} = "LINE TEXT";                                                      
 $shape->draw($map, $layer, $img);                                                  
-}}}                                                                                
+```                                                                                
 ----------------------------------                                                 
-{{{                                                                                
+
+```                                                                                
 LAYER                                                                              
 NAME "line_layer"                                                                  
 STATUS ON                                                                          
@@ -41,7 +43,7 @@ COLOR 0 0 0
 SIZE 10                                                                            
 END                                                                                
 END                                                                                
-}}}                                                                                
+```                                                                                
 ----                                                                               
 back to PerlMapScript                                                              
 

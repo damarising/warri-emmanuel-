@@ -9,9 +9,10 @@ This page is interpreted in a special way by Trac, in order to support
                                                                                                                                   
 The code block after the first line separator in this page                                                                        
 will be interpreted as a list of !InterWiki specifications:                                                                       
-{{{                                                                                                                               
+
+```                                                                                                                               
 prefix <space> URL [<space> # comment]                                                                                            
-}}}                                                                                                                               
+```                                                                                                                               
                                                                                                                                   
 By using `$1`, `$2`, etc. within the URL, it is possible to create                                                                
 InterWiki links which support multiple arguments, e.g. Trac:ticket:40.                                                            
@@ -35,7 +36,8 @@ Also note that !InterWiki prefixes are case insensitive.
                                                                                                                                   
 == Prefix Definitions ==                                                                                                          
                                                                                                                                   
-{{{                                                                                                                               
+
+```                                                                                                                               
 PEP     http://www.python.org/peps/pep-$1.html                                       # Python Enhancement Proposal                
 Trac-ML  http://thread.gmane.org/gmane.comp.version-control.subversion.trac.general/ # Message $1 in Trac Mailing List            
 trac-dev http://thread.gmane.org/gmane.comp.version-control.subversion.trac.devel/   # Message $1 in Trac Development Mailing List
@@ -64,5 +66,5 @@ WhoIs            http://www.whois.sc/
 Why              http://clublet.com/c/c/why?                                                                                      
 c2Wiki             http://c2.com/cgi/wiki?                                                                                        
 WikiPedia        http://en.wikipedia.org/wiki/                                                                                    
-}}}                                                                                                                               
+```                                                                                                                               
 

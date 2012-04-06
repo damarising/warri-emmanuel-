@@ -41,6 +41,6 @@ while ( $label = $map->nextLabel()) {
     }                                                                                           
   }                                                                                             
 }                                                                                               
-}}}                                                                                             
+```                                                                                             
 ----                                                                                            
 back to PerlMapScrip

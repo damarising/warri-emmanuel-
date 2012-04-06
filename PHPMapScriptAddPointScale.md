@@ -1,6 +1,7 @@
 This shows you how to add a point like a city to your mapscript and to use min/max scaledenom to make the feature appear or disappear depending on your scale.
                                                                                                                                                               
-{{{                                                                                                                                                           
+
+```                                                                                                                                                           
 <?php                                                                                                                                                         
                                                                                                                                                               
 // example written by mdev and special thanks to ue and others on #mapserver that helped me resolve the issues                                                

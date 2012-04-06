@@ -29,6 +29,6 @@ my $result_cache = $st_poly_layer->{resultcache};
 my $sing_layer_idx = $sing_layer->{index};                                      
 $sing_layer->queryByRect($map,$rectang); # ** set of results **                 
 $prcl_dim_layer->queryByFeatures($map,$sing_layer_idx);                         
-}}}                                                                             
+```                                                                             
 ----                                                                            
 back to PerlMapScrip

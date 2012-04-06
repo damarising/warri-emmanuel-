@@ -116,6 +116,6 @@ PDF_close($pdf);
 PDF_delete($pdf);                                                                                                                                         
                                                                                                                                                           
 unlink $imgfile;                                                                                                                                          
-}}}                                                                                                                                                       
+```                                                                                                                                                       
 ----                                                                                                                                                      
 back to PerlMapScrip

@@ -112,6 +112,6 @@ for($i=0; $i<$inSHP->{numshapes}; $i++) {
                                                                                                                 
 $outSHP = ''; # write the file                                                                                  
 print "The old file ($incount vertices) has been generalized to $outcount vertices.\n";                         
-}}}                                                                                                             
+```                                                                                                             
 ----                                                                                                            
 back to PerlMapScrip

@@ -12,6 +12,6 @@ while (<POINTS>) {
   $point->{y} = $lat;                 
   $line->add($point);                 
 }                                     
-}}}                                   
+```                                   
 ----                                  
 back to PerlMapScrip

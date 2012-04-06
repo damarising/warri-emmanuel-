@@ -1,5 +1,6 @@
                                                                                                                                                                                                   
-{{{                                                                                                                                                                                               
+
+```                                                                                                                                                                                               
 #!perl                                                                                                                                                                                            
 #!/usr/bin/perl -w                                                                                                                                                                                
 #                                                                                                                                                                                                 
@@ -103,7 +104,7 @@ for ($record=0; $record<$dbh->last_record; $record++){
 #                                                                                                                                                                                                 
 # Print the number of records found.                                                                                                                                                              
 print "Number of Results: $results\n";                                                                                                                                                            
-}}}                                                                                                                                                                                               
+```                                                                                                                                                                                               
                                                                                                                                                                                                   
 ----                                                                                                                                                                                              
 [wiki:PerlMapScript back to PerlMapScript

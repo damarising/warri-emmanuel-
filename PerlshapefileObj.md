@@ -1,4 +1,5 @@
-{{{                                                                                          
+
+```                                                                                          
 #!perl                                                                                       
 $shapefile = new mapscript::shapefileObj('lakes',-1) or die "Unable to open lakes shapefile";
                                                                                              
@@ -48,6 +49,6 @@ my $newmaxy = $newrect->{maxy};
 #                                                                                            
 # Close new shapefile.                                                                       
 undef $newshpf;                                                                              
-}}}                                                                                          
+```                                                                                          
 ----                                                                                         
 back to PerlMapScrip

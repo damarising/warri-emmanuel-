@@ -1,7 +1,8 @@
 These are results of a !MapServer mailing list survey (in 2004) designed to get a feel for who is running !MapServer on what kind of an operating system/hardware platform. I sorted it by speed/memory and Operating System. 
                                                                                                                                                                                                                               
 -- Tyler Mitchell                                                                                                                                                                                                             
-{{{                                                                                                                                                                                                                           
+
+```                                                                                                                                                                                                                           
 #!rst                                                                                                                                                                                                                         
   ===================== =============== =============== =============== ======================= ===========                                                                                                                   
   **Brand**             **# Proc.**     **Speed (MHZ)** **Memory (MB)** **Operating System**    **Contact**                                                                                                                   

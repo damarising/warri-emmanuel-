@@ -1,4 +1,5 @@
-{{{                                                                                                                                                                                               
+
+```                                                                                                                                                                                               
 #!perl                                                                                                                                                                                            
 #!/usr/bin/perl -w                                                                                                                                                                                
 #                                                                                                                                                                                                 
@@ -237,6 +238,6 @@ print "The Extents of the Selected Set: minx=$newminx miny=$newminy maxx=$newmax
 #                                                                                                                                                                                                 
 # Print the number of selected records.                                                                                                                                                           
 print "The Number of Selected Shapes = $numseld.\n";                                                                                                                                              
-}}}                                                                                                                                                                                               
+```                                                                                                                                                                                               
 ----                                                                                                                                                                                              
 back to PerlMapScrip

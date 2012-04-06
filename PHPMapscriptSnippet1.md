@@ -1,5 +1,6 @@
 Here is a code snippet from Antti Roppola, there is also another example in the GMap demo application that is a little fancier (GMap demo http://www2.dmsolutions.ca/gmap/gmap75.phtml download demo: http://dl.maptools.org/dl/).
-{{{                                                                                                                                                                                                                               
+
+```                                                                                                                                                                                                                               
 /**                                                                                                                                                                                                                               
  * converts pixel units into map units                                                                                                                                                                                            
  *                                                                                                                                                                                                                                
@@ -20,6 +21,6 @@ function click2map ($click_x, $click_y, $current_extent) {
                                                                                                                                                                                                                                   
         return array($x_map, $y_map);                                                                                                                                                                                             
 }                                                                                                                                                                                                                                 
-}}}                                                                                                                                                                                                                               
+```                                                                                                                                                                                                                               
 ----                                                                                                                                                                                                                              
 Go back to: [wiki:PHPMapScript

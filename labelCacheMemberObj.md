@@ -10,6 +10,6 @@ while ( $label = $map->nextLabel() ) { # ** labelCacheMemberObj **
     $text = "String = $label->{string}";                          
   }                                                               
 }                                                                 
-}}}                                                               
+```                                                               
 ----                                                              
 back to PerlMapScrip
