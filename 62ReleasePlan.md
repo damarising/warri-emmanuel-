@@ -4,7 +4,7 @@
 * RFC 73 : SVG symbology support
 * RFC 75 : INSPIRE view services 
 * RFC 76 : XMP Metadata support
-* RFC 77 : Multiple labels or collision-detected symbols per class
+* RFC 77 : Multiple labels or collision-detected symbols per feature
 * RFC 78 : Vector Field rendering
 * RFC 79 : Layer Masks
 * RFC 80 : Multiple font fallback support
