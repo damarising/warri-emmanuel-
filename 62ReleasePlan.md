@@ -12,6 +12,7 @@
 * RFC 84 : Code and issues migrated to github
 
 ## Other notable enhancements include:
+* GD support disabled by default. Enable with --with-gd
 * labelcache: speedups and reduced memory usage
 * postgis input: reduced memory usage
 * proj: use the unlocked thread free if proj >= 4.8.0
