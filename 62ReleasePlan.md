@@ -21,6 +21,8 @@
 * python and php mapscript build: todo
 * support for ELEVATION and DIM_* WMS dimensions
 * precise symbol placement: ANCHORPOINT
+* support for named group layer
+* basic multi-language support in WMS
 
 ## Deprecated Features
 * ANNOTATION layers are deprecated. All their functionality can be obtained using LABEL level STYLES with "labelpnt" GEOMTRANSFORM. Current annotation layer functionality is kept for the time-being, but new features (layer masking, multiple labels per feature, label offsetting) will bail out if applied to an annotation layer.
