@@ -15,4 +15,5 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 
 ## Tricks, Tips, and HowTos
 * [FAQ](/mapserver/mapserver/wiki/FAQ)
+* [Symbology Exchange](/mapserver/mapserver/wiki/SymbologyExchange)
 * [Using TILEINDEXes with Database RASTERS](/mapserver/mapserver/wiki/MapServer-TILEINDEXes-with-Database-RASTERS)
