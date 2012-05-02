@@ -1,10 +1,8 @@
-= MapServer Conferences =
+Meet other MapServer users and developers at these conferences around the world. You can also download proceedings/workshops from past conferences.
 
-Meet other !MapServer users and developers at these conferences around the world. You can also download proceedings/workshops from past conferences.
+## Future and Past !MapServer-related Conferences
 
-== Future and Past !MapServer-related Conferences ==
-
- Brazilian !MapServer User Meeting::
+ Brazilian MapServer User Meeting::
     The Brazilian !MapServer user meeting takes place every year in Brazil.
  [http://2011.foss4g.org FOSS4G2011]::
     The Free and Open Source Software for Geospatial conference was held in Denver, Colorado, U.S.A, from September 12th
