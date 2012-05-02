@@ -2,5 +2,4 @@ Here's some places that will get you going with MapServer for a fee. The MapServ
  * [[HostGIS|http://www.hostgis.com]]                                                                                                                    
  * [[HTMLX.com|http://htmlx.com]]                                                                                                                       
  * [[MRCC.com|http://mrcc.com]]                                                                                                                         
- * [[MapServerPro|http://www.mapserverpro.com]]                                                                                                          
- * [[ServMap|http://www.servmap.com/]]
+ * [[MapServerPro|http://www.mapserverpro.com]]                                                                                                        
