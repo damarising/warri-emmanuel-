@@ -1,7 +1,3 @@
-                                                                                
-axl2map_xslt                                                                    
----------------                                                                 
-                                                                                
 A XSL Transform that converts ArcIMS .axl files into ~equivalent Mapserver      
 .map files. This transform does the grunt work involved in translating ArcIMS   
 .axl files into Mapserver .map files. The transform isn't perfect. Limitations  
@@ -16,3 +12,5 @@ it should work with other engines too.
 ```                                                                            
     java org.apache.xalan.xslt.Process -IN foo.axl -XSL axl2map.xsl -OUT foo.map
 ```
+
+You can download the xslt file [[here|http://download.osgeo.org/mapserver/docs/axl2map_xslt]]
