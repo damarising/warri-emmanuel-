@@ -4,6 +4,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 
 ## Community
 [MapServer User's Groups](/mapserver/mapserver/wiki/MUGs)
+[MapServer Hosting Providers](/mapserver/mapserver/wiki/HostingProviders)
 
 ## Release Plans
 [6.2 Release](/mapserver/mapserver/wiki/62ReleasePlan)
