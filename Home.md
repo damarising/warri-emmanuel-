@@ -20,3 +20,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Using TILEINDEXes with Database RASTERS](/mapserver/mapserver/wiki/MapServer-TILEINDEXes-with-Database-RASTERS)
 * [GRID Object Use](/mapserver/mapserver/wiki/MapServerGrid)
 * [Rendering OpenStreetMap data with MapServer](/mapserver/mapserver/wiki/RenderingOsmData)
+* [Rendering OpenStreetMap data on Ubuntu with MapServer](/mapserver/mapserver/wiki/RenderingOsmDataUbuntu)
