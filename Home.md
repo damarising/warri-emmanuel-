@@ -6,7 +6,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [User's Groups](/mapserver/mapserver/wiki/MUGs)
 * Service Providers
   * OSGeo's Service Providers [[Search Tool|http://www.osgeo.org/search_profile]]
-  * [Hosting Providers](/mapserver/mapserver/wiki/HostingProviders)
+  * [Hosting Providers](/mapserver/mapserver/wiki/MapServer-Hosting-Providers)
 * [Site Gallery](/mapserver/mapserver/wiki/MapServer-Site-Gallery)
 
 ## Release Plans
