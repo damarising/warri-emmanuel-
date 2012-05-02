@@ -7,10 +7,11 @@ styling and scale restrictions works well. After the script is run, some
 manual effort is required to fill in the missing details in the output .map     
 file. In particular, the layer DATA lines may be incomplete. How to run it:     
 Run the XSL Transform through any XSL engine. I've always used Java Xalan, but  
-it should work with other engines too.                                          
+it should work with other engines too.  You can download the xslt file [[here|http://download.osgeo.org/mapserver/docs/axl2map_xslt]]                                          
                                                                                 
 ```                                                                            
     java org.apache.xalan.xslt.Process -IN foo.axl -XSL axl2map.xsl -OUT foo.map
 ```
 
-You can download the xslt file [[here|http://download.osgeo.org/mapserver/docs/axl2map_xslt]]
+(created by Hobu)
+
