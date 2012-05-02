@@ -13,8 +13,6 @@ file. In particular, the layer DATA lines may be incomplete. How to run it:
 Run the XSL Transform through any XSL engine. I've always used Java Xalan, but  
 it should work with other engines too.                                          
                                                                                 
-::                                                                              
-                                                                                
+```                                                                            
     java org.apache.xalan.xslt.Process -IN foo.axl -XSL axl2map.xsl -OUT foo.map
-                                                                                
-}}
+```
