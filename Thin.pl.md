@@ -1,4 +1,4 @@
-                                                                                                                        
+```perl                                                                                                                       
 #!/usr/bin/perl                                                                                                         
 # Script : thin.pl                                                                                                      
 #                                                                                                                       
@@ -144,3 +144,4 @@ Reduction   : $reduction%
 END                                                                                                                     
                                                                                                                         
 }}
+```
