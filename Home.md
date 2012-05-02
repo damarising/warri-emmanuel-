@@ -18,3 +18,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Symbology Exchange](/mapserver/mapserver/wiki/MapServer-Symbology-Exchange)
 * [User Scripts](/mapserver/mapserver/wiki/UserScripts)
 * [Using TILEINDEXes with Database RASTERS](/mapserver/mapserver/wiki/MapServer-TILEINDEXes-with-Database-RASTERS)
+* [GRID Object Use](/mapserver/mapserver/wiki/MapServerGrid)
