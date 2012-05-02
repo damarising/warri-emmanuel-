@@ -10,7 +10,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Site Gallery](/mapserver/mapserver/wiki/MapServerSites)
 
 ## Release Plans
-[6.2 Release](/mapserver/mapserver/wiki/62ReleasePlan)
+[6.2 Release](/mapserver/mapserver/wiki/MapServer-6.2-Release-Plan)
 
 ## Tricks, Tips, and HowTos
 [Using TILEINDEXes with Database RASTERS](/mapserver/mapserver/wiki/DatabaseTileIndex)
