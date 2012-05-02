@@ -1,4 +1,4 @@
-Meet other !MapServer users and developers at these conferences around the world. You can also download proceedings/workshops from past conferences.
+Meet other [[MapServer|http://mapserver.org]] users and developers at these conferences around the world. You can also download proceedings/workshops from past conferences.
                                                                                                                                                     
 == Future and Past !MapServer-related Conferences ==                                                                                                
                                                                                                                                                     
