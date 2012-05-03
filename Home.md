@@ -9,9 +9,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 ## Community
 * [Conferences](/mapserver/mapserver/wiki/MapServer-Conferences)
 * [Users Groups](/mapserver/mapserver/wiki/MUGs)
-* Service Providers
-  * OSGeo's Service Providers [[Search Tool|http://www.osgeo.org/search_profile]]
-  * [Hosting Providers](/mapserver/mapserver/wiki/MapServer-Hosting-Providers)
+* [Service Providers](/mapserver/mapserver/wiki/MapServer-Service-Providers)
 * [Site Gallery](/mapserver/mapserver/wiki/MapServer-Site-Gallery)
 
 ## Developer Notes
