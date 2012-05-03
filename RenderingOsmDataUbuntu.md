@@ -40,7 +40,7 @@ The setup will include:
  * Install other non-GIS packages that will be required later on:                                                                                                                                                                 
 
 ```                                                                                                                                                                                                                               
-  sudo apt-get install mercurial subversion                                                                                                                                                                                       
+  sudo apt-get install mercurial subversion git                                                                                                                                                                                      
   sudo apt-get install zip unzip                                                                                                                                                                                                  
 ```                                                                                                                                                                                                                               
                                                                                                                                                                                                                                   
@@ -195,8 +195,8 @@ http://yourserver.tld/cgi-bin/mapserv?map=/path/to/osm-demo/mapserver-utils-svn/
  * Checkout and build source:                                                                                                                                                                                                     
 
 ```                                                                                                                                                                                                                               
-  svn checkout https://svn.osgeo.org/mapserver/trunk/mapserver/mapcache mapcache-svn                                                                                                                                              
-  cd mapcache-svn                                                                                                                                                                                                                 
+  git clone https://github.com/mapserver/mapcache mapcache-git                                                                                                                                             
+  cd mapcache-git                                                                                                                                                                                                                 
   autoconf                                                                                                                                                                                                                        
   ./configure                                                                                                                                                                                                                     
   make                                                                                                                                                                                                                            
@@ -208,7 +208,7 @@ http://yourserver.tld/cgi-bin/mapserv?map=/path/to/osm-demo/mapserver-utils-svn/
 
 ```                                                                                                                                                                                                                               
   mkdir ~/osm-demo/mapcache                                                                                                                                                                                                       
-  cp ~/osm-demo/mapcache-svn/mapcache.xml ~/osm-demo/mapcache/mapcache-osm.xml                                                                                                                                                    
+  cp ~/osm-demo/mapcache-git/mapcache.xml ~/osm-demo/mapcache/mapcache-osm.xml                                                                                                                                                    
   vi ~/osm-demo/mapcache/mapcache-osm.xml                                                                                                                                                                                         
 ... make required changes to template to make it work with our installation:                                                                                                                                                      
                                                                                                                                                                                                                                   
