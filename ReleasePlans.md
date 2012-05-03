@@ -1,10 +1,10 @@
- * [wiki:62ReleasePlan 6.2 Release Plan]  
- * [wiki:60ReleasePlan 6.0 Release Plan]  
- * [wiki:56ReleasePlan 5.6 Release Plan]  
- * [wiki:54ReleasePlan 5.4 Release Plan]  
- * [wiki:52ReleasePlan 5.2 Release Plan]  
- * [wiki:50ReleasePlan 5.0 Release Plan]  
- * [wiki:410ReleasePlan 4.10 Release Plan]
- * [wiki:48ReleasePlan 4.8 Release Plan]  
- * [wiki:46ReleasePlan 4.6 Release Plan]  
- * [wiki:44ReleasePlan 4.4 Release Plan
+* [6.2 Release Plan](/mapserver/mapserver/wiki/MapServer-6.2-Release-Plan)
+* [6.0 Release Plan](/mapserver/mapserver/wiki/60ReleasePlan)
+* [5.6 Release Plan](/mapserver/mapserver/wiki/56ReleasePlan)
+* [5.4 Release Plan](/mapserver/mapserver/wiki/54ReleasePlan)
+* [5.2 Release Plan](/mapserver/mapserver/wiki/52ReleasePlan)
+* [5.0 Release Plan](/mapserver/mapserver/wiki/50ReleasePlan)
+* [4.10 Release Plan](/mapserver/mapserver/wiki/410ReleasePlan)
+* [4.8 Release Plan](/mapserver/mapserver/wiki/48ReleasePlan)
+* [4.6 Release Plan](/mapserver/mapserver/wiki/46ReleasePlan)
+* [4.4 Release Plan](/mapserver/mapserver/wiki/44ReleasePlan)
