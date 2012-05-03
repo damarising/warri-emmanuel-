@@ -21,3 +21,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [GRID Object Use](/mapserver/mapserver/wiki/MapServerGrid)
 * [Rendering OpenStreetMap data with MapServer](/mapserver/mapserver/wiki/RenderingOsmData)
 * [Rendering OpenStreetMap data on Ubuntu with MapServer](/mapserver/mapserver/wiki/RenderingOsmDataUbuntu)
+* [Setting up Windows for Projections Support](/mapserver/mapserver/wiki/WindowsProjHowto)
