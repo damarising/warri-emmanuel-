@@ -28,3 +28,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [shptree Utility](/mapserver/mapserver/wiki/ShpTree)
 * [Raster Query](/mapserver/mapserver/wiki/RasterQuery)
 * [Using OracleSpatial Data](/mapserver/mapserver/wiki/OracleSpatial)
+* [PostGIS Support in MapServer](/mapserver/mapserver/wiki/PostGIS)
