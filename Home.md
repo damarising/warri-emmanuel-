@@ -30,3 +30,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Using OracleSpatial Data](/mapserver/mapserver/wiki/OracleSpatial)
 * [PostGIS Support in MapServer](/mapserver/mapserver/wiki/PostGIS)
 * [Virtual Spatial Data](/mapserver/mapserver/wiki/VirtualSpatialData)
+* [Environment Variables](/mapserver/mapserver/wiki/EnvironmentVariables)
