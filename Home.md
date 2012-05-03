@@ -28,3 +28,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Setting up Windows for Projections Support](/mapserver/mapserver/wiki/WindowsProjHowto)
 * [Producing Rotated Maps](/mapserver/mapserver/wiki/MapRotation)
 * [shptree Utility](/mapserver/mapserver/wiki/ShpTree)
+* [Raster Query](/mapserver/mapserver/wiki/RasterQuery)
