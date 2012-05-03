@@ -2,9 +2,9 @@
 
 This wiki allows [[MapServer|http://mapserver.org]] users to create pages that could be helpful for other users and developers.  Please feel free to add pages and link them below.  To edit this wiki you will need to create a free [[open source/personal account|https://github.com/plans]] at github.  For general background on this type of wiki you might want to read the [[gollum wiki README|https://github.com/github/gollum/blob/master/README.md]] page (or for syntax help try pressing your keyboard's "M" key now, to popup a cheat sheet).  The [[GithubFlavoredMarkdown|http://github.github.com/github-flavored-markdown/]] page can also be helpful.
 
-<
-< The old Trac wiki is still [[accessible|http://trac.osgeo.org/mapserver/wiki]], but is read-only
-<
+>
+> The old Trac wiki is still [[accessible|http://trac.osgeo.org/mapserver/wiki]], but is read-only
+>
 
 ## Community
 * [Conferences](/mapserver/mapserver/wiki/MapServer-Conferences)
