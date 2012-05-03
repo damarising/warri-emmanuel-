@@ -14,7 +14,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
   * [Hosting Providers](/mapserver/mapserver/wiki/MapServer-Hosting-Providers)
 * [Site Gallery](/mapserver/mapserver/wiki/MapServer-Site-Gallery)
 
-## Release Plans
+## Developer Notes
 * [Release Plans](/mapserver/mapserver/wiki/ReleasePlans)
 
 ## Tricks, Tips, and HowTos
