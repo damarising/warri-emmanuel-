@@ -14,7 +14,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 
 ## Developer Notes
 * [Release Plans](/mapserver/mapserver/wiki/ReleasePlans)
-* [Coding Guidelines](/mapserver/mapserver/wiki/CodingGuidelines)
+* [Coding Guidelines - Memory Management](/mapserver/mapserver/wiki/CodingGuidelines)
 
 ## Tricks, Tips, and HowTos
 * [FAQ](/mapserver/mapserver/wiki/FAQ)
