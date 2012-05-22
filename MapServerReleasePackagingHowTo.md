@@ -158,6 +158,7 @@ then
 fi
 
 git clone git://github.com/mapserver/mapserver.git $BASEDIR
+git checkout $GITTAG
 
 cd $BASEDIR
 rm -rf gdft
@@ -178,7 +179,9 @@ swig -csharp -o mapscript_wrap.c ../mapscript.i
 
 cd ../..
 
-git archive --format=tar --prefix=$BASEDIR/ $GITTAG | gzip > ../$ARCHIVE
+rm -rf .git
+cd ..
+tar -zcvf $ARCHIVE $BASEDIR
 
 ##
 ## And cleanup
