@@ -158,9 +158,9 @@ then
 fi
 
 git clone git://github.com/mapserver/mapserver.git $BASEDIR
-git checkout $GITTAG
 
 cd $BASEDIR
+git checkout $GITTAG
 rm -rf gdft
 
 cd mapscript/perl
