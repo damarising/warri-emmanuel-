@@ -4,7 +4,7 @@ The project was born of necessity and frustration with commercial Web-based mapp
                                                                                                                                                                                                                                                
 == TODO ==                                                                                                                          
 
-  * Perhaps a list of who developed and nurtured the project as part of the developement history - names such as Harry Friedman?, Richard Steele...others.?)?
+   * Perhaps a list of who developed and nurtured the project as part of the developement history - names such as Harry Friedman?, Richard Steele...others.?)?
                                                                                                          
    * when was GDAL initially implemented by/for who (CFS / !GeoConnections?)?                                                                                                                                                                  
    * when was !OracleSpatial support developed by Rodrigo Cabral of CTTMAR/UNIVALI, Brazil?  For who?                                                                                                                                          
