@@ -3,6 +3,8 @@ Meet other MapServer users and developers at these conferences around the world.
 ## Future and Past MapServer-related Conferences
 
 * Brazilian MapServer User Meeting - The Brazilian MapServer user meeting takes place every year in Brazil.
+* [[FOSS4G2012|http://2012.foss4g.org]] - The Free and Open Source Software for Geospatial conference will be held in Beijing, China from September 10th
+    to 15th, 2012.  
 * [[FOSS4G2011|http://2011.foss4g.org]] - The Free and Open Source Software for Geospatial conference was held in Denver, Colorado, U.S.A, from September 12th
     to 16th, 2011.  
 * [[FOSS4G2010|http://2010.foss4g.org]] - The Free and Open Source Software for Geospatial conference was held in Barcelona, Spain, from September 6th to 9th, 2010.  
