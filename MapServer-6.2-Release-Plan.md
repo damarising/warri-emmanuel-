@@ -36,15 +36,15 @@ https://github.com/mapserver/mapserver/blob/branch-6-2/MIGRATION_GUIDE.TXT
                                                                                                                                                                                                                                                                                                            
 ##Planned Dates
                                                                                                                                                                                                                                                                                            
-We will plan for 3 betas and 2 release candidates (RC) over a 6 week period after the feature freeze (1 beta/RC per week each Wednesday). This will lead us to a final release sometime around TBD:                                                                                                        
-                                                                                                                                                                                                                                                                                                           
-    * branch-6-2 creation : Wed. April 18, 2012                                                                                                                                                                                                                                                                 
-    * 6.2.0-beta1 -                                                                                                                                                                                                                                                                                        
-    * 6.2.0-beta2 -                                                                                                                                                                                                                                                                                        
-    * 6.2.0-beta3 -                                                                                                                                                                                                                                                                                        
-    * 6.2.0-rc1 -                                                                                                                                                                                                                                                                                          
-    * 6.2.0 (final) -                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                           
+We will plan for 3 betas and 2 release candidates (RC) over a 6 week period after the feature freeze (1 beta/RC per week each Wednesday). This will lead us to a final release sometime around beginning of August 2012:
+
+* branch-6-2 creation, 6.2.0-beta1 : Fri. June 29th, 2012
+* 6.2.0-beta2 - Wed. July 11th
+* 6.2.0-beta3 -    Wed. July 18th
+* 6.2.0-rc1 -  Wed. July 25th
+* 6.2.0-rc2 -   Wed. Aug 1st
+* 6.2.0 (final) -  Wed. Aug 8rd
+
 ## Release Manager (see http://mapserver.org/development/rfc/ms-rfc-34.html)                                                                                                                                                                                                                
                                                                                                                                                                                                                                                                                                            
 Thomas Bonfort
@@ -57,12 +57,31 @@ Thomas Bonfort
 these fixes to master can/will be done by merging branch-6-2 into master. All commits to master should only concern features targeted for 6.4.
 * The betas will be tagged in SVN as "rel-6-2-0-beta1", "rel-6-2-0-beta2", ... and the release candidates as "rel-6-2-rc1", "rel-6-2-rc2", etc...
 
+## Managing HISTORY.TXT and Release Changelogs
+
+* Our practice of dealing with HISTORY.TXT needs to be updated in order to account for the more frequent merging practices that come with git usage.
+* Once 6.2 has been branched, commits to the stable branches are *not* reflected into HISTORY.TXT. Instead of this, the commit message *must* be sufficiently explicit to be incorporated in the stable branch Changelog that will be more or less automatically generated on release day. A typical commit message in a release branch *should* follow the following best practices (c.f. http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html ):
+ * Use a short single line summary as the first line
+ * include the ticket number in this first line
+ * if additional information needs to be added, write them in a paragraph, ideally wrapped at 72 chars, after skipping a blank line.
+
+An example commit message could be:
+```
+Fix incorrect handling of foobar (#XXXX)
+
+Optional detailed message as to why this was needed,
+along with any information that might seem relevant.
+This commit message will appear when annotating the
+source code, so any caveats or tricky implications can
+be mentioned here to.
+```
+ 
 ## Ticket Conventions                                                                                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                            
 In order to facilitate querying the Gihub issue database for tickets that still need to be addressed for this release, we try to stick to the following conventions:
 
 * Tickets to be addressed for this release must have their target milestone set to "6.2 release"                                                                                                                                                                                                       
-* Bugs/Enhancements? that can't make it in this release but that we may want to address at a later time should be marked with the "FUTURE" target milestone with a comment explaining that the bug is postponed and if possible a quick analysis
+* Bugs/Enhancements? that can't make it in this release but that we may want to address at a later time should be set to no milestone with a comment explaining that the bug is postponed and if possible a quick analysis
 * The target milestone on a ticket should be set by the developers (bug owners) and not by the users (reporters).
 
 Other good practices when dealing with tickets:
