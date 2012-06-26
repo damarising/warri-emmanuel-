@@ -1,19 +1,21 @@
 This page documents the coding convention in use with MapServer
-                                                                                                                                                                                                                                                                             
-## Artistic Style (astyle)                                                                                                                                                                                                              
+## Artistic Style (astyle)
                                                                                                                                                                                                                                             
-[http://astyle.sourceforge.net/ Artistic Style (astyle)] is source code formatting tool, and allows for flexible definitions (spaces, padding, indents, one liners, etc.) to automatically format source code for a given coding convention.
-                                                                                                                                                                                                                                            
-Here is a sample invocation:                                                                                                                                                                                                                
-                                                                                                                                                                                                                                            
-```                                                                                                                                                                                                                                         
-$ astyle --style=kr --indent=spaces=2 -c --lineend=linux -S [files]                                                                                                                                                                             
-```                                                                                                                                                                                                                                         
-                                                                                                                                                                                                                                            
-== Coding Conventions ==                                                                                                                                                                                                                    
-                                                                                                                                                                                                                                            
- * style (k&r, gnu, linux)                                                                                                                                                                                                                  
- * tabs an brackets (tabs, spaces)                                                                                                                                                                                                          
- * indentation                                                                                                                                                                                                                              
- * formatting (parens)                                                                                                                                                                                                                      
+[http://astyle.sourceforge.net/ Artistic Style (astyle)] is source code
+formatting tool, and allows for flexible definitions (spaces, padding, indents,
+one liners, etc.) to automatically format source code for a given coding
+convention.
+
+Here is a sample invocation:
+
+```
+$ astyle --style=kr --indent=spaces=2 -c --lineend=linux -S [files]
+```
+
+## Coding Conventions
+
+ * style (k&r, gnu, linux)
+ * tabs an brackets (tabs, spaces)
+ * indentation
+ * formatting (parens)
                                                                                                                                                                                                                                             
