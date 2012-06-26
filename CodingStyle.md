@@ -1,14 +1,13 @@
-This page documents possible coding conventions for MapServer.                                                                                                                                                                              
-                                                                                                                                                                                                                                            
-== Artistic Style (astyle) ==                                                                                                                                                                                                               
+This page documents the coding convention in use with MapServer
+                                                                                                                                                                                                                                                                             
+## Artistic Style (astyle)                                                                                                                                                                                                              
                                                                                                                                                                                                                                             
 [http://astyle.sourceforge.net/ Artistic Style (astyle)] is source code formatting tool, and allows for flexible definitions (spaces, padding, indents, one liners, etc.) to automatically format source code for a given coding convention.
                                                                                                                                                                                                                                             
 Here is a sample invocation:                                                                                                                                                                                                                
                                                                                                                                                                                                                                             
-
 ```                                                                                                                                                                                                                                         
-$ astyle --style=kr --unpad=paren --indent=spaces=2 mslibxml2.c                                                                                                                                                                             
+$ astyle --style=kr --indent=spaces=2 -c --lineend=linux -S [files]                                                                                                                                                                             
 ```                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                             
 == Coding Conventions ==                                                                                                                                                                                                                    
@@ -18,4 +17,3 @@ $ astyle --style=kr --unpad=paren --indent=spaces=2 mslibxml2.c
  * indentation                                                                                                                                                                                                                              
  * formatting (parens)                                                                                                                                                                                                                      
                                                                                                                                                                                                                                             
-
