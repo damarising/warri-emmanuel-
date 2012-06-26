@@ -13,10 +13,11 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Site Gallery](/mapserver/mapserver/wiki/MapServer-Site-Gallery)
 
 ## Developer Notes
-* [Release Plans](/mapserver/mapserver/wiki/ReleasePlans)
-* [Coding Style](/mapserver/mapserver/wiki/CodingStyle)
-* [Coding Guidelines - Memory Management](/mapserver/mapserver/wiki/CodingGuidelines)
-* [Working With Git](/mapserver/mapserver/wiki/WorkingWithGit)
+* [Release Plans](ReleasePlans)
+* [Release Instructions](MapServerReleasePackagingHowTo)
+* [Coding Style](CodingStyle)
+* [Coding Guidelines - Memory Management](CodingGuidelines)
+* [Working With Git](WorkingWithGit)
 
 ## Tricks, Tips, and HowTos
 * [FAQ](/mapserver/mapserver/wiki/FAQ)
