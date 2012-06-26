@@ -6,43 +6,28 @@
 
 3. Create a branch ( only for a major version release)
 ```
-$ git checkout master
-$ git checkout -b branch-x-y
+ $ git checkout master
+ $ git checkout -b branch-x-y
 ```
 
 4. Inside the release branch, edit mapserver.h and HISTORY.TXT to update version info
 ```
 $ git checkout branch-6-2
 ```
-Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and replace it with a version header, with the release number followed by the release date inside round brackets, e.g.                                      
-
-``` 
-Version 6.2.0-beta1 (20012-06-29)
----------------------------------
+Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and replace it with a version header, with the release number followed by the release date inside round brackets, e.g. ```Version 6.2.0-beta1 (20012-06-29)```
 ```
-
+ $ git add mapserver.h HISTORY.TXT
+ $ git commit -m "updated mapserver.h and HISTORY.TXT for 6-2-0-beta1 release"
 ```
-$ git add mapserver.h HISTORY.TXT
-$ git commit -m "updated mapserver.h and HISTORY.TXT for 6-2-0-beta1 release"
-``` 
-
-4. Create release tag, following usual tag naming conventions (see output of ```git tag```), e.g:
-``` 
-rel-5-0-0-beta1
-rel-5-0-0-rc1
-rel-5-0-0
-rel-5-0-1
-``` 
-
+4. Create a release tag, following usual tag naming conventions (see output of ```git tag```), e.g: ```rel-5-0-0-beta1```,```rel-5-0-0-rc1```,```rel-5-0-0```,```rel-5-0-1```
 ```
-$ git tag -a rel-6-2-0-beta1 -m "Create 6-2-0-beta1 tag"
+ $ git tag -a rel-6-2-0-beta1 -m "Create 6-2-0-beta1 tag"
 ```
 
 5. Push your changes back to github
 ```
-$ git push origin branch-6-2 --tags
-``` 
-
+ $ git push origin branch-6-2 --tags
+```
 5. Prepare source package on projects.osgeo.osuosl.org (a.k.a. [http://wiki.osgeo.org/wiki/ProjectsVM ProjectsVM]) server (this server is used to package the releases, and then we copy the resulting archive to the downloads server):
 ``` 
 $ ssh projects.osgeo.osuosl.org                                                                                                                                                                                                         
