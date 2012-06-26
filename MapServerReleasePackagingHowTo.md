@@ -4,53 +4,44 @@
 
 2. Test with msautotest.
 
-3. Edit mapserver.h and HISTORY.TXT to update version info
+3. Create a branch ( only for a major version release)
+```
+$ git checkout master
+$ git checkout -b branch-x-y
+```
 
-   Note that in HISTORY.TXT we remove the "Current Version (SVN trunk)" header and replace it with a version header, with the release number followed by the release date inside round brackets, e.g.                                      
+4. Inside the release branch, edit mapserver.h and HISTORY.TXT to update version info
+```
+$ git checkout branch-6-2
+```
+Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and replace it with a version header, with the release number followed by the release date inside round brackets, e.g.                                      
 
-   ``` 
-Version 5.0.0 2007-09-17)
---------------------------
-   ```
+``` 
+Version 6.2.0-beta1 (20012-06-29)
+---------------------------------
+```
 
-   ... then **after** the tag is created we come back and reinsert the "Current Version (GIT master)" above the release header in preparation for more history. 
+```
+$ git add mapserver.h HISTORY.TXT
+$ git commit -m "updated mapserver.h and HISTORY.TXT for 6-2-0-beta1 release"
+``` 
 
-4. Create release tag, e.g.
-
-   Look in https://github.com/mapserver/mapserver to see how we usually name the tags, here are a few examples:
-
-   ``` 
+4. Create release tag, following usual tag naming conventions (see output of ```git tag```), e.g:
+``` 
 rel-5-0-0-beta1
-rel-5-0-0-beta2
-rel-5-0-0-beta6
 rel-5-0-0-rc1
-rel-5-0-0-rc2
 rel-5-0-0
 rel-5-0-1
-rel-5-0-2
-rel-5-0-3
-rel-5-2-0-beta1
-   ``` 
+``` 
 
-   If working from master (NEED TO UPDATE):
+```
+$ git tag -a rel-6-2-0-beta1 -m "Create 6-2-0-beta1 tag"
+```
 
-   ``` 
-$ svn mkdir -m "Creating rel-5-0-0 release tag" https://svn.osgeo.org/mapserver/tags/rel-5-0-0/                                                                                                                                         
-$ svn copy -m "Tagging source as rel-5-0-0" \ 
-  https://svn.osgeo.org/mapserver/trunk/mapserver/ \                                                                                                                                                                             
-         https://svn.osgeo.org/mapserver/tags/rel-5-0-0/mapserver/                                                                                                                                                                      
-$ svn copy  -m "Tagging msautotest as rel-5-0-0" \                                                                                                                                                                                      
-         https://svn.osgeo.org/mapserver/trunk/msautotest/ \                                                                                                                                                                            
-         https://svn.osgeo.org/mapserver/tags/rel-5-0-0/msautotest/
-   ```
-
-   If working from a branch:
-
-   ```
-$ git checkout branch-6-0
-$ git tag rel-6.0.3
-$ git push origin branch-6-0 --tags
-   ``` 
+5. Push your changes back to github
+```
+$ git push origin branch-6-2 --tags
+``` 
 
 5. Prepare source package on projects.osgeo.osuosl.org (a.k.a. [http://wiki.osgeo.org/wiki/ProjectsVM ProjectsVM]) server (this server is used to package the releases, and then we copy the resulting archive to the downloads server):
 ``` 
