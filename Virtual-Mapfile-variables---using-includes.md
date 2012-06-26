@@ -1,22 +1,24 @@
 # Background
-I had have a stupidly large and complicated mapfile.  I started tweaking the colours and styles on the map and found it very painful - as I have the color tag for creeks repeated about 20 times.
+I had have a stupidly large and complicated mapfile.  I started tweaking the colours and styles on the map and found it very painful - as I have the color tag for creeks repeated about 20 times.<br>
 To to teak the creek colour just a bit I needed to search and replace these values - painful.
 As will many other styles.
 
 # Solution
 There is no way of setting simple variables in the plain mapfile (yet). So this work around uses 'INCLUDE' to point to a specific file, that contains the 'variable' value.
+```
     CLASS
         EXPRESSION 'creek'
         STYLE
             COLOR   INCLUDE "includes/creek_colour.txt"
         END
    END
-Then in "includes/creek_colour.txt" you just have "0 0 200"
-(paths are relative to the mapfile)
-But the file can include more.  It may include the entire style or layer etc.
-
+```
+Then in "includes/creek_colour.txt" you just have "0 0 200"<br>
+(paths are relative to the mapfile)<br>
+But the file can include more.  It may include the entire style or layer etc.<br>
+<br>
 Seems to work well for me, I am not sure of the performance hit, that is for someone smarter them me to work out.
-
+<br>
 # Making it easier
 I have written a little php script to create and edit these include files.  It uses ajax and is very fast for making these tweaks.  So I can spend more time making the map look pretty and less time waiting for files to save. NOTE there is no security on this file.  Please feel free to improve this script. No warranty - just have fun with it
 ```php
