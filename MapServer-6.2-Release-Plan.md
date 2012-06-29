@@ -18,7 +18,9 @@
 * proj: use the unlocked thread free if proj >= 4.8.0
 * optional fastpath 4326->3857 reprojections
 * libtool builds: make install is now required. the mapserv and shp2img tools now link to a shared libmapserver library
-* python and php mapscript build: todo
+* php mapscript build:
+  * support for PHP 5.4.x
+* python mapscript build: todo
 * support for ELEVATION and DIM_* WMS dimensions
 * precise symbol placement: ANCHORPOINT
 * support for named group layer
