@@ -220,43 +220,37 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 
 ## Step 7. Import OSM Data into PostgreSQL
 
-    We must add the "population" field to the osm2pgsql style file, so open this file in Notepad++ (right-click on the file and select 'Edit with Notepad++'): "C:\Program Files\osm2pgsql\default.style"
-        add the following line at the bottom of that file:
-
+* We must add the "population" field to the osm2pgsql style file, so open this file in Notepad++ (right-click on the file and select 'Edit with Notepad++'): _"C:\Program Files\osm2pgsql\default.style"_
+  * add the following line at the bottom of that file:
+```
          node,way   population   text         linear
-
-    Now we must import the OSM data into our 'osm' table, by using the osm2pgsql commandline utility.  
-        First we must make sure to use the correct EPSG file, so open a command window and type:
-
+```
+* Now we must import the OSM data into our 'osm' table, by using the osm2pgsql commandline utility.  
+  * First we must make sure to use the correct EPSG file, so open a command window and type:
+```
           SET PROJ_LIB=C:\ms4w\proj\nad
-
-        Execute the following in that same command window, but substitute the bz2 filename with either your .osm file or your own .bz2 file ( use the password: postgres ):
-
+```
+  * Execute the following in that same command window, but substitute the bz2 filename with either your .osm file or your own .bz2 file ( use the password: postgres ):
+```
             osm2pgsql -U postgres -W -m -d osm -p osm -E 3857 -S "C:\Program Files\osm2pgsql\default.style" rhode_island.osm.bz2
-
-    Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
-
+```
+* Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
+```
          psql -U postgres -d osm -c \d
-
-          which returns a list of the new tables, such as:
-
+```
+* which returns a list of the new tables, such as:
+```
  Schema |             Name              | Type  |
-
 --------+-------------------------------+-------+
-
  public | geography_columns             | view  |
-
  public | geometry_columns              | view  |
-
  public | osm_line                      | table |
-
  public | osm_point                     | table |
-
  public | osm_polygon                   | table |
-
  public | spatial_ref_sys               | table |
+```
 
-Step 8. Prepare OSM Tables in PostgreSQL
+## Step 8. Prepare OSM Tables in PostgreSQL
 
     First we must obtain the MapServer/Basemaps code through Git (which you installed through Step 1)
         Open a command window and cd to the directory: C:/ms4w/apps/osm
