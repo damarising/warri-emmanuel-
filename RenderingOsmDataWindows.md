@@ -149,49 +149,43 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 
 ## Step 4. Install MapServer for Windows (MS4W)
 
-    download the latest MS4W zip archive (such as 'ms4w_3.0.6.zip')
-    extract the contents to the root of a drive (so you have something like C:/ms4w)
-    also, download the MapServer 6.2-beta1 update, and extract that at the same C:/ drive
-    open a command prompt window and cd to the ms4w directory
-    execute the following command:
-
+* download the latest [MS4W zip archive](http://www.maptools.org/ms4w/index.phtml?page=downloads.html) (such as 'ms4w_3.0.6.zip')
+* extract the contents to the root of a drive (so you have something like C:/ms4w)
+* also, download the [MapServer 6.2-beta1 update](http://www.maptools.org/dl/ms4w/mapserver_ms4w-6.2.0-beta1.zip), and extract that at the same C:/ drive
+* open a command prompt window and cd to the ms4w directory
+* execute the following command:
+```
           setenv.bat
-
-    test MapServer by calling the CGI executable, with the command:
-
+```
+* test MapServer by calling the CGI executable, with the command:
+```
          mapserv -v
-
-    which should return something like:
-
+```
+* which should return something like:
+```
          MapServer version 6.2.0-beta1 OUTPUT=GIF OUTPUT=PNG OUTPUT=JPEG OUTPUT=KML SUPPORTS=PROJ 
          SUPPORTS=GD SUPPORTS=AGG SUPPORTS=FREETYPE SUPPORTS=CAIRO SUPPORTS=ICONV SUPPORTS=FRIBIDI 
          SUPPORTS=WMS_SERVER SUPPORTS=WMS_CLIENT SUPPORTS=WFS_SERVER SUPPORTS=WFS_CLIENT 
          SUPPORTS=WCS_SERVER SUPPORTS=SOS_SERVER SUPPORTS=FASTCGI SUPPORTS=THREADS SUPPORTS=GEOS 
          INPUT=JPEG INPUT=POSTGIS INPUT=OGR INPUT=GDAL INPUT=SHAPEFILE
-
-    now we need to install Apache.  Execute the following command in that same window:
-
+```
+* now we need to install Apache.  Execute the following command in that same window:
+```
          apache-install.bat
-
-    and a message should be returned such as:
-
+```
+* and a message should be returned such as:
+```
          Installing the Apache MS4W Web Server service
-
          The Apache MS4W Web Server service is successfully installed.
-
          Testing httpd.conf....
-
          Errors reported here must be corrected before the service can be started.
-
          The Apache MS4W Web Server service is starting.
-
          The Apache MS4W Web Server service was started successfully.
-
-    Finally open your Web browser (Firefox, Chrome, or Internet Explorer) and goto http://127.0.0.1
-        the MS4W homepage should be displayed such as:
-         
-
-Step 5. Prepare a Working Directory
+```
+* Finally open your Web browser (Firefox, Chrome, or Internet Explorer) and goto http://127.0.0.1
+  * the MS4W homepage should be displayed such as:
+[[http://download.osgeo.org/mapserver/docs/github-images/ms4w-home.jpg]]      
+## Step 5. Prepare a Working Directory
 
 Using either Windows Explorer or through the command window:
 
