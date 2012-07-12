@@ -120,7 +120,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\spatial_ref_sys.sql"
 
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\legacy.sql"
-``
+```
 * We must also apply a patch.  Download the patch file to your local machine: legacy-postgis-gist.sql (you might have to "File/Save Page As" in your browser).  Then execute in the directory that you downloaded the file to:
 ```
          psql -U postgres -d osm -f "legacy-postgis-gist.sql"
