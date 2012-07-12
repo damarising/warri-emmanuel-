@@ -215,7 +215,7 @@ You have several choices/options for how to obtain the OSM data.  Save the file 
    * click on the 'Export' tab
    * select the format: 'OpenStreetMap XML Data' and press 'Export'
    * save the generated .osm file on your local machine
-                                       
+[[http://download.osgeo.org/mapserver/docs/github-images/osm-export.jpg]]                                    
 _Note:_ During the creation of this document the file used was the .osm.bz2 file of Rhode Island downloaded from [CloudMade](http://downloads.cloudmade.com/americas/northern_america/united_states/rhode_island#downloads_breadcrumbs)
 
 ## Step 7. Import OSM Data into PostgreSQL
