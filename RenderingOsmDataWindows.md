@@ -524,22 +524,18 @@ shp2img is a simple commandline tool, that requires a mapfile and can output a m
 ### Testing with OpenLayers Template
 
 Since MapServer 6.0, you can now display your mapfile in an OpenLayers template, by calling the MapServer CGI/executable directly in your browser. 
-
-    Construct a URL that contains:
-
+* Construct a URL that contains:
+```
        http://localhost/cgi-bin/mapserv.exe?
-
          mode=browse&
-
          template=openlayers&
-
          layers=all&
-
          map=C:/ms4w/apps/osm/basemaps/osm-google.map
+```
+* or: http://localhost/cgi-bin/mapserv.exe?mode=browse&template=openlayers&layers=all&map=C:/ms4w/apps/osm/basemaps/osm-google.map
+[[http://download.osgeo.org/mapserver/docs/github-images/ol-template.jpg]]
 
-    or: http://localhost/cgi-bin/mapserv.exe?mode=browse&template=openlayers&layers=all&map=C:/ms4w/apps/osm/basemaps/osm-google.map
-
-Step 11. Adding More OSM Data
+## Step 11. Adding More OSM Data
 
 This document showed how to download and process one single file (for the state of Rhode Island); but what if you want to add another state?
 
