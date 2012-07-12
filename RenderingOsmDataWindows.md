@@ -337,48 +337,43 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 
 ### Configure Basemap Makefiles
 
-    First we need to get the extent of our data, so we will use PostGIS
-        in the command window, execute the following:
-
+* First we need to get the extent of our data, so we will use PostGIS
+  * in the command window, execute the following:
+```
               psql -U postgres -d osm -c "SELECT extent(way) FROM osm_line"
-
-                    which will return the extents such as:
-
+```
+    which will return the extents such as:
+```
                  extent
-
               ---------------------------------------------------
-
                  BOX(-8014118.79 5020536.82,-7906037.8 5178887.95)
-
                  (1 row)
-
-    Next open the file /basemaps/Makefile in Notepad++
-        add comments to lines 14-16, such as:
-
+```
+* Next open the file /basemaps/Makefile in Notepad++
+  * add comments to lines 14-16, such as:
+``
           #OSM_SRID=4326
-
           #OSM_UNITS=dd
-
           #OSM_EXTENT=-180 -90 180 90
-
-        change line#19 for our database parameters, such as:
-
+```
+  * change line#19 for our database parameters, such as:
+```
           OSM_DB_CONNECTION=host=localhost dbname=osm user=postgres password=postgres port=5432
-
-        change line#20 to use the extents returned by our previous PostGIS command, such as:
-
+```
+  * change line#20 to use the extents returned by our previous PostGIS command, such as:
+```
           OSM_EXTENT=-8014118.79 5020536.82 -7906037.8 5178887.95
-
-        change line#21 so that EPSG:900913 is removed, such as:
-
-
+```
+  * change line#21 so that EPSG:900913 is removed, such as:
+```
           OSM_WMS_SRS=EPSG:4326 EPSG:3857 .....
-
-        change line#24 so that Google-styled maps are produced, such as:
-
+```
+  * change line#24 so that Google-styled maps are produced, such as:
+```
           STYLE=google
+```
 
-Generate the Mapfile
+### Generate the Mapfile
 
 Now we are ready to generate the mapfile.
 
