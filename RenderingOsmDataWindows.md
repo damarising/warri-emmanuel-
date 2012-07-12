@@ -467,43 +467,32 @@ The generated mapfile (osm-google-map) does rely on some non-OSM data for refere
 ### Modify osm-google.map
 
 We should make some minor adjustments to the generated mapfile.  Open /basemaps/osm-google.map in Notepad++ and:
-
-    change ~line#14 to something more descriptive, such as:
-
+* change ~line#14 to something more descriptive, such as:
+```
           "wms_title" "Rhode Island OpenStreetMap Service"
-
-     
-
-    change ~line#16 to add the IMAGE parameters configured for MS4W, such as:
-
+```
+* change ~line#16 to add the IMAGE parameters configured for MS4W, such as:
+```
         WEB
-
            METADATA
-
               ...
-
               "wms_title" "Rhode Island OpenStreetMap Service"
-
            END
-
            IMAGEPATH "/ms4w/tmp/ms_tmp/"
-
            IMAGEURL "/ms_tmp/"   
-
         END
-
-     
-
-    change ~line#20-21 to comment the CONFIG parameter, such as:
-
+```
+* change ~line#20-21 to comment the CONFIG parameter, such as:
+```
         #CONFIG "MS_ERRORFILE" "stderr"
-
         #CONFIG "PROJ_LIB" "/cygdrive/c/ms4w/apps/osm/basemaps"
+```
 
-Step 10. Test the OSM Mapfile
-Testing with shp2img
+## Step 10. Test the OSM Mapfile
 
-shp2img is a simple commandline tool, that requires a mapfile and can output a map image, or display an error.  After reviewing its documentation page, try the following:
+## Testing with shp2img
+
+shp2img is a simple commandline tool, that requires a mapfile and can output a map image, or display an error.  After reviewing its [documentation page](http://www.mapserver.org/utilities/shp2img.html), try the following:
 
     in a command prompt window, cd to C:/ms4w and execute the following command:
 
