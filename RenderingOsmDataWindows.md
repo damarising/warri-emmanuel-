@@ -1,18 +1,18 @@
 # Background
 
-This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for Windows 7 and Vista 32bit.
+This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for installations on Windows 7 and Vista 32bit.
 
 ## Step 1. Install Required Software
 
 * [7-zip](http://www.7-zip.org/)
-        used to extract the compressed .osm files (although it is not necessary to extract them)
-        supports .bz2 compression
-        you should enable all formats through Tools/Options
-            Go the Start Menu > 7-Zip > 7-Zip File Manager
-            Within the 7-Zip File Manager choose Tools > Options
-            Under the system tab choose 'Select all'
-            Press OK: now any bz2 files should automatically open in 7-Zip
-    Cygwin
+  * used to extract the compressed .osm files (although it is not necessary to extract them) 
+  * supports .bz2 compression
+  * you should enable all formats through Tools/Options
+    * Go the Start Menu > 7-Zip > 7-Zip File Manager
+    * Within the 7-Zip File Manager choose Tools > Options
+    * Under the system tab choose 'Select all'
+    * Press OK: now any bz2 files should automatically open in 7-Zip
+* Cygwin
         download and save the installer (hint: don't delete this file after, as it can be used to modify your install)
         run the installer
             keep defaults
