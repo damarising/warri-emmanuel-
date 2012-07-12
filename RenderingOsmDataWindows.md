@@ -519,6 +519,7 @@ shp2img is a simple commandline tool, that requires a mapfile and can output a m
               msDrawMap() total time: 0.961s
               msSaveImage(output.png) total time: 0.192s
 ```
+[[http://download.osgeo.org/mapserver/docs/github-images/shp2img-output.jpg]]
 
 ### Testing with OpenLayers Template
 
