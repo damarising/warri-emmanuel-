@@ -8,10 +8,10 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
   * used to extract the compressed .osm files (although it is not necessary to extract them) 
   * supports .bz2 compression
   * you should enable all formats through Tools/Options
-    * Go the Start Menu > 7-Zip > 7-Zip File Manager
-    * Within the 7-Zip File Manager choose Tools > Options
-    * Under the system tab choose 'Select all'
-    * Press OK: now any bz2 files should automatically open in 7-Zip
+     * Go the Start Menu > 7-Zip > 7-Zip File Manager
+      * Within the 7-Zip File Manager choose Tools > Options
+      * Under the system tab choose 'Select all'
+      * Press OK: now any bz2 files should automatically open in 7-Zip
 * Cygwin
         download and save the installer (hint: don't delete this file after, as it can be used to modify your install)
         run the installer
