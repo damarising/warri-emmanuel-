@@ -376,86 +376,51 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 ### Generate the Mapfile
 
 Now we are ready to generate the mapfile.
-
-    Through Windows Explorer or a command window, create a new folder 'generated' inside the C:/ms4w/apps/osm/basemaps directory
-
-    Open the Cygwin Terminal window
-
-        goto: StartMenu/Programs/Cygwin/Cygwin Terminal
-
-        cd to our working directory: C:/ms4w/apps/osm/basemaps
-
+* Through Windows Explorer or a command window, create a new folder 'generated' inside the C:/ms4w/apps/osm/basemaps directory
+* Open the Cygwin Terminal window
+  * goto: StartMenu/Programs/Cygwin/Cygwin Terminal
+  * cd to our working directory: C:/ms4w/apps/osm/basemaps
+```
            cd c:/ms4w/apps/osm/basemaps
-
-        execute: make
-
-        Messages should be displayed, similar to:
-
+```
+  * execute: make
+  * Messages should be displayed, similar to:
+```
             python generate_style.py  -s google -l 0 > generated/googlelevel0.msinc
-
             python generate_style.py  -s google -l 1 > generated/googlelevel1.msinc
-
             python generate_style.py  -s google -l 2 > generated/googlelevel2.msinc 
-
             python generate_style.py  -s google -l 3 > generated/googlelevel3.msinc
-
             python generate_style.py  -s google -l 4 > generated/googlelevel4.msinc
-
             python generate_style.py  -s google -l 5 > generated/googlelevel5.msinc
-
             python generate_style.py  -s google -l 6 > generated/googlelevel6.msinc
-
             python generate_style.py  -s google -l 7 > generated/googlelevel7.msinc
-
             python generate_style.py  -s google -l 8 > generated/googlelevel8.msinc
-
             python generate_style.py  -s google -l 9 > generated/googlelevel9.msinc
-
             python generate_style.py  -s google -l 10 > generated/googlelevel10.msinc
-
             python generate_style.py  -s google -l 11 > generated/googlelevel11.msinc
-
             python generate_style.py  -s google -l 12 > generated/googlelevel12.msinc
-
             python generate_style.py  -s google -l 13 > generated/googlelevel13.msinc
-
             python generate_style.py  -s google -l 14 > generated/googlelevel14.msinc
-
             python generate_style.py  -s google -l 15 > generated/googlelevel15.msinc
-
             python generate_style.py  -s google -l 16 > generated/googlelevel16.msinc
-
             python generate_style.py  -s google -l 17 > generated/googlelevel17.msinc
-
             python generate_style.py  -s google -l 18 > generated/googlelevel18.msinc
-
             cpp -D_debug=1 -D_layerdebug=1  -DOSM_PREFIX=osm_new_ -DOSM_SRID=3857 -P -o osm-google.map osmbase.map -DTHEME=google -D_proj_lib=\"`pwd`\" -Igenerated
-
             sed -i 's/##.*$//g' osm-google.map
-
             sed -i '/^ *$/d' osm-google.map
-
             sed -i -e 's/OSM_PREFIX_/osm_new_/g' osm-google.map
-
             sed -i -e 's/OSM_SRID/3857/g' osm-google.map
-
             sed -i -e 's/OSM_UNITS/meters/g' osm-google.map
-
             sed -i -e 's/OSM_EXTENT/-8014118.79 5020536.82 -7906037.8 5178887.95/g' osm-google.map
-
             sed -i -e 's/OSM_WMS_SRS/EPSG:4326 EPSG:3857 EPSG:2154 EPSG:310642901 EPSG:4171 EPSG:310024802 EPSG:310915814 EPSG:310486805 EPSG:310702807 EPSG:310700806 EPSG:310547809 EPSG:310706808 EPSG:310642810 EPSG:310642801 EPSG:310642812 EPSG:310032811 EPSG:310642813 EPSG:2986/g' osm-google.map
-
             sed -i -e 's/OSM_NAME_COLUMN/name/g' osm-google.map
-
             sed -i -e 's/OSM_DB_CONNECTION/host=localhost dbname=osm user=postgres password=postgres port=5432/g' osm-google.map
-
             cp -f boundaries.sql.in boundaries.sql
-
             sed -i -e 's/OSM_PREFIX_/osm_new_/g' boundaries.sql
+```
+  * You should have a new mapfile inside the basemaps directory named: **osm-google.map**
 
-        You should have a new mapfile inside the basemaps directory named: osm-google.map
-
-Prepare Background Data Files
+### Prepare Background Data Files
 
 The generated mapfile (osm-google-map) does rely on some non-OSM data for reference layers (such as world boundaries), so we must execute a few more steps to gather/prepare this data:
 
