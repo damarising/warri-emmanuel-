@@ -68,31 +68,31 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 
 ### Install PostGIS
 
-    Start the installer through the Stack Builder or the standalone installer.
-    Click "I Agree"
-    Make sure "Create Database" is not selected
-    Click "Next" until you get to a "Database Connection" page
-    Enter "postgres" for the password and click "Next"
-    Click "Yes" to the "Would you like us to register the GDAL_DATA environment variable (see Appendix C), click "Yes"
-    Click "Close" on the "Installation Complete" window.
-    Click "Finish" in the Stack Builder window
+* Start the installer through the Stack Builder or the standalone installer.
+* Click "I Agree"
+* Make sure "Create Database" is not selected
+* Click "Next" until you get to a "Database Connection" page
+* Enter "postgres" for the password and click "Next"
+* Click "Yes" to the "Would you like us to register the GDAL_DATA environment variable (see Appendix C), click "Yes"
+* Click "Close" on the "Installation Complete" window.
+* Click "Finish" in the Stack Builder window
 
-Verify PostgreSQL and PostGIS Installation Success
+### Verify PostgreSQL and PostGIS Installation Success
 
-    In your Start Menu, goto PostgreSQL 9.1/pgAdmin III/ 
-    This should bring up an administrative window, with an "Object Browser" on the left side of the window.
-    In the Object browser, double click on the icon with the red "X" labeled "PostgreSQL (localhost:5432)"
-    Enter your password, "postgres"
-    The red "X" should disappear and a set of items should be listed below the "PostgresSQL" label.
-    Click on the "+" sign next to the "Databases" icon
-    There should be an icon with a red X labeled something like "template_postgis" (databases created by postgis install)
-    Single click 'template_postgis"
-    Click on the "+" sign next to the "template_postgis" icon
-    There should be an icon labeled "Extensions"
-    Click on the "+" sign next to the "Extensions" icon
-    If you see the items "postgis" and "postgis_topology" listed under the extensions, congrats! PostGIS 2.0 is installed.
+* In your Start Menu, goto PostgreSQL 9.1/pgAdmin III/ 
+* This should bring up an administrative window, with an "Object Browser" on the left side of the window.
+* In the Object browser, double click on the icon with the red "X" labeled "PostgreSQL (localhost:5432)"
+* Enter your password, "postgres"
+* The red "X" should disappear and a set of items should be listed below the "PostgresSQL" label.
+* Click on the "+" sign next to the "Databases" icon
+* There should be an icon with a red X labeled something like "template_postgis" (databases created by postgis install)
+* Single click 'template_postgis"
+* Click on the "+" sign next to the "template_postgis" icon
+* There should be an icon labeled "Extensions"
+* Click on the "+" sign next to the "Extensions" icon
+* If you see the items "postgis" and "postgis_topology" listed under the extensions, congrats! PostGIS 2.0 is installed.
 
-Step 3. Create the OSM Database Instance
+## Step 3. Create the OSM Database Instance
 
     Make sure the 'C:/Program Files/PostgreSQL/xx/bin/' directory is added to your PATH environment variable
         to test this, open a new command prompt window, and type: psql
