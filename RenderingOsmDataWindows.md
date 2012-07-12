@@ -133,15 +133,10 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * a list of tables should be displayed, such as:
 ```
                    List of relations
-
      Schema |       Name        | Type  |  Owner
-
     --------+-------------------+-------+----------
-
      public | geography_columns | view  | postgres
-
      public | geometry_columns  | view  | postgres
-
      public | spatial_ref_sys   | table | postgres
 ```
      
@@ -228,11 +223,11 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 * Now we must import the OSM data into our 'osm' table, by using the osm2pgsql commandline utility.  
   * First we must make sure to use the correct EPSG file, so open a command window and type:
 ```
-          SET PROJ_LIB=C:\ms4w\proj\nad
+         SET PROJ_LIB=C:\ms4w\proj\nad
 ```
   * Execute the following in that same command window, but substitute the bz2 filename with either your .osm file or your own .bz2 file ( use the password: postgres ):
 ```
-            osm2pgsql -U postgres -W -m -d osm -p osm -E 3857 -S "C:\Program Files\osm2pgsql\default.style" rhode_island.osm.bz2
+         osm2pgsql -U postgres -W -m -d osm -p osm -E 3857 -S "C:\Program Files\osm2pgsql\default.style" rhode_island.osm.bz2
 ```
 * Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
 ```
@@ -252,160 +247,95 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 
 ## Step 8. Prepare OSM Tables in PostgreSQL
 
-    First we must obtain the MapServer/Basemaps code through Git (which you installed through Step 1)
-        Open a command window and cd to the directory: C:/ms4w/apps/osm
-        Execute the git clone command such as:
-
+* First we must obtain the MapServer/Basemaps code through Git (which you installed through Step 1)
+  * Open a command window and cd to the directory: C:/ms4w/apps/osm
+  * Execute the git clone command such as:
+```
           git clone https://github.com/mapserver/basemaps.git basemaps
-
-    Now we will use a script to modify our table schema in the osm database
-
-        cd to the /basemaps/contrib/ folder, and then execute:
-
+```
+* Now we will use a script to modify our table schema in the osm database
+  * cd to the /basemaps/contrib/ folder, and then execute:
+```
             psql -U postgres -d osm -f "osm2pgsql-to-imposm-schema.sql"
-
-    Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
-
+```
+* Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
+```
          psql -U postgres -d osm -c \d
-
-          which returns a full list of the new tables, such as:
-
+```
+  which returns a full list of the new tables, such as:
+```
  Schema |             Name              | Type  |
-
 --------+-------------------------------+-------+
-
  public | geography_columns             | view  |
-
  public | geometry_columns              | view  |
-
  public | osm_line                      | table |
-
  public | osm_new_admin                 | table |
-
  public | osm_new_admin_view            | view  |
-
  public | osm_new_aeroways              | table |
-
  public | osm_new_aeroways_view         | view  |
-
  public | osm_new_amenities             | table |
-
  public | osm_new_amenities_view        | view  |
-
  public | osm_new_buildings             | table |
-
  public | osm_new_buildings_view        | view  |
-
  public | osm_new_landusages            | table |
-
  public | osm_new_landusages_gen0       | table |
-
  public | osm_new_landusages_gen0_view  | view  |
-
  public | osm_new_landusages_gen1       | table |
-
  public | osm_new_landusages_gen1_view  | view  |
-
  public | osm_new_landusages_view       | view  |
-
  public | osm_new_mainroads             | table |
-
  public | osm_new_mainroads_gen0        | table |
-
  public | osm_new_mainroads_gen0_view   | view  |
-
  public | osm_new_mainroads_gen1        | table |
-
  public | osm_new_mainroads_gen1_view   | view  |
-
  public | osm_new_mainroads_view        | view  |
-
  public | osm_new_minorroads            | table |
-
  public | osm_new_minorroads_view       | view  |
-
  public | osm_new_motorways             | table |
-
  public | osm_new_motorways_gen0        | table |
-
  public | osm_new_motorways_gen0_view   | view  |
-
  public | osm_new_motorways_gen1        | table |
-
  public | osm_new_motorways_gen1_view   | view  |
-
  public | osm_new_motorways_view        | view  |
-
  public | osm_new_places                | table |
-
  public | osm_new_places_view           | view  |
-
  public | osm_new_railways              | table |
-
  public | osm_new_railways_gen0         | table |
-
  public | osm_new_railways_gen0_view    | view  |
-
  public | osm_new_railways_gen1         | table |
-
  public | osm_new_railways_gen1_view    | view  |
-
  public | osm_new_railways_view         | view  |
-
  public | osm_new_roads                 | table |
-
  public | osm_new_roads_gen0            | table |
-
  public | osm_new_roads_gen0_view       | view  |
-
  public | osm_new_roads_gen1            | table |
-
  public | osm_new_roads_gen1_view       | view  |
-
  public | osm_new_roads_view            | view  |
-
  public | osm_new_transport_areas       | table |
-
  public | osm_new_transport_areas_view  | view  |
-
  public | osm_new_transport_points      | table |
-
  public | osm_new_transport_points_view | view  |
-
  public | osm_new_waterareas            | table |
-
  public | osm_new_waterareas_gen0       | table |
-
  public | osm_new_waterareas_gen0_view  | view  |
-
  public | osm_new_waterareas_gen1       | table |
-
  public | osm_new_waterareas_gen1_view  | view  |
-
  public | osm_new_waterareas_view       | view  |
-
  public | osm_new_waterways             | table |
-
  public | osm_new_waterways_view        | view  |
-
  public | osm_new_waterways_gen0        | table |
-
  public | osm_new_waterways_gen0_view   | view  |
-
  public | osm_new_waterways_gen1        | table |
-
  public | osm_new_waterways_gen1_view   | view  |
-
  public | osm_point                     | table |
-
  public | osm_polygon                   | table |
-
  public | osm_roads                     | table |
-
  public | spatial_ref_sys               | table |
+```
 
-Step 9. Generate the OSM Mapfile
-Configure Basemap Makefiles
+## Step 9. Generate the OSM Mapfile
+
+### Configure Basemap Makefiles
 
     First we need to get the extent of our data, so we will use PostGIS
         in the command window, execute the following:
