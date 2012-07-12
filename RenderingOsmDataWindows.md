@@ -351,7 +351,7 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 ```
 * Next open the file /basemaps/Makefile in Notepad++
   * add comments to lines 14-16, such as:
-``
+```
           #OSM_SRID=4326
           #OSM_UNITS=dd
           #OSM_EXTENT=-180 -90 180 90
