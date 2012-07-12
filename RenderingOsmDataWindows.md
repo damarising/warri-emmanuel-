@@ -1,9 +1,10 @@
-Background
+# Background
 
 This wiki page will be used to create a Cookbook Recipe for sharing freely available OpenStreetMap (OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for Windows 7 and Vista 32bit.
-Step 1. Install Required Software
 
-    7-zip
+## Step 1. Install Required Software
+
+* 7-zip
         used to extract the compressed .osm files (although it is not necessary to extract them)
         supports .bz2 compression
         you should enable all formats through Tools/Options
