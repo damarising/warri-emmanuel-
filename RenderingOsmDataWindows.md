@@ -54,19 +54,19 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 
 ### Install PostgreSQL
 
-    Click "Next" through the first few Setup wizard steps.
-    On the "Password" screen, type "postgres". Note: PostgreSQL has its own users and superusers, which are separate and distinct from Windows users and administrators. As a default, PostgreSQL installation sets up both a PostgreSQL superuser named "postgres" and a Windows system user account named "postgres" that will use the same password.
-    Click "Next" through the rest of the Setup wizard steps, leaving all values as their defaults (such as the Port).
-    The last step of the Setup wizard should ask if you want to launch something called "Stack Builder."
-    Make sure that the checkbox for "Stack Builder" is checked.
-    Click "Finish", which both finishes PostgreSQL installation and launches the Stack Builder.
-    On the first page of the "Stack Builder" window, in the drop down, select "PostgreSQL on port 5432"
-    Click "Next"
-    On the next page, click on the "+" sign next to "Spatial Extensions"
-    Check the box next to "PostGIS 2.0 for PostgreSQL 9.1 v2.0.0
-    Click "Next" until presented with the "PostGIS 2.0.0" setup window.
+* Click "Next" through the first few Setup wizard steps.
+*On the "Password" screen, type "postgres". Note: PostgreSQL has its own users and superusers, which are separate and distinct from Windows users and administrators. As a default, PostgreSQL installation sets up both a PostgreSQL superuser named "postgres" and a Windows system user account named "postgres" that will use the same password.
+* Click "Next" through the rest of the Setup wizard steps, leaving all values as their defaults (such as the Port).
+* The last step of the Setup wizard should ask if you want to launch something called "Stack Builder."
+* Make sure that the checkbox for "Stack Builder" is checked.
+* Click "Finish", which both finishes PostgreSQL installation and launches the Stack Builder.
+* On the first page of the "Stack Builder" window, in the drop down, select "PostgreSQL on port 5432"
+* Click "Next"
+* On the next page, click on the "+" sign next to "Spatial Extensions"
+* Check the box next to "PostGIS 2.0 for PostgreSQL 9.1 v2.0.0
+* Click "Next" until presented with the "PostGIS 2.0.0" setup window.
 
-Install PostGIS
+### Install PostGIS
 
     Start the installer through the Stack Builder or the standalone installer.
     Click "I Agree"
