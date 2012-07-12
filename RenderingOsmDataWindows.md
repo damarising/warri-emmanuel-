@@ -38,20 +38,21 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
   * download the [Windows binaries](http://tile.openstreetmap.org/osm2pgsql.zip) (2MB)
   * extract inside your "Program Files" directory
   * add that directory to your PATH environment variable (so you can open a command prompt window and type 'osm2pgsql --help')
-* Notepad++
-        an excellent free text editor
-        download/install the latest version
+* [Notepad++](http://notepad-plus-plus.org/)
+  * an excellent free text editor
+  * download/install the latest version
 
-Step 2. Install PostgreSQL
-Download PostgreSQL
+## Step 2. Install PostgreSQL
 
-    Goto http://www.postgresql.org/download/windows
-    Click on the link to "Download the one click installer," which will take you to: http://www.enterprisedb.com/products-services-training/pgdownload#windows.
-    Click on the Version 9.1.4 (or whatever is latest) download button for your version of Windows. ('Win x86-32')
-    Click "Save" (or whatever you browser supports)
-    Navigate to where the installation file (named something like postgresql-9.1.4-1-windows.exe) is located and double-click on it to launch the installer.
+### Download PostgreSQL
 
-Install PostgreSQL
+* Goto http://www.postgresql.org/download/windows
+* Click on the link to "Download the one click installer," which will take you to: http://www.enterprisedb.com/products-services-training/pgdownload#windows.
+* Click on the Version 9.1.4 (or whatever is latest) download button for your version of Windows. ('Win x86-32')
+* Click "Save" (or whatever you browser supports)
+* Navigate to where the installation file (named something like postgresql-9.1.4-1-windows.exe) is located and double-click on it to launch the installer.
+
+### Install PostgreSQL
 
     Click "Next" through the first few Setup wizard steps.
     On the "Password" screen, type "postgres". Note: PostgreSQL has its own users and superusers, which are separate and distinct from Windows users and administrators. As a default, PostgreSQL installation sets up both a PostgreSQL superuser named "postgres" and a Windows system user account named "postgres" that will use the same password.
