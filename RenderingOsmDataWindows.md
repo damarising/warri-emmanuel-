@@ -532,7 +532,7 @@ Since MapServer 6.0, you can now display your mapfile in an OpenLayers template,
          layers=all&
          map=C:/ms4w/apps/osm/basemaps/osm-google.map
 ```
-* or: http://localhost/cgi-bin/mapserv.exe?mode=browse&template=openlayers&layers=all&map=C:/ms4w/apps/osm/basemaps/osm-google.map
+* or: [http://localhost/cgi-bin/mapserv.exe?mode=browse&template=openlayers&layers=all&map=C:/ms4w/apps/osm/basemaps/osm-google.map]
 [[http://download.osgeo.org/mapserver/docs/github-images/ol-template.jpg]]
 
 ## Step 11. Adding More OSM Data
