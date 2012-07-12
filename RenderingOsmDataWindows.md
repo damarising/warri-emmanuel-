@@ -13,7 +13,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
       * Under the system tab choose 'Select all'
       * Press OK: now any bz2 files should automatically open in 7-Zip
 * [Cygwin](http://www.cygwin.com/)
-  * download and save the installer (hint: don't delete this file after, as it can be used to modify your install)
+  * download and save the [installer](http://cygwin.com/setup.exe) (hint: don't delete this file after, as it can be used to modify your install)
   * run the installer
     * keep defaults
     * for the "Choose a Download Site" select any mirror
@@ -25,20 +25,20 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
       * python (in the "Python" category)
     * click "Next"
     * click "Finish"
-* Git
-        install Windows binaries
-        select "Run Git from the Windows Command Prompt" (leave the rest as default)
-        after install, open a new command window and type: git
-    PostgreSQL
-        make sure to install PostGIS 2.0
-        see Step 2 below for full installation instructions
-    MS4W
-        follow the instructions in Step 4 below.
-    osm2pgsql
-        download the Windows binaries (2MB)
-        extract inside your "Program Files" directory
-        add that directory to your PATH environment variable (so you can open a command prompt window and type 'osm2pgsql --help')
-    Notepad++
+* [Git](http://git-scm.com/downloads)
+  * install Windows binaries
+  * select "Run Git from the Windows Command Prompt" (leave the rest as default)
+  * after install, open a new command window and type: git
+* [PostgreSQL](http://www.postgresql.org/)
+  * make sure to install PostGIS 2.0
+  * see Step 2 below for full installation instructions
+* [MS4W](http://www.maptools.org/ms4w/)
+  * follow the instructions in Step 4 below.
+* [osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
+  * download the [Windows binaries](http://tile.openstreetmap.org/osm2pgsql.zip) (2MB)
+  * extract inside your "Program Files" directory
+  * add that directory to your PATH environment variable (so you can open a command prompt window and type 'osm2pgsql --help')
+* Notepad++
         an excellent free text editor
         download/install the latest version
 
