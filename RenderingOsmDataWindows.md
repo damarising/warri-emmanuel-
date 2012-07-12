@@ -423,66 +423,48 @@ Now we are ready to generate the mapfile.
 ### Prepare Background Data Files
 
 The generated mapfile (osm-google-map) does rely on some non-OSM data for reference layers (such as world boundaries), so we must execute a few more steps to gather/prepare this data:
-
-    In Notepad++ open the file: /basemaps/data/Makefile
-
-        change line#6 to remove the qix reference, such as:
-
+* In Notepad++ open the file: /basemaps/data/Makefile
+  * change line#6 to remove the qix reference, such as:
+```
           %: %.shp ;
-
-        change line#8 to remove the qix reference, such as:
-
-
+```
+  * change line#8 to remove the qix reference, such as:
+```
           .PRECIOUS: %.shp ;
-
-        comment lines10-11, such as:
-
+```
+  * comment lines10-11, such as:
+```
           #%.qix: %.shp
-
           #    $(SHPTREE) $< 8
-
-    Through the Cygwin Terminal window, cd to the /basemaps/data/ directory, and execute the following command (warning: it may take about 10 minutes to download all data, as it is ~400 MB bzipped):
-
-
+```
+* Through the Cygwin Terminal window, cd to the /basemaps/data/ directory, and execute the following command (**warning: it may take about 10 minutes to download all data, as it is ~400 MB bzipped**):
+```
       make
-
-    You should now have the following shapefiles inside the /basemaps/data/ directory:
-
+```
+* You should now have the following shapefiles inside the /basemaps/data/ directory:
+```
         10m_admin_0_boundary_lines_land.shp     
-
         boundaries.shp                         
-
         ne_10m_admin_0_boundary_lines_land.shp  
-
         processed_p.shp
-
         seed.shp
-
         shoreline_300.shp
-
         TM_WORLD_BORDERS-0.3.shp
-
-    Finally we must be sure to create index files (.qix) for each shapfile, so they display fast in MapServer:
-
-        in a regular Windows command window, cd to C:/ms4w/
-
-        execute the following command:
-
+```
+* Finally we must be sure to create index files (.qix) for each shapfile, so they display fast in MapServer:
+  * in a regular Windows command window, cd to C:/ms4w/
+  * execute the following command:
+```
             setenv.bat
-
-        now cd to C:/ms4w/apps/osm/basemaps/data/ directory
-
-        execute the following command (warning: it may take a few minutes to generate the index files):
-
-         
-
+```
+  * now cd to C:/ms4w/apps/osm/basemaps/data/ directory
+  * execute the following command (warning: it may take a few minutes to generate the index files):
+```
             for %f in (*.shp) do shptree %f
+```
+  * each shp should have an associated qix file now
 
-         
-
-        each shp should have an associated qix file now
-
-Modify osm-google.map
+### Modify osm-google.map
 
 We should make some minor adjustments to the generated mapfile.  Open /basemaps/osm-google.map in Notepad++ and:
 
