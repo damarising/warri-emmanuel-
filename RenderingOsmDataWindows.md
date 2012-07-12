@@ -1,10 +1,23 @@
 **Author:** [Jeff McKenna](https://github.com/jmckenna)
 
+**TABLE OF CONTENTS**
+* [Step 1. Install Required Software](#req)
+* [Step 2. Install PostgreSQL](#pg)
+* [Step 3. Create the OSM Database Instance](#osm-db)
+* [Step 4. Install MapServer for Windows (MS4W)](#ms4w)
+* [Step 5. Prepare a Working Directory](#dir)
+* [Step 6. Obtain OSM Data](#osm-dl)
+* [Step 7. Import OSM Data into PostgreSQL](#osm-import)
+* [Step 8. Prepare OSM Tables in PostgreSQL](#osm-prep)
+* [Step 9. Generate the OSM Mapfile](#map-gen)
+* [Step 10. Test the OSM Mapfile](#map-test)
+* [Step 11. Adding More OSM Data](#osm-add)
+
 # Background
 
 This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for installations on Windows 7 and Vista 32bit.
 
-## Step 1. Install Required Software
+## <a name="req"></a>Step 1. Install Required Software
 
 * [7-zip](http://www.7-zip.org/)
   * used to extract the compressed .osm files (although it is not necessary to extract them) 
@@ -44,7 +57,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
   * an excellent free text editor
   * download/install the latest version
 
-## Step 2. Install PostgreSQL
+## <a name="pg"></a>Step 2. Install PostgreSQL
 
 ### Download PostgreSQL
 
@@ -94,7 +107,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * Click on the "+" sign next to the "Extensions" icon
 * If you see the items "postgis" and "postgis_topology" listed under the extensions, congrats! PostGIS 2.0 is installed.
 [[http://download.osgeo.org/mapserver/docs/github-images/pgadmin-postgis.jpg]]
-## Step 3. Create the OSM Database Instance
+## <a name="osm-db"></a>Step 3. Create the OSM Database Instance
 
 * Make sure the 'C:/Program Files/PostgreSQL/xx/bin/' directory is added to your PATH environment variable
   * to test this, open a new command prompt window, and type: psql
@@ -142,7 +155,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
      
 * note: to exit that database connection, type: \q
 
-## Step 4. Install MapServer for Windows (MS4W)
+## <a name="ms4w"></a>Step 4. Install MapServer for Windows (MS4W)
 
 * download the latest [MS4W zip archive](http://www.maptools.org/ms4w/index.phtml?page=downloads.html) (such as 'ms4w_3.0.6.zip')
 * extract the contents to the root of a drive (so you have something like C:/ms4w)
@@ -181,7 +194,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
   * the MS4W homepage should be displayed such as:
 [[http://download.osgeo.org/mapserver/docs/github-images/ms4w-home.jpg]]   
    
-## Step 5. Prepare a Working Directory
+## <a name="dir"></a>Step 5. Prepare a Working Directory
 
 Using either Windows Explorer or through the command window:
 * create a new folder for all of our working files, inside the C:/ms4w/apps directory, and name it: osm
@@ -193,7 +206,7 @@ Using either Windows Explorer or through the command window:
                   osm
 ```
 
-## Step 6. Obtaining OSM Data
+## <a name="osm-dl"></a>Step 6. Obtaining OSM Data
 
 You have several choices/options for how to obtain the OSM data.  Save the file inside the data directory: C:/ms4w/apps/osm/data
 
@@ -213,7 +226,7 @@ You have several choices/options for how to obtain the OSM data.  Save the file 
 [[http://download.osgeo.org/mapserver/docs/github-images/osm-export.jpg]]                                    
 _Note:_ During the creation of this document the file used was the .osm.bz2 file of Rhode Island downloaded from [CloudMade](http://downloads.cloudmade.com/americas/northern_america/united_states/rhode_island#downloads_breadcrumbs)
 
-## Step 7. Import OSM Data into PostgreSQL
+## <a name="osm-import"></a>Step 7. Import OSM Data into PostgreSQL
 
 * We must add the "population" field to the osm2pgsql style file, so open this file in Notepad++ (right-click on the file and select 'Edit with Notepad++'): _"C:\Program Files\osm2pgsql\default.style"_
   * add the following line at the bottom of that file:
@@ -245,7 +258,7 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
  public | spatial_ref_sys               | table |
 ```
 
-## Step 8. Prepare OSM Tables in PostgreSQL
+## <a name="osm-prep"></a>Step 8. Prepare OSM Tables in PostgreSQL
 
 * First we must obtain the MapServer/Basemaps code through Git (which you installed through Step 1)
   * Open a command window and cd to the directory: C:/ms4w/apps/osm
@@ -333,7 +346,7 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
  public | spatial_ref_sys               | table |
 ```
 
-## Step 9. Generate the OSM Mapfile
+## <a name="map-gen"></a>Step 9. Generate the OSM Mapfile
 
 ### Configure Basemap Makefiles
 
@@ -488,7 +501,7 @@ We should make some minor adjustments to the generated mapfile.  Open /basemaps/
         #CONFIG "PROJ_LIB" "/cygdrive/c/ms4w/apps/osm/basemaps"
 ```
 
-## Step 10. Test the OSM Mapfile
+## <a name="map-test"></a>Step 10. Test the OSM Mapfile
 
 ## Testing with shp2img
 
@@ -536,7 +549,7 @@ Since MapServer 6.0, you can now display your mapfile in an OpenLayers template,
 
 [[http://download.osgeo.org/mapserver/docs/github-images/ol-template.jpg]]
 
-## Step 11. Adding More OSM Data
+## <a name="osm-add"></a>Step 11. Adding More OSM Data
 
 This document showed how to download and process one single file (for the state of Rhode Island); but what if you want to add another state?
 * Good news: you can append your new OSM data files.  Once you have downloaded a new file (such as Connecticut downloaded from [CloudMade](http://downloads.cloudmade.com/americas/northern_america/united_states/connecticut#downloads_breadcrumbs)), restart the process with the osm2pgsql command, but add the "-a" switch:
