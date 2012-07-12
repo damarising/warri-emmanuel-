@@ -493,49 +493,34 @@ We should make some minor adjustments to the generated mapfile.  Open /basemaps/
 ## Testing with shp2img
 
 shp2img is a simple commandline tool, that requires a mapfile and can output a map image, or display an error.  After reviewing its [documentation page](http://www.mapserver.org/utilities/shp2img.html), try the following:
-
-    in a command prompt window, cd to C:/ms4w and execute the following command:
-
+* in a command prompt window, cd to C:/ms4w and execute the following command:
+```
           setenv.bat
-
-    then cd to the C:/ms4w/apps/osm/basemaps directory, and try a shp2img command:
-
-   
-
+```
+* then cd to the C:/ms4w/apps/osm/basemaps directory, and try a shp2img command:
+```
           shp2img -m osm-google.map -o output.png -map_debug 3
+```
 
-
-           which should generate a map imagefile named 'output.png', and display layer draw speeds, such as:
-
+  which should generate a map imagefile named 'output.png', and display layer draw speeds, such as:
+```
               msDrawMap(): rendering using outputformat named png (AGG/PNG).
-
               msDrawMap(): WMS/WFS set-up and query, 0.000s
-
               msDrawMap(): Layer 53 (land10), 0.009s
-
               msDrawMap(): Layer 54 (landuse10), 0.349s
-
               msDrawMap(): Layer 55 (waterarea10), 0.122s
-
               msDrawMap(): Layer 57 (railways10), 0.039s
-
               msDrawMap(): Layer 58 (roads10), 0.148s
-
               msDrawMap(): Layer 59 (aeroways10), 0.020s
-
               msDrawMap(): Layer 60 (borders10), 0.166s
-
               msDrawMap(): Layer 61 (places10), 0.069s
-
               msDrawLabelCache(): labelcache_map_edge_buffer = 10
-
               msDrawMap(): Drawing Label Cache, 0.024s
-
               msDrawMap() total time: 0.961s
-
               msSaveImage(output.png) total time: 0.192s
+```
 
-Testing with OpenLayers Template
+### Testing with OpenLayers Template
 
 Since MapServer 6.0, you can now display your mapfile in an OpenLayers template, by calling the MapServer CGI/executable directly in your browser. 
 
