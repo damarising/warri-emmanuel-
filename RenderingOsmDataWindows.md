@@ -458,7 +458,7 @@ The generated mapfile (osm-google-map) does rely on some non-OSM data for refere
             setenv.bat
 ```
   * now cd to C:/ms4w/apps/osm/basemaps/data/ directory
-  * execute the following command (warning: it may take a few minutes to generate the index files):
+  * execute the following command (**warning: it may take a few minutes to generate the index files**):
 ```
             for %f in (*.shp) do shptree %f
 ```
