@@ -15,7 +15,7 @@
 
 # Background
 
-This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for installations on Windows 7 and Vista 32bit.
+This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using [MapServer](http://www.mapserver.org), on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for installations on Windows 7 and Vista 32bit.
 
 ## <a name="req"></a>Step 1. Install Required Software
 
