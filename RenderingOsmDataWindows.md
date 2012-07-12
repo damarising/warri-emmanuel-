@@ -202,23 +202,23 @@ Using either Windows Explorer or through the command window:
 
 You have several choices/options for how to obtain the OSM data.  Save the file inside the data directory: C:/ms4w/apps/osm/data
 
-    Download the entire planet OSM file (~20 GB)
-        released every Thursday, using this planet file will be the latest OSM data available
-        extracts to ~250GB
-        you may want to use another option if you need a specific region only
-    Or, download a .osm file of a specific region (country, state, or province)
-        a popular site for this is CloudMade
-        there are other various sites for country extracts
-    Or, use the HTTP API to download your specific region (this can only be used for small regions)
-        goto http://www.openstreetmap.org/
-        zoom the map to the small area that you want
-        click on the 'Export' tab
-        select the format: 'OpenStreetMap XML Data' and press 'Export'
-        save the generated .osm file on your local machine
+1. Download the entire [planet OSM file](http://planet.openstreetmap.org/) (~20 GB)
+   * released every Thursday, using this planet file will be the latest OSM data available
+   * extracts to ~250GB
+   * you may want to use another option if you need a specific region only
+2. Or, download a .osm file of a specific region (country, state, or province)
+   * a popular site for this is [CloudMade](http://downloads.cloudmade.com/)
+   * there are other various sites for [country extracts](http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts)
+3. Or, use the HTTP API to download your specific region (this can only be used for **small regions**)
+   * goto http://www.openstreetmap.org/
+   * zoom the map to the small area that you want
+   * click on the 'Export' tab
+   * select the format: 'OpenStreetMap XML Data' and press 'Export'
+   * save the generated .osm file on your local machine
                                        
+_Note:_ During the creation of this document the file used was the .osm.bz2 file of Rhode Island downloaded from [CloudMade](http://downloads.cloudmade.com/americas/northern_america/united_states/rhode_island#downloads_breadcrumbs)
 
-Note: During the creation of this document the file used was the .osm.bz2 file of Rhode Island downloaded from CloudMade
-Step 7. Import OSM Data into PostgreSQL
+## Step 7. Import OSM Data into PostgreSQL
 
     We must add the "population" field to the osm2pgsql style file, so open this file in Notepad++ (right-click on the file and select 'Edit with Notepad++'): "C:\Program Files\osm2pgsql\default.style"
         add the following line at the bottom of that file:
