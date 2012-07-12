@@ -96,22 +96,22 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 [[http://download.osgeo.org/mapserver/docs/github-images/pgadmin-postgis.jpg]]
 ## Step 3. Create the OSM Database Instance
 
-    Make sure the 'C:/Program Files/PostgreSQL/xx/bin/' directory is added to your PATH environment variable
-        to test this, open a new command prompt window, and type: psql
-        if not found, then you must add the above directory to your PATH environment variable (the following steps are for Windows7, but might be slightly different on other versions)
-            Start > Control Panel > System
-            Click Advanced System Settings
-            On the "Advanced" Tab, at the bottom of the tab, click the "Environment Variables" buttons.
-            In the "System variables" section - NOT the "User variables" section - select the "Path" variable
-            Click Edit
-            Put your cursor in the "Variable Value" input area
-            Move the cursor to the far right and add a ; if the line does not already end with one
-            Then add the custom path to a directory needed like "C:\Program Files\PostgreSQL\9.1\bin"
-            Click "OK"
-            Click "OK" again
-            Now open a new command window and try the psql command
-    These instructions assume that you already have a PostgreSQL 'postgres' user
-    Open a command prompt and enter the following commands ( the password will always be: postgres )
+* Make sure the 'C:/Program Files/PostgreSQL/xx/bin/' directory is added to your PATH environment variable
+  * to test this, open a new command prompt window, and type: psql
+  * if not found, then you must add the above directory to your PATH environment variable (the following steps are for Windows7, but might be slightly different on other versions)
+    * Start > Control Panel > System
+    * Click Advanced System Settings
+    * On the "Advanced" Tab, at the bottom of the tab, click the "Environment Variables" buttons.
+    * In the "System variables" section - NOT the "User variables" section - select the "Path" variable
+    * Click Edit
+    * Put your cursor in the "Variable Value" input area
+    * Move the cursor to the far right and add a ; if the line does not already end with one
+    * Then add the custom path to a directory needed like "C:\Program Files\PostgreSQL\9.1\bin"
+    * Click "OK"
+    * Click "OK" again
+    * Now open a new command window and try the psql command
+* These instructions assume that you already have a PostgreSQL 'postgres' user
+* Open a command prompt and enter the following commands ( the password will always be: postgres )
 
          createdb -E utf8 -U postgres osm
 
