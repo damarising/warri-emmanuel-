@@ -18,11 +18,11 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
     * keep defaults
     * for the "Choose a Download Site" select any mirror
     * make sure you add the following packages:
-      * **wget ** (in the "Web" category)
-      * **unzip ** (in the "Archive" category)
-      * **gcc ** (in the "Devel" category, named 'gcc-g++: C++ compiler)
-      * **make ** (in the "Devel" category)
-      * **python ** (in the "Python" category)
+      * **wget** (in the "Web" category)
+      * **unzip** (in the "Archive" category)
+      * **gcc** (in the "Devel" category, named 'gcc-g++: C++ compiler)
+      * **make** (in the "Devel" category)
+      * **python** (in the "Python" category)
     * click "Next"
     * click "Finish"
 * [Git](http://git-scm.com/downloads)
