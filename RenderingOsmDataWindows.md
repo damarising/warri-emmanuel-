@@ -155,7 +155,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * open a command prompt window and cd to the ms4w directory
 * execute the following command:
 ```
-          setenv.bat
+         setenv.bat
 ```
 * test MapServer by calling the CGI executable, with the command:
 ```
@@ -189,11 +189,16 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 ## Step 5. Prepare a Working Directory
 
 Using either Windows Explorer or through the command window:
+* create a new folder for all of our working files, inside the C:/ms4w/apps directory, and name it: osm
+* inside the C:/ms4w/apps/osm directory, also create a 'data' folder
+```
+      C:/
+         ms4w
+             apps
+                  osm
+```
 
-    create a new folder for all of our working files, inside the C:/ms4w/apps directory, and name it: osm
-    inside the C:/ms4w/apps/osm directory, also create a 'data' folder
-
-Step 6. Obtaining OSM Data
+## Step 6. Obtaining OSM Data
 
 You have several choices/options for how to obtain the OSM data.  Save the file inside the data directory: C:/ms4w/apps/osm/data
 
