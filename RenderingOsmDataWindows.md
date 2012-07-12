@@ -540,10 +540,10 @@ Since MapServer 6.0, you can now display your mapfile in an OpenLayers template,
 
 This document showed how to download and process one single file (for the state of Rhode Island); but what if you want to add another state?
 * Good news: you can append your new OSM data files.  Once you have downloaded a new file (such as Connecticut downloaded from [CloudMade](http://downloads.cloudmade.com/americas/northern_america/united_states/connecticut#downloads_breadcrumbs)), restart the process with the osm2pgsql command, but add the "-a" switch:
-``
+```
          osm2pgsql -U postgres -W -m -d osm -p osm -E 3857 -a -S "C:\Program Files\osm2pgsql\default.style" connecticut.osm.bz2
-``
+```
 * Then re-modify the tables:
-``
+```
          psql -U postgres -d osm -f "osm2pgsql-to-imposm-schema.sql"
 ```
