@@ -112,7 +112,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
     * Now open a new command window and try the psql command
 * These instructions assume that you already have a PostgreSQL 'postgres' user
 * Open a command prompt and enter the following commands ( the password will always be: postgres )
-
+```
          createdb -E utf8 -U postgres osm
 
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\postgis.sql"
@@ -120,18 +120,18 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\spatial_ref_sys.sql"
 
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\legacy.sql"
-
-    We must also apply a patch.  Download the patch file to your local machine: legacy-postgis-gist.sql (you might have to "File/Save Page As" in your browser).  Then execute in the directory that you downloaded the file to:
-
+``
+* We must also apply a patch.  Download the patch file to your local machine: legacy-postgis-gist.sql (you might have to "File/Save Page As" in your browser).  Then execute in the directory that you downloaded the file to:
+```
          psql -U postgres -d osm -f "legacy-postgis-gist.sql"
-
-    try connecting to the 'osm' database:
-
+```
+* try connecting to the 'osm' database:
+```
          psql -U postgres -d osm
-
-    then type: \d
-    a list of tables should be displayed, such as:
-
+```
+* then type: \d
+* a list of tables should be displayed, such as:
+```
                    List of relations
 
      Schema |       Name        | Type  |  Owner
@@ -143,11 +143,11 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
      public | geometry_columns  | view  | postgres
 
      public | spatial_ref_sys   | table | postgres
-
+```
      
-    note: to exit that database connection, type: \q
+* note: to exit that database connection, type: \q
 
-Step 4. Install MapServer for Windows (MS4W)
+## Step 4. Install MapServer for Windows (MS4W)
 
     download the latest MS4W zip archive (such as 'ms4w_3.0.6.zip')
     extract the contents to the root of a drive (so you have something like C:/ms4w)
