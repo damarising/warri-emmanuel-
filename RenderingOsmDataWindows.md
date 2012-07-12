@@ -12,20 +12,20 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
       * Within the 7-Zip File Manager choose Tools > Options
       * Under the system tab choose 'Select all'
       * Press OK: now any bz2 files should automatically open in 7-Zip
-* Cygwin
-        download and save the installer (hint: don't delete this file after, as it can be used to modify your install)
-        run the installer
-            keep defaults
-            for the "Choose a Download Site" select any mirror
-            make sure you add the following packages:
-                wget (in the "Web" category)
-                unzip (in the "Archive" category)
-                gcc (in the "Devel" category, named 'gcc-g++: C++ compiler)
-                make (in the "Devel" category)
-                python (in the "Python" category)
-            click "Next"
-            click "Finish"
-    Git
+* [Cygwin](http://www.cygwin.com/)
+  * download and save the installer (hint: don't delete this file after, as it can be used to modify your install)
+  * run the installer
+    * keep defaults
+    * for the "Choose a Download Site" select any mirror
+    * make sure you add the following packages:
+      * wget (in the "Web" category)
+      * unzip (in the "Archive" category)
+      * gcc (in the "Devel" category, named 'gcc-g++: C++ compiler)
+      * make (in the "Devel" category)
+      * python (in the "Python" category)
+    * click "Next"
+    * click "Finish"
+* Git
         install Windows binaries
         select "Run Git from the Windows Command Prompt" (leave the rest as default)
         after install, open a new command window and type: git
