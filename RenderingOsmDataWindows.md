@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 # Background
 
 This wiki page will be used to create a Cookbook Recipe for sharing freely available [OpenStreetMap](http://openstreetmap.org)(OSM) data using MapServer, on the Windows platform.  Assumptions are that you are able to use a Windows Command Prompt.  This document is designed for installations on Windows 7 and Vista 32bit.
@@ -93,7 +91,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * There should be an icon labeled "Extensions"
 * Click on the "+" sign next to the "Extensions" icon
 * If you see the items "postgis" and "postgis_topology" listed under the extensions, congrats! PostGIS 2.0 is installed.
-
+[[http://download.osgeo.org/mapserver/docs/github-images/pgadmin-postgis.jpg]]
 ## Step 3. Create the OSM Database Instance
 
     Make sure the 'C:/Program Files/PostgreSQL/xx/bin/' directory is added to your PATH environment variable
