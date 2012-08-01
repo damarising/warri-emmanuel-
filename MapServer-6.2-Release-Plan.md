@@ -41,11 +41,11 @@ https://github.com/mapserver/mapserver/blob/branch-6-2/MIGRATION_GUIDE.TXT
 We will plan for 3 betas and 2 release candidates (RC) over a 6 week period after the feature freeze (1 beta/RC per week each Wednesday). This will lead us to a final release sometime around beginning of August 2012:
 
 * branch-6-2 creation, 6.2.0-beta1 : Fri. June 29th, 2012
-* 6.2.0-beta2 - Wed. July 11th
-* 6.2.0-beta3 -    Wed. July 18th
-* 6.2.0-rc1 -  Wed. July 25th
-* 6.2.0-rc2 -   Wed. Aug 1st
-* 6.2.0 (final) -  Wed. Aug 8rd
+* 6.2.0-beta2 - Wed. Aug 1st
+* 6.2.0-beta3 -    Wed. Aug 8th
+* 6.2.0-rc1 -  Wed. Aug 15th
+* 6.2.0-rc2 -   Wed. Aug 22nd
+* 6.2.0 (final) -  Wed. Aug 29th
 
 ## Release Manager (see http://mapserver.org/development/rfc/ms-rfc-34.html)                                                                                                                                                                                                                
                                                                                                                                                                                                                                                                                                            
