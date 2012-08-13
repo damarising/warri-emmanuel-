@@ -26,6 +26,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Using TILEINDEXes with Database RASTERS](/mapserver/mapserver/wiki/MapServer-TILEINDEXes-with-Database-RASTERS)
 * [GRID Object Use](/mapserver/mapserver/wiki/MapServerGrid)
 * [Rendering OpenStreetMap data on Ubuntu with MapServer](/mapserver/mapserver/wiki/RenderingOsmDataUbuntu)
+* [Rendering OpenStreetMap data on Ubuntu with MapServer v2](/mapserver/mapserver/wiki/RenderingOsmDataOnUbuntuv2)
 * [Rendering OpenStreetMap data on Windows with MapServer](/mapserver/mapserver/wiki/RenderingOsmDataWindows)
 * [Rendering OpenStreetMap data with MapServer](/mapserver/mapserver/wiki/RenderingOsmData) (deprecated)
 * [Setting up Windows for Projections Support](/mapserver/mapserver/wiki/WindowsProjHowto)
