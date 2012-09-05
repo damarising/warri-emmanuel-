@@ -29,6 +29,11 @@ Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and
  $ git push origin branch-6-2 --tags
 ```
 
+1. Getting a changelog from the commit messages
+```
+ $ git --no-pager  log --no-merges  --pretty=format:"%ai | %an | %s" rel-6-2-0-beta2..HEAD | gsed  's!#\([0-9]\+\)! https://github.com/mapserver/mapserver/issues/\1 !g'
+```
+
 1. Prepare source package on projects.osgeo.osuosl.org (a.k.a. [http://wiki.osgeo.org/wiki/ProjectsVM ProjectsVM]) server (this server is used to package the releases, and then we copy the resulting archive to the downloads server):
 ``` 
 $ ssh projects.osgeo.osuosl.org                                                                                                                                                                                                         
