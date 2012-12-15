@@ -1,7 +1,7 @@
-# Built-in viewer
+## Built-in viewer
 Since MapServer 6.0 you can use [built-in viewer](http://mapserver.org/cgi/openlayers.html).
 
-# Mapfile developer script
+## Mapfile developer script
 Minimalistic HTML viewer for UMN MapServer mapfiles in simple
 standalone WSGI server.
 
