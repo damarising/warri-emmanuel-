@@ -15,5 +15,6 @@ different credentials than in development.
 * Possibility to override some other parameters line EXTENT. It creates
 possibility to work with many projects with the same base mapfile. More
 overriding options to come.
+* Simple mapfile syntax check tool
 
 Download: https://github.com/imincik/mapfile-viewer
