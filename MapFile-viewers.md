@@ -23,4 +23,5 @@ Download: https://github.com/imincik/mapfile-viewer
 QGIS mapfile viewer plugin.
 
 QGIS plugin repository: http://build.sourcepole.ch/qgis/plugins.xml
+
 Source code: https://github.com/sourcepole/qgis-mapfile-tools
