@@ -18,3 +18,9 @@ overriding options to come.
 * Simple mapfile syntax check tool
 
 Download: https://github.com/imincik/mapfile-viewer
+
+## QGIS Mapfile tools
+QGIS mapfile viewer plugin.
+
+QGIS plugin repository: http://build.sourcepole.ch/qgis/plugins.xml
+Source code: https://github.com/sourcepole/qgis-mapfile-tools
