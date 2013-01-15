@@ -242,6 +242,7 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 ```
          osm2pgsql -U postgres -W -m -d osm -p osm -E 3857 -S "C:\Program Files\osm2pgsql\default.style" rhode_island.osm.bz2
 ```
+* If you got the error allocating ways(nodes) please using parameter -s (slim mode)
 * Verify that the tables were created, by either using pgAdmin III (StartMenu/Programs/PostgreSQL 9.1/pgAdmin III/) or connect to the database through the commandline and display the table names with the command:
 ```
          psql -U postgres -d osm -c \d
