@@ -41,7 +41,7 @@ In the WEB section I think IMAGEPATH and IMAGEURL are necessary:
     
         # Set IMAGEURL to the url that points to IMAGEPATH
         # as defined in your web server configuration
-        IMAGEURL 'http://pele.sandag.org:8554/mapimages/'
+        IMAGEURL 'http://www.example.com/mapimages/'
 `
 
 The METADATA section within the web section is very important.  The titles need to be specified, the online resource is important, and it should end with a &.  I've found the abstract to be extremely useful so that I know what's actually mapped.  
@@ -66,7 +66,7 @@ The METADATA section within the web section is very important.  The titles need 
 
 `
 
-Outside of the METADATA but still inside the WEB section it's useful to have a TEMPLATE.  Some users will look at your WMS/WFS URL and try to open it in the browser.  The TEMPLATE html should show the resulting map and also explain to the users that this URL is to be used inside a GIS program (WMS client), not inside a web browser. 
+Outside of the METADATA but still inside the WEB section it's useful to have a TEMPLATE.  Some users will look at your WMS/WFS URL and try to open it in the browser.  The TEMPLATE html should show the resulting map and also explain to the users that this URL is to be used inside a GIS program (WMS client or WFS client), not inside a web browser. 
 
 `
 
