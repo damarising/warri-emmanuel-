@@ -2,7 +2,7 @@ The ArcGIS Data Interoperability Extensions allow ArcMAP and ArcCatalog to conne
 
 IF YOU HAVE MORE INFORMATION PLEASE UPDATE THIS WIKI PAGE.  The initial version of this wiki page contains mapfile fragments cut-n-pasted from a mapfile known to work as both a WMS server and a WFS server in both QGIS and ArcMAP.
 
-Map overview:  The MAXSIZE should be large enough if your users might have large monitors.  The Extent is very important otherwise ARCGIS will get confused.  Of course the projection should be specified.  For example:
+Map overview:  The MAXSIZE should be large enough if your users might have large monitors.  The Extent is very important otherwise ARCGIS will get confused.  I'm not sure if UNITS should be meters when using a lat-long projection like epsg:4326, but it seems to work.  Of course the projection should be specified.  For example:
 
 `
 
