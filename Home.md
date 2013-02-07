@@ -40,4 +40,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Environment Variables](/mapserver/mapserver/wiki/EnvironmentVariables)
 * [Mapfile Variables - Workaround](/mapserver/mapserver/wiki/Virtual-Mapfile-variables---using-includes)
 * [Mapfile viewers](/mapserver/mapserver/wiki/MapFile-viewers)
-* [Using WFS Server with ArcMap](/mapserver/mapserver/wiki/WFS-Server-working-with-ArcGIS-Data-Interoperability-Extensions
+* [Using WFS Server with ArcMap](/mapserver/mapserver/wiki/WFS-Server-working-with-ArcGIS-Data-Interoperability-Extensions)
