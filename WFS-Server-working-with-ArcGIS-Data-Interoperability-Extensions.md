@@ -75,7 +75,7 @@ Outside of the METADATA but still inside the WEB section it's useful to have a T
 `
 
 
-Here is a layer definition that is known to work.  Critical elements seem to be DUMP true, specifying the extent, specifying the ows and wfs titles and online resource, and specifying the types of the data columns (for WFS)
+Here is a layer definition that is known to work.  Critical elements seem to be DUMP true, specifying the extent, specifying the ows and wfs titles and online resource, and specifying the types of the data columns (for WFS).  Note that the "gml_fieldname_type" entries should specify "xsd:double", if you want ARCGIS to be able to actually plot the data.  Any other description causes ARCGIS to interpret the values as strings, and you won't be able to do any thematic maps.
 
 `
 
