@@ -101,7 +101,7 @@ Here is a layer definition that is known to work.  Critical elements seem to be 
            "gml_avg2008price_type" "xsd:double"
            "gml_avg2009price_type" "xsd:double"
            "gml_avg2010price_type" "xsd:double"
-                     "gml_include_items" "delta10_5,per10_5,avg2005price,avg2006price,avg2007price,avg2008price,avg2009price,avg2010price"
+           "gml_include_items" "delta10_5,per10_5,avg2005price,avg2006price,avg2007price,avg2008price,avg2009price,avg2010price"
           'wfs_enable_request' '*'
           'wms_title' 'luz_wgs84'
         END
