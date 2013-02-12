@@ -41,4 +41,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Mapfile Variables - Workaround](/mapserver/mapserver/wiki/Virtual-Mapfile-variables---using-includes)
 * [Mapfile viewers](/mapserver/mapserver/wiki/MapFile-viewers)
 * [Using WFS Server with ArcMap](/mapserver/mapserver/wiki/WFS-Server-working-with-ArcGIS-Data-Interoperability-Extensions)
-* [Installing Mapserver under IIS](/mapserver/mapserver/wiki/Installing-Mapserver-Under-IIS)
+* [Installing Mapserver under IIS 7.n with FastCGI](/mapserver/mapserver/wiki/Installing-Mapserver-Under-IIS)
