@@ -15,12 +15,12 @@ Notes by Donald Kerr donald.kerr_at_dkerr.co.uk.
 * In the Extension text box, enter _".exe"_ (no quotes). 
 * Under Verbs, in the Limit to text box, enter _"GET,HEAD,POST"_ (no quotes and no spaces).
 * Ensure that the Script engine and Verify that file exists check boxes are selected. 
-* Click “OK” (three times to close all the open dialogs).
+* Click _OK_ (three times to close all the open dialogs).
 * Modify _fcigext.ini_ in _C:\WINDOWS\system32\inetsrv\_.
 * Add an extension to application mapping “exe=EXE” to the [Types] section. 
 * Add a [EXE] section with “ExePath=d:\mapserver\cgi-bin\mapserv.exe”
 
-[Types]
+`[Types]`
 exe=EXE
 
 [EXE]
