@@ -188,6 +188,8 @@ STYLE=google
 ```
  * Initialize the data and generated folder. You only need to do this once. It may take a while to download everything.
 
+ NOTE : 10m-admin-0-boundary-lines-land.zip is not use anymore 
+
 ```bash
   cd basemaps
   mkdir generated
