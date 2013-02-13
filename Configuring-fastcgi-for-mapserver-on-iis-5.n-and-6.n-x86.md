@@ -21,7 +21,7 @@ Notes by Donald Kerr donald.kerr_at_dkerr.co.uk.
 * Add a [EXE] section with “ExePath=d:\mapserver\cgi-bin\mapserv.exe”
 
 `[Types]`
-exe=EXE
+`exe=EXE`
 
-[EXE]
-ExePath=d:\mapserver\cgi-bin\mapserv.exe
+`[EXE]`
+`ExePath=d:\mapserver\cgi-bin\mapserv.exe`
