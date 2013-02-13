@@ -20,8 +20,8 @@ Notes by Donald Kerr donald.kerr_at_dkerr.co.uk.
 * Add an extension to application mapping “exe=EXE” to the [Types] section. 
 * Add a [EXE] section with “ExePath=d:\mapserver\cgi-bin\mapserv.exe”
 
-`[Types]`
-`exe=EXE`
+[Types]<br>
+exe=EXE
 
-`[EXE]`
-`ExePath=d:\mapserver\cgi-bin\mapserv.exe`
+[EXE]<br>
+ExePath=d:\mapserver\cgi-bin\mapserv.exe
