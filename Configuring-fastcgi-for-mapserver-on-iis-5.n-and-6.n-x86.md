@@ -5,6 +5,7 @@ Notes by Donald Kerr donald.kerr_at_dkerr.co.uk
 1. Download FastCGI Extension 1.5 for Internet Information Services 6.0 and 5.1 (x86) from http://www.microsoft.com/en-gb/download/details.aspx?id=11881
 2. Install FastCGI running fcgisetup_1.5_x86_rtw.msi downloaded in 1. above.
 3. Once the above install is completed, create a script mapping as follows:
+
 * Open inetmgr.exe. 
  * Expand the folder tree and right-click _Websites_ then click _Properties_. 
  * Click the _Home Directory_ tab.  
