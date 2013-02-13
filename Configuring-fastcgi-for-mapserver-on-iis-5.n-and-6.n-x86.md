@@ -1,6 +1,6 @@
 Notes by Donald Kerr donald.kerr_at_dkerr.co.uk.
 
-# Configuring FastCGI for Mapserver on IIS 5.n and 6.n (x86)
+# Configuring FastCGI for Mapserver on IIS 5.n and 6.n x86
 
 1. Download FastCGI Extension 1.5 for Internet Information Services 6.0 and 5.1 (x86) from http://www.microsoft.com/en-gb/download/details.aspx?id=11881
 2. Install FastCGI running fcgisetup_1.5_x86_rtw.msi downloaded in 1. above.
