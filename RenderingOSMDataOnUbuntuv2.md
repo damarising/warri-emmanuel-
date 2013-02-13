@@ -208,38 +208,35 @@ STYLE=google
                                                                                                                                                                                                                                                                                                                                                                                                                                             http://yourserver.tld/cgi-bin/mapserv?map=/path/to/osm-demo/basemaps/osm-google.map&mode=browse&template=openlayers&layers=all
 
 ## Setup MapCache
- * Relevant docs: http://trac.osgeo.org/mapserver/browser/trunk/mapserver/mapcache/INSTALL
- * Required packages:
+
+ * Read more about Mapcache : http://mapserver.org/mapcache/index.html
+ * With UbuntuGIS previously setup, you can install mapcache quickly
 
 ```bash
-  sudo apt-get install libgdal-dev
-  sudo apt-get install autoconf apache2-dev libpixman-1-dev libcurl4-openssl-dev libpng-dev libjpeg-dev libgeos-dev
+  sudo apt-get install libmapcache mapcache-cgi mapcache-tools libapache2-mod-mapcache
 ```
- * Checkout and build source:
+
+
+ * Create 'cache' directory writable by Apache (www-data) user
+
+```
+  mkdir ~/osm-demo/mapcache/cache
+  sudo chown www-data ~/osm-demo/mapcache/cache/
+```
+
+ * You need to create the Mapcache configuration file.   
 
 ```bash
-  git clone https://github.com/mapserver/mapcache mapcache-git
-  cd mapcache-git
-  autoconf
-  ./configure
-  make
-
-  sudo make install-module
-  sudo apache2ctl restart
+  sudo vi /path/to/directory/mapcache-osm.xml
 ```
- * Create our own mapcache-osm.xml based on docs in sample mapcache.xml (http://trac.osgeo.org/mapserver/browser/trunk/mapserver/mapcache/mapcache.xml)
+
+ * Add this in your mapcache.xml and edit your path setup.  You can read more about all configuration option in this sample https://github.com/mapserver/mapcache/blob/master/mapcache.xml.sample.
 
 ```
-  mkdir ~/osm-demo/mapcache
-  cp ~/osm-demo/mapcache-git/mapcache.xml ~/osm-demo/mapcache/mapcache-osm.xml
-  vi ~/osm-demo/mapcache/mapcache-osm.xml
-... make required changes to template to make it work with our installation:
-
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- see the accompanying mapcache.xml.sample for a fully commented configuration file -->
-
+<!-- see the accompanying https://github.com/mapserver/mapcache/blob/master/mapcache.xml.sample for a fully commented configuration file -->
 <mapcache>
+
    <cache name="disk" type="disk">
       <base>/path/to/osm-demo/mapache/cache</base> <!-- Change Path here -->
       <symlink_blank/>
@@ -250,20 +247,19 @@ STYLE=google
          <params>
             <FORMAT>image/png</FORMAT>
             <LAYERS>default</LAYERS>
-	<MAP>/path/to/osm-demo/basemaps/osm-google.map</MAP> <!-- Change Path here -->
+	    <MAP>/path/to/osm-demo/basemaps/osm-google.map</MAP> <!-- Change Path here -->
          </params>
       </getmap>
-
       <http>
-         <url>http://localhost/cgi-bin/mapserv?/path/to/osm-demo/basemaps/osm-google.map</url> <!-- Change Path here -->
+         <url>http://yourserver.tld/cgi-bin/mapserv?</url> <!-- Change server here -->
       </http>
    </source>
 
    <tileset name="osm">
-		<metadata>
-			<title>OSM MapServer served map</title>
-			<abstract>see https://github.com/mapserver/mapserver/wiki/RenderingOsmDataUbuntu</abstract>
-		</metadata>
+      <metadata>
+	 <title>OSM MapServer served map</title>
+	 <abstract>see https://github.com/mapserver/mapserver/wiki/RenderingOsmDataUbuntuv2</abstract>
+      </metadata>
       <source>osm</source>
       <cache>disk</cache>
       <grid>WGS84</grid>
@@ -284,6 +280,7 @@ STYLE=google
       <format>JPEG</format>
       <maxsize>4096</maxsize>
    </service>
+
    <service type="wmts" enabled="true"/>
    <service type="tms" enabled="true"/>
    <service type="kml" enabled="true"/>
@@ -296,28 +293,31 @@ STYLE=google
 
 </mapcache>
 ```
- * Create 'cache' directory writable by Apache (www-data) user
 
-```
-  mkdir ~/osm-demo/mapcache/cache
-  sudo chown www-data ~/osm-demo/mapcache/cache/
-```
  * Add directives to Apache config:
 
-```
+```bash
   sudo vi /etc/apache2/sites-available/default
-... add the following lines to the end of the default VirtualHost (update the '/path/to/' directory name):
-
-  <IfModule mapcache_module>
-    MapCacheAlias /mapcache "/path/to/osm-demo/mapcache/mapcache-osm.xml"
-  </IfModule>
-
 ```
- * And restart apache for the changes to take effect:
 
+ * Add the following lines to the end of the default VirtualHost (update the '/path/to/' directory name):
+
+```bash
+<IfModule mapcache_module>
+   <Directory /path/to/directory>
+      Require all granted
+   </Directory>
+   MapCacheAlias /mapcache "/path/to/directory/mapcache-osm.xml"
+</IfModule>
 ```
-  sudo apache2ctl restart
+
+* Finally, restart Apache to take the modified configuration into account
+
+```bash
+ sudo apache2ctl restart
 ```
+
+
 
  * Ready to test server, see URL docs at http://code.google.com/p/mod-geocache/wiki/RequestingTilesFromService#TMS_service
  * Demo site at http://yourserver.tld/mapcache/demo/
