@@ -1,4 +1,4 @@
-
+Notes by Donald Kerr donald.kerr_at_dkerr.co.uk
 
 # Configuring FastCGI for Mapserver on IIS 5.n and 6.n x86
 
