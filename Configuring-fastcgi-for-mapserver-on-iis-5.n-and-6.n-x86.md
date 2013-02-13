@@ -25,3 +25,5 @@ exe=EXE
 
 [EXE]  
 ExePath=d:\mapserver\cgi-bin\mapserv.exe
+
+ * Finish by running IISRESET (No need to reboot)
