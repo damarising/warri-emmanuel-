@@ -17,8 +17,8 @@ Notes by Donald Kerr donald.kerr_at_dkerr.co.uk.
 * Ensure that the Script engine and Verify that file exists check boxes are selected. 
 * Click “OK” (three times to close all the open dialogs).
 * Modify _fcigext.ini_ in _C:\WINDOWS\system32\inetsrv\_.
-**Add an extension to application mapping _exe=EXE_ to the _[Types]_ section (see below). 
-**Add a _[EXE]_ section with _ExePath=d:\mapserver\cgi-bin\mapserv.exe_ (see below).
+*Add an extension to application mapping _exe=EXE_ to the _[Types]_ section (see below). 
+*Add a _[EXE]_ section with _ExePath=d:\mapserver\cgi-bin\mapserv.exe_ (see below).
 
 [Types]
 exe=EXE
