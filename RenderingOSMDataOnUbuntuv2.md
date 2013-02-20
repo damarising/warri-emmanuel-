@@ -186,6 +186,18 @@ STYLE=google
   mkdir /tmp/ms_tmp
   chmod 777 /tmp/ms_tmp
 ```
+ * Configure rc.local to recreate the ms_tmp folder at startup.
+```bash
+sudo vi /etc/rc.local
+```
+
+ * Add the following lines to the rc.local file
+
+```bash
+mkdir /tmp/ms_tmp
+chown www-data:www-data -R /tmp/ms_tmp
+```
+
  * Initialize the data and generated folder. You only need to do this once. It may take a while to download everything.
 
  NOTE : 10m-admin-0-boundary-lines-land.zip is not use anymore 
