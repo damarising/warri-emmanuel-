@@ -19,7 +19,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Coding Style](wiki/CodingStyle)
 * [Coding Guidelines - Memory Management](wiki/CodingGuidelines)
 * [Working With Git](wiki/WorkingWithGit)
-* [Boston CodeSprint Agenda](wiki/BostonCodeSprintAgenda)
+* [Boston CodeSprint Agenda](wiki/Boston-Codesprint-Agenda)
 
 ## Tricks, Tips, and HowTos
 * [FAQ](/mapserver/mapserver/wiki/FAQ)
