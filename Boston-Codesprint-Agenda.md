@@ -8,3 +8,5 @@
 * UTFGrids
 * only apply substitutions from VALIDATION blocks ? (performance related)
 * rework xxx_enable_request (refactoring, integration with ip blocking?)
+* OGC compliance
+* OSGeo Live
