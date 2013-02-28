@@ -2,7 +2,7 @@
 * labelcache optimizations
 * autotest coverage
 * oracle autotests, hosted CI server at USACE ?
-* issue squashing
+* issue squashing, clean up outdated issues
 * libmapserver / stable c api
 * leaner shapeObj. split actual shapeObj into geometryObj (containing only vertices + bbox) and featureObj (containing geometryObj and other shapeObj attributes)
 * UTFGrids
