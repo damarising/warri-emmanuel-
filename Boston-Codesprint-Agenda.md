@@ -1,3 +1,7 @@
+* general discussion on 6.4 plans
+  * timeline for release
+  * major features/goals
+  * who will do what (assigning resources)
 * native spatialite driver
 * labelcache optimizations
 * autotest coverage
