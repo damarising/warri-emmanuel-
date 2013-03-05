@@ -17,6 +17,6 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
 * OGC compliance
 * OSGeo Live
 * documentation
-  * modify overall template, re: ideas submitted by SLime (jmckenna)
+  * modify overall template, re: ideas submitted by sdlime (jmckenna)
   * change demo.mapserver.org to run off of 6.3-dev (jmckenna)
 * flesh out, perhaps implement, RFC 91 (FILTER normalization)
