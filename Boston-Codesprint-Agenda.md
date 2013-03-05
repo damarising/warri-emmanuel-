@@ -19,3 +19,4 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
 * documentation
   * modify overall template, re: ideas submitted by SLime (jmckenna)
   * change demo.mapserver.org to run off of 6.3-dev (jmckenna)
+* flesh out, perhaps implement, RFC 91 (FILTER normalization)
