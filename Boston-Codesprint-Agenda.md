@@ -1,3 +1,5 @@
+This page will be used for the upcoming Boston code sprint agenda (see http://wiki.osgeo.org/wiki/Boston_Code_Sprint_2013).
+
 * general discussion on 6.4 plans
   * timeline for release
   * major features/goals
