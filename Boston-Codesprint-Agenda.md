@@ -10,3 +10,6 @@
 * rework xxx_enable_request (refactoring, integration with ip blocking?)
 * OGC compliance
 * OSGeo Live
+* documentation
+  * modify overall template (re: ideas submitted by SLime)
+  * change demo.mapserver.org to run off of 6.3-dev
