@@ -11,5 +11,5 @@
 * OGC compliance
 * OSGeo Live
 * documentation
-  * modify overall template (re: ideas submitted by SLime)
-  * change demo.mapserver.org to run off of 6.3-dev
+  * modify overall template, re: ideas submitted by SLime (jmckenna)
+  * change demo.mapserver.org to run off of 6.3-dev (jmckenna)
