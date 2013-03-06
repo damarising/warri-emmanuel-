@@ -19,4 +19,5 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
 * documentation
   * modify overall template, re: ideas submitted by sdlime (jmckenna)
   * change demo.mapserver.org to run off of 6.3-dev (jmckenna)
+  * possible restructure of mapscript docs (jmckenna,havatv,sdlime) [ticket 4347](https://github.com/mapserver/mapserver/issues/4347)
 * flesh out, perhaps implement, RFC 91 (FILTER normalization)
