@@ -319,7 +319,8 @@ chown www-data:www-data -R /tmp/ms_tmp
 ```bash
 <IfModule mapcache_module>
    <Directory /path/to/directory>
-      Require all granted
+      Order allow,deny
+      Allow from all
    </Directory>
    MapCacheAlias /mapcache "/path/to/directory/mapcache-osm.xml"
 </IfModule>
