@@ -252,7 +252,7 @@ chown www-data:www-data -R /tmp/ms_tmp
 <mapcache>
 
    <cache name="disk" type="disk">
-      <base>/path/to/osm-demo/mapache/cache</base> <!-- Change Path here -->
+      <base>/path/to/osm-demo/mapcache/cache</base> <!-- Change Path here -->
       <symlink_blank/>
    </cache>
 
