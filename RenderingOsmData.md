@@ -1,4 +1,9 @@
-                                                                                                                                                                                                                                                                                                                                                                                         
+***
+
+_**IMPORTANT - DEPRECATED: This page is deprecated. Please see the wiki index for the link to the most recent set of OSM/MapServer setup instructions for your OS.**_
+
+***
+
 ## Rendering OpenStreetMap Data with MapServer                                                                                                                                                                                                                                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                                          
 The map displayed on the front page of the [[MapServer website|http://www.mapserver.org/]] is an example of MapServer's rendering capabilities.                                                                                                                                                                                                                                           
