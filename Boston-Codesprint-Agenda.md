@@ -10,6 +10,7 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
 * oracle autotests, hosted CI server at USACE ?
 * issue squashing, clean up outdated issues
 * libmapserver / stable c api
+* switching from autotools to cmake
 * leaner shapeObj. split actual shapeObj into geometryObj (containing only vertices + bbox) and featureObj (containing geometryObj and other shapeObj attributes)
 * UTFGrids
 * only apply substitutions from VALIDATION blocks ? (performance related)
