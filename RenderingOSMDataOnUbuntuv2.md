@@ -6,7 +6,7 @@ The setup will include:
 
  * MapServer 6.x (from the UbuntuGIS repository)
  * PostgreSQL/PostGIS
- * OSM data to be downloaded from http://downloads.cloudmade.com/
+ * OSM data to be downloaded from http://download.geofabrik.de/ (up-to-date OSM) or http://downloads.cloudmade.com/ (2011 OSM)
  * Use of "imposm" to load the data in PostGIS: http://imposm.org/
  * Map configured in EPSG:3857 projection, with data loaded for the state of Rhode Island only, and using a Google-like style
  * MapFile generated using "basemaps": https://github.com/mapserver/basemaps
@@ -344,4 +344,4 @@ chown www-data:www-data -R /tmp/ms_tmp
    * Format: PNG
    * ... and hit submit. You should see a browsable map of the world. If not then check your Apache error logs for errors.
 
- * You can optionally run the cache seeder, see: http://code.google.com/p/mod-geocache/wiki/UsingTheSeede
+ * You can optionally run the cache seeder, see: http://mapserver.org/mapcache/seed.html
