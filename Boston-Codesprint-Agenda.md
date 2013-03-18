@@ -11,6 +11,7 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
 * issue squashing, clean up outdated issues
 * libmapserver / stable c api
 * switching from autotools to cmake
+* fork cairo-svg to simplify svg symbol support
 * leaner shapeObj. split actual shapeObj into geometryObj (containing only vertices + bbox) and featureObj (containing geometryObj and other shapeObj attributes)
 * UTFGrids
 * only apply substitutions from VALIDATION blocks ? (performance related)
