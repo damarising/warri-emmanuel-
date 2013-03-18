@@ -6,7 +6,7 @@ The setup will include:
 
  * MapServer 6.x (from the UbuntuGIS repository)
  * PostgreSQL/PostGIS
- * OSM data to be downloaded from http://download.geofabrik.de/ (up-to-date from OSM) or http://downloads.cloudmade.com/ (2011 datas from OSM)
+ * OSM data to be downloaded from http://download.geofabrik.de/ (up-to-date) or http://downloads.cloudmade.com/ (2011 datas from OSM)
  * Use of "imposm" to load the data in PostGIS: http://imposm.org/
  * Map configured in EPSG:3857 projection, with data loaded for the state of Rhode Island only, and using a Google-like style
  * MapFile generated using "basemaps": https://github.com/mapserver/basemaps
@@ -46,12 +46,13 @@ The setup will include:
 
 ## Download OSM data
 
- * You can download data for your region of interest from http://download.geofabrik.de/ (up-to-date from OSM) http://downloads.cloudmade.com/ (2011 datas from OSM). The rest of these instructions assume that we work with the data for the state of Rhode Island.
+ You can download data for your region of interest from http://download.geofabrik.de/ (up-to-date from OSM) or from http://downloads.cloudmade.com/ (2011 datas from OSM).
+The rest of these instructions assume that we work with the data for the state of Rhode Island.
  * Commands:
 
 ```bash
   cd ~/osm-demo/
-  wget http://downloads.cloudmade.com/americas/northern_america/united_states/rhode_island/rhode_island.osm.bz2
+  wget http://download.geofabrik.de/north-america/us/rhode-island-latest.osm.bz2
 ```
 
 ## Install imposm, using virtualenv
