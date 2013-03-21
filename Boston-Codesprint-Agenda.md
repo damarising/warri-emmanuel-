@@ -6,7 +6,7 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
   * major features/goals
   * who will do what (assigning resources)
   * 7.0 release "moon shot" ideas
-     * what are our dream features? (whiteboard session)
+     * what are our dream features? (whiteboard session - lesson learned from past sprints: make sure to take photo of whiteboard afterwards)
 * native spatialite driver
 * labelcache optimizations
 * autotest coverage
