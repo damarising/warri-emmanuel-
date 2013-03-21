@@ -1,12 +1,12 @@
 This page will be used for the upcoming Boston code sprint agenda (see http://wiki.osgeo.org/wiki/Boston_Code_Sprint_2013).
 
-* general discussion on 6.4 plans
-  * timeline for release
+* general discussion on release plans
+  * 6.2.1 release
+  * timeline for 6.4 release
   * major features/goals
   * who will do what (assigning resources)
   * 7.0 release "moon shot" ideas
-     * what are our dream features?
-* 6.2.1 release
+     * what are our dream features? (whiteboard session)
 * native spatialite driver
 * labelcache optimizations
 * autotest coverage
