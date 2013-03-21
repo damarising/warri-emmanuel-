@@ -4,6 +4,8 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
   * timeline for release
   * major features/goals
   * who will do what (assigning resources)
+  * 7.0 release "moon shot" ideas
+    * what are our dream features?
 * 6.2.1 release
 * native spatialite driver
 * labelcache optimizations
