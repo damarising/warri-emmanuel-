@@ -27,3 +27,4 @@ This page will be used for the upcoming Boston code sprint agenda (see http://wi
   * change demo.mapserver.org to run off of 6.3-dev (jmckenna)
 * flesh out, perhaps implement, RFC 91 (FILTER normalization)
 * Mass RFC status updates (many don't reflect their real status)
+* Full UTF8 support - encodings
