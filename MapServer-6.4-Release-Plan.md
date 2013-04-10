@@ -1,5 +1,15 @@
 ## New features in 6.4:
-* RFC XX : List RFCs Here
+* RFC 85: Vector Contour Rendering
+* RFC 86: Scale-dependant String Substitutions
+* RFC 87: Bitmap pattern support
+* RFC 88: Saving MapServer Objects to Strings
+* RFC 89: Layer Geomtransforms
+* RFC 90: Enable/Disable Layers in OGC Web Services by IP Lists
+* RFC 91: Layer Filter Normalization _(may delay for major release)_
+* RFC 92: Migrating from Autotools to CMake
+* RFC 94: Shape Smoothing
+* RFC 95: Support List Expressions
+* RFC 96: Time Dimension Support in MapCache Tilesets _(is this a suite release plan or just MapServer?)_
 
 ## Other notable enhancements include:
 * List notable enhancements here...
