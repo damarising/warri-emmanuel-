@@ -1,3 +1,4 @@
+* [6.4 Release Plan](/mapserver/mapserver/wiki/MapServer-6.4-Release-Plan)
 * [6.2 Release Plan](/mapserver/mapserver/wiki/MapServer-6.2-Release-Plan)
 * [6.0 Release Plan](/mapserver/mapserver/wiki/60ReleasePlan)
 * [5.6 Release Plan](/mapserver/mapserver/wiki/56ReleasePlan)
