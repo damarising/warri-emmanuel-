@@ -1,4 +1,4 @@
-## New features in 6.2:
+## New features in 6.4:
 * RFC XX : List RFCs Here
 
 ## Other notable enhancements include:
