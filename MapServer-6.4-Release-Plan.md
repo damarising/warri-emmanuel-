@@ -69,7 +69,7 @@ Other good practices when dealing with tickets:
 * Keep documentation in mind when fixing/changing things: if you cannot update the documentation yourself then please create a documentation bug describing the new feature/change and which document(s) should be updated.                                                                            
 
 The following query returns all currently open bugs that are tagged with the "6.4 release" target milestone:
-https://github.com/mapserver/mapserver/issues?milestone=31&state=open
+https://github.com/mapserver/mapserver/issues?milestone=35&state=open
 
 You can further limit the issues assigned to you or targeting a specific component by clicking on the links to the left of the issue list
                                                                           
