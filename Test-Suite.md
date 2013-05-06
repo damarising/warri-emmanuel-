@@ -33,7 +33,7 @@ As the output of the tests largely depend on the compiled-in MapServer options a
  - for >=6.4: cmake .. -DWITH_GD=1 -DWITH_CLIENT_WMS=1 -DWITH_CLIENT_WFS=1 -DWITH_KML=1 -DWITH_SOS=1 -DWITH_PHP=1 -DWITH_PYTHON=1 -DWITH_FRIBIDI=0 -DWITH_FCGI=0 -DCMAKE_BUILD_TYPE=Release
 
 - For image tests (getmap, shp2img, etc..):
- - platform: Ubuntu Server 12.04, 32 bits (i386)
+ - platform: Ubuntu Server 12.04, 64 bits (AMD64)
  - GIS dependencies coming from the ubuntu-gis ppa. The full list of dependencies to install can be seen by following the ```before_install``` steps of https://github.com/mapserver/mapserver/blob/branch-6-2/.travis.yml
  - for 6.2: mapserver ./configure'd with --with-gd --with-postgis --with-wmsclient --with-proj --with-wfsclient --with-kml --with-cairo --with-wcs --with-sos --with-geos --with-gdal --with-ogr --with-wfs
  - for >=6.4: cmake .. -DWITH_GD=1 -DWITH_CLIENT_WMS=1 -DWITH_CLIENT_WFS=1 -DWITH_KML=1 -DWITH_SOS=1 -DWITH_PHP=1 -DWITH_PYTHON=1 -DWITH_FRIBIDI=0 -DWITH_FCGI=0 -DCMAKE_BUILD_TYPE=Release
