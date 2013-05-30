@@ -136,7 +136,7 @@ In a mapserver 5.6.3 driven install, the LAYER configuration parameter "GROUP" s
 
 **Figure 2:** Result of loading a Mapserver based WFS layer without a GROUP parameter in the LAYER definition using Mapserver 5.6.3 viewed in ArcMap 10.1.
 
-![Multiple Features created in ArcGIS with GROUP parameter in LAYER definition.](http://deq2.bse.vt.edu/images/mapserv/wfs_group_param.png)
+![Multiple Features created in ArcGIS with GROUP parameter in LAYER definition.](http://deq2.bse.vt.edu/images/mapserv/wfs_no_group_param.png)
 
 Here is an example of the use of the GROUP parameter in a LAYER definition.
 
