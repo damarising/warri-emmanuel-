@@ -1,9 +1,9 @@
-==Introduction==
+# Introduction
 The ArcGIS Data Interoperability Extensions allow ArcMAP and ArcCatalog to connect to a mapserver WFS and WMS server.  However the ESRI products are fussy, so mapserver needs to be configured just right to get it to work.  Here are elements of the map file that seem important to have a general WMS and WFS service that works with a wide range of client programs including the ESRI Data Interoperability Extensions.
 
 IF YOU HAVE MORE INFORMATION PLEASE UPDATE THIS WIKI PAGE.  The initial version of this wiki page contains mapfile fragments cut-n-pasted from a mapfile known to work as both a WMS server and a WFS server in both QGIS and ArcMAP.
 
-==MAP Configuration==
+# MAP Configuration
 Map overview:  The MAXSIZE should be large enough if your users might have large monitors.  The Extent is very important otherwise ARCGIS will get confused.  I'm not sure if UNITS should be meters when using a lat-long projection like epsg:4326, but it seems to work.  Of course the projection should be specified.  For example:
 
 `
@@ -21,7 +21,7 @@ Map overview:  The MAXSIZE should be large enough if your users might have large
             "init=epsg:4326"
         END
 `
-===Output Format===
+## Output Format
 For WMS I've been using the agg output format:
 
 `
@@ -32,7 +32,7 @@ For WMS I've been using the agg output format:
                 IMAGEMODE RGB
             END
 `
-===WEB Section===
+## WEB Section
 In the WEB section I think IMAGEPATH and IMAGEURL are necessary:
 
 `
@@ -45,7 +45,7 @@ In the WEB section I think IMAGEPATH and IMAGEURL are necessary:
         # as defined in your web server configuration
         IMAGEURL 'http://www.example.com/mapimages/'
 `
-===METADATA Section===
+## METADATA Section
 The METADATA section within the web section is very important.  The titles need to be specified, the online resource is important, and it should end with a &.  I've found the abstract to be extremely useful so that I know what's actually mapped.  
 
 `
@@ -76,7 +76,7 @@ Outside of the METADATA but still inside the WEB section it's useful to have a T
 
 `
 
-==LAYER Options==
+# LAYER Options
 Here is a layer definition that is known to work.  Critical elements seem to be DUMP true, specifying the extent, specifying the ows and wfs titles and online resource, and specifying the types of the data columns (for WFS).  Note that the "gml_fieldname_type" entries should specify "xsd:double", if you want ARCGIS to be able to actually plot the data.  Any other description causes ARCGIS to interpret the values as strings, and you won't be able to do any thematic maps.
 
 `
@@ -125,13 +125,13 @@ Here is a layer definition that is known to work.  Critical elements seem to be 
 
 `
 
-==Troubleshooting / Unexpected Behavior==
-===LAYER - > GROUP===
+# Troubleshooting / Unexpected Behavior
+## LAYER - > GROUP
 In a mapserver 5.6.3 driven install, the LAYER configuration parameter "GROUP" seems to cause the creation of 4 separate feature layers to be added to the ArcMap 10.x layers.  When the GROUP parameter is present, the result of adding the layer looks as Figure 1.  When commenting out or eliminating the GROUP parameter in the layer of interest, the correct result (only a point feature) is added, see Figure 2.  
 
-'''Figure 1:''' Result of using a GROUP parameter in the LAYER definition for a WFS layer in Mapserver 5.6.3 viewed in ArcMap 10.1.
+**Figure 1:** Result of using a GROUP parameter in the LAYER definition for a WFS layer in Mapserver 5.6.3 viewed in ArcMap 10.1.
 
-[[image:wfs_group_param.png|400px]]
+![Multiple Features created in ArcGIS with GROUP parameter in LAYER definition.](http://deq2.bse.vt.edu/images/mapserv/wfs_group_param.png)
 
 Here is an example of the use of the GROUP parameter in a LAYER definition.
 
