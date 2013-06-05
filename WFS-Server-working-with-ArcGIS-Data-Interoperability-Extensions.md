@@ -68,6 +68,8 @@ The METADATA section within the web section is very important.  The titles need 
 
 `
 
+(The wms_onlineresource and wfs_onlineresource can be trouble if you occasionally need access the server by IP address (e.g. if your VPN service doesn't support DNS through the VPN) or using "localhost", or if your computer has more than one name.  The problem is that getCapabilities does work as long as the URL properly maps to the host, but ArcGIS then uses the specified onlineresource to try to get the individual layers, and that onlineresource may not be available through the VPN due to DNS-VPN issues.  QGIS has the option to ignore these fields, but ArcGIS seems to require them.)
+
 Outside of the METADATA but still inside the WEB section it's useful to have a TEMPLATE.  Some users will look at your WMS/WFS URL and try to open it in the browser.  The TEMPLATE html should show the resulting map and also explain to the users that this URL is to be used inside a GIS program (WMS client or WFS client), not inside a web browser. 
 
 `
