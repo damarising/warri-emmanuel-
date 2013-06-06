@@ -46,7 +46,7 @@ In the WEB section I think IMAGEPATH and IMAGEURL are necessary:
         IMAGEURL 'http://www.example.com/mapimages/'
 `
 ## METADATA Section
-The METADATA section within the web section is very important.  The titles need to be specified, the online resource is important, and it should end with a &.  I've found the abstract to be extremely useful so that I know what's actually mapped.  
+The METADATA section within the web section is very important.  The titles need to be specified, the online resource is important, and it should end with a & (or perhaps a ? if there isn't already a question mark earlier in the URL).  I've found the abstract to be extremely useful so that I can read what's actually represented.  
 
 `
 
