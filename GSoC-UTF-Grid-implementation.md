@@ -4,9 +4,7 @@
 
 #### Introduction
 
-For the 2013 Google Summer of Code (GSoC), Francois Desjarlais will be working on the addition of support for UTF Grid in [Mapserver](http://mapserver.org/).
-
-This page is to collect information about the project, design documents, weekly reports, etc.
+For the 2013 Google Summer of Code (GSoC), Francois Desjarlais will be working on the addition of support for UTF Grid in [Mapserver](http://mapserver.org/). This page is to collect information about the project, design documents, weekly reports, etc.
 
 Mentors: Daniel Morissette, Thomas Bonfort
 
@@ -17,5 +15,5 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 
 #### Weekly reports
 
-* Coming soon!
+1.  Coming soon!
 
