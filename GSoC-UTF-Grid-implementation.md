@@ -16,3 +16,7 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 #### Weekly reports
 
 1.  [Weekly reports #1: Weeks 1,2,3 and 4](GSoc-Weekly-Report-June-21st)
+
+#### Code
+
+Code available on my git : [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
