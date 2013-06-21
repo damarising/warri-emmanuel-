@@ -15,4 +15,4 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 
 #### Weekly reports
 
-1.  [Weekly reports #1: Weeks 1,2,3 and 4](https://github.com/mapserver/mapserver/wiki/GSoc-Weekly-Report-June-21st)
+1.  [Weekly reports #1: Weeks 1,2,3 and 4](wiki/GSoc-Weekly-Report-June-21st)
