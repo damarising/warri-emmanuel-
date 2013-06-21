@@ -19,4 +19,4 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 
 #### Code
 
-Code available on my git : [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
+Code available on my Git : [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
