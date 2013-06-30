@@ -51,6 +51,7 @@ Specific test suites can be run manually by cd'ing into a subdirectory and runni
 - query : for mapserver mode=map query tests
 - renderers : for testing rendering output of the different output drivers 
 - misc : other unclassifiable tests
+- mspython: Python MapScript tests (master, since June 30, 2013)
 
 There is also a php test suite that requires the presence of phpunit, the installation of which can also be found in our .travis.yml before_install steps
 
