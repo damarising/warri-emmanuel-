@@ -21,4 +21,6 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 #### Useful links
 
 1.  Code available on my Git: [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
-2.  UTGrid WMS example: Coming soon!
+2.  UTGrid WMS example: [Working example](http://msgsoc.mapgears.com/projet_utfgrid/testhtmlmapserver.html)
+
+The example comports many bugs since it's the first version of UTFGrid.
