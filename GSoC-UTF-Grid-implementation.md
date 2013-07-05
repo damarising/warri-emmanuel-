@@ -17,6 +17,7 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 
 1.  [Weekly reports #1: Weeks 1,2,3 and 4](GSoc-Weekly-Report-June-21st)
 2.  [Weekly reports #2: First iteration](GSoC-Weekly-Report-June-28th)
+3.  [Weekly reports #3: Getting the datas](GSoC-Weekly-Report-July-5th)
 
 #### Useful links
 
