@@ -12,3 +12,5 @@ Next week, I plan :
 1. Get the UTF-8 encoding working. (half a day to a day of time)
 2. Fix my pan problem with Openlayer. (2-3 days of time)
 3. Change my driver and create my own simple instance of AGG using the params I need. (rest of week)
+
+[Main page](GSoC-UTF-Grid-implementation)
