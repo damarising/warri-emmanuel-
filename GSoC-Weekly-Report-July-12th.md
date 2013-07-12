@@ -2,7 +2,7 @@
                                                             François Desjarlais                                                     
                                                                July 12, 2013 
 ##Report #4
-Reports #3 goes from July 5th to July 12th. First, my working example of the UTFGrid is up to date. It now returns a fully functional UTFGrid which returns the datas you choose in the mapfile.You can look to my example here: [example](http://msgsoc.mapgears.com/projet_utfgrid/testhtmlmapserver.html)
+Reports #3 goes from July 5th to July 12th. First, my working example of the UTFGrid is up to date. It now returns a fully functional UTFGrid which returns the datas you choose in the mapfile.You can look to my example here: [Example](http://msgsoc.mapgears.com/projet_utfgrid/testhtmlmapserver.html)
 
 ###Week 6:
 There will be a few changes from here. I'll try to evaluate how much time I spend on every points in my plan. This week I got a lot of work done. First, my mentor did a code review with me. We went through my code and looked for mistakes, points he wanted to change and he also gave me a lot of advices. With his advices, I made my datas accessible for my driver. I also updated my working example like I wrote higher.
