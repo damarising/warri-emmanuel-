@@ -10,4 +10,4 @@ This week is probably the toughest since the beginning of the project. Like I pl
 ###Plan:
 Next week I plan to bring the datas in my driver. Once It will be done, I will do another iteration, review my code and update my example.
 
-[My wiki main page](GSoC-UTF-Grid-implementation)
+[Main page](GSoC-UTF-Grid-implementation)
