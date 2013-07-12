@@ -9,8 +9,8 @@ There will be a few changes from here. I'll try to evaluate how much time I spen
 There wasn't a lot of difficulties this week. Most of them were that I had to rework my code a bit and look for memory leaks. I work on a Mac and switching my code on the Unix server also got me a few problems.
 ###Plan:
 Next week, I plan :
-1. Get the UTF-8 encoding working. (half a day to a day of time)
-2. Fix my pan problem with Openlayer. (2-3 days of time)
-3. Change my driver and create my own simple instance of AGG using the params I need. (rest of week)
+1.  Get the UTF-8 encoding working. (half a day to a day of time)
+2.  Fix my pan problem with Openlayer. (2-3 days of time)
+3.  Change my driver and create my own simple instance of AGG using the params I need. (rest of week)
 
 [Main page](GSoC-UTF-Grid-implementation)
