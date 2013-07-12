@@ -9,3 +9,5 @@ This week, we're back at MapGears' office in Quebec City. I've been working on m
 
 ###Plan:
 This first grid driver is only the first iteration for my GSoC project. Now I have to rework it. First, I plan to directly call AGG2 driver from UTFGrid driver instead of using a copy it. I also want to add keywords for grid resolution. Then, I need to implement the UTFITEM and UTFDATA.
+
+[This GSoC's wiki main page](GSoC-UTF-Grid-implementation)
