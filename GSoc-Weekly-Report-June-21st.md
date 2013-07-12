@@ -18,3 +18,5 @@ On this 4th week, I feel comfortable with the code. I have a good understanding 
 
 ###Plan:
 Next week I plan to use color bytes to access my data. I'll likely only access country name on the beginning but as thing will go on I'll add more to it. This is merely the base and by the end it should work just like MapBox UTFGrid does.
+
+[This GSoC's wiki main page](GSoC-UTF-Grid-implementation)
