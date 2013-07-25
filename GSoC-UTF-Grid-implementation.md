@@ -11,7 +11,7 @@ Mentors: Daniel Morissette, Thomas Bonfort
 The goal of my project is to enable MapServer to produce UTFGrid output. This will be implemented as a new output format that will generate UTFGrid (JSON) as output from a normal map draw operation, that is, via CGI mode=map or WMS GetMap requests. The UTFGrid encoding scheme encodes interactivity data for a tile in a space efficient manner. It is designed to be used in browsers, e.g. for displaying tooltips when hovering over certain features of a map tile. A RFC has been prepared about this, it is available in the link below and should be updated as the project is going.
 
 Edit:
-July 19th, 1st pull request should be soon.
+July 19th, driver open testing should be soon.
 
 #### Weekly reports
 
