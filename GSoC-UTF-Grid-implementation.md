@@ -28,4 +28,4 @@ July 19th, driver open testing should be soon.
 2.  Code available on my Git: [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
 3.  UTGrid WMS example: [Working example](http://msgsoc.mapgears.com/projet_utfgrid/testhtmlmapserver.html)
 
-The example comports many bugs since it's the first version of UTFGrid.
+Example looks cool, works great but has many bugs probably due to OpenLayers.
