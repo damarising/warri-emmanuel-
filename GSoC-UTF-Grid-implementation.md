@@ -20,6 +20,7 @@ July 19th, driver open testing should be soon.
 3.  [Weekly reports #3: Getting the datas](GSoC-Weekly-Report-July-5th)
 4.  [Weekly reports #4: Code review](GSoC-Weekly-Report-July-12th)
 5.  [Weekly reports #5: UTF-8 encoding](GSoC-Weekly-Report-July-19th)
+6.  [Weekly reports #6: Symbol rendering](GSoC-Weekly-Report-July-26th)
 
 #### Useful links
 
