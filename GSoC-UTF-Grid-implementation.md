@@ -18,6 +18,7 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 4.  [Weekly reports #4: Code review](GSoC-Weekly-Report-July-12th)
 5.  [Weekly reports #5: UTF-8 encoding](GSoC-Weekly-Report-July-19th)
 6.  [Weekly reports #6: Symbol rendering](GSoC-Weekly-Report-July-26th)
+7.  [Weekly reports #7: Bug Fixing](GSoC-Weekly-Report-August-2nd)
 
 #### Useful links
 
