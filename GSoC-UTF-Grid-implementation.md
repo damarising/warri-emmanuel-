@@ -27,5 +27,3 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 1.  [MS RFC 93 UTF Grid support](http://mapserver.org/development/rfc/ms-rfc-93.html)
 2.  Code available on my Git: [Code](https://github.com/fdesj/mapserver/tree/utfgridgsoc)
 3.  UTGrid WMS example: [Working example](http://msgsoc.mapgears.com/projet_utfgrid/testhtmlmapserver.html)
-
-Example looks cool, works great but has many bugs probably due to OpenLayers.
