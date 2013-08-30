@@ -3,7 +3,7 @@
                                                               August 30, 2013 
 ##Report #10
 
-Reports #10 goes from August 17th to August 30th. MapServer with UTFGrid driver can be found on my [Git](https://github.com/fdesj). You can find the docs and working example [here](http://msgsoc.mapgears.com). There is also a page where all my previous report on the MapServer's wiki [here](http://msgsoc.mapgears.com).
+Reports #10 goes from August 17th to August 30th. MapServer with UTFGrid driver can be found on my [Git](https://github.com/fdesj). You can find the docs and working example [here](http://msgsoc.mapgears.com). There is also a page where all my previous report on the MapServer's wiki [here](GSoC-UTF-Grid-implementation).
 
 ###Week 12-13:
 
