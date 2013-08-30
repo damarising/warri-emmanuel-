@@ -21,6 +21,7 @@ The goal of my project is to enable MapServer to produce UTFGrid output. This wi
 7.  [Weekly reports #7: Bug Fixing](GSoC-Weekly-Report-August-2nd)
 8.  [Weekly reports #8: OpenLayers](GSoC-Weekly-Report-August-9th)
 9.  [Weekly reports #9: Driver done](GSoC-Weekly-Report-August-16th)
+10. [Weekly reports #10: End of project](GSoC-Weekly-Report-August-30th)
 
 #### Useful links
 
