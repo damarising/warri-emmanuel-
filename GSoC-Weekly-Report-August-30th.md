@@ -7,7 +7,7 @@ Reports #10 goes from August 17th to August 30th. MapServer with UTFGrid driver 
 
 ###Week 12-13:
 
-Last week, I didn't make a report because I was sick and there wasn't enough work done. This week, I worked on finishing all the tasks I had to do for this project. I received feedback and made all the necessary changes. I also made a tests suite for my UTFGrid driver in the msautotest. There was not any kind of difficulties this week and things went pretty well. Since some of the work isn't completely done, I plan to work on the weekend to finish it before the school restarts.
+Last week, I didn't make a report because I was sick and there wasn't enough work done. This week, I worked on finishing all the tasks I had to do for this project. I received feedback and made all the necessary changes. I also made a tests suite for my UTFGrid driver in the msautotest. There was not any kind of difficulties this week and things went pretty well. Since some of the work isn't completely done, I plan to work on the weekend to finish it before the school restarts. There might be another report later when it comes to my code integration in the MapServer trunk.
 
 ###Plan:
 
