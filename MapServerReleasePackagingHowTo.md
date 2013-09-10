@@ -32,7 +32,7 @@ Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and
 1. Getting a changelog from the commit messages
 
 ```bash
-git --no-pager  log --no-merges  --pretty=format:'%s (%an) : `%h <https://github.com/mapserver/mapserver/commit/%H>`__' rel-6-4-0-beta1..rel-6-4-0-beta2  | gsed  's!#\([0-9]\+\)! `#\1 <https://github.com/mapserver/mapserver/issues/\1>`__ !g' >> /path/to/docs/en/development/changelog/changelog-6-4-0.txt
+git --no-pager  log --no-merges  --pretty=format:'%s (%an) : `%h <https://github.com/mapserver/mapserver/commit/%H>`__' rel-6-4-0-beta1..rel-6-4-0-beta2  | gsed  's!#\([0-9]\\+\)! `#\\1 <https://github.com/mapserver/mapserver/issues/\\1>`__ !g' >> /path/to/docs/en/development/changelog/changelog-6-4-0.txt
 ```
 
 1. Prepare source package on projects.osgeo.osuosl.org (a.k.a. [http://wiki.osgeo.org/wiki/ProjectsVM ProjectsVM]) server (this server is used to package the releases, and then we copy the resulting archive to the downloads server):
