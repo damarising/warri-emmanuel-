@@ -29,15 +29,15 @@ Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and
  $ git push origin branch-6-2 --tags
 ```
 
-1. Getting a changelog from the commit messages
+1. Get a changelog from the commit messages. The provided script takes two git tags separated by .. as an argument, and creates a list of commits with clickable references to each individual commit and issue.
 
 ```bash
-/path/to/docs/scripts/changelog.sh rel-6-4-0..rel-6-4-1 >> /path/to/docs/en/development/changelog/changelog-6-4.txt
+ $ /path/to/docs/scripts/changelog.sh rel-6-4-0..rel-6-4-1 >> /path/to/docs/en/development/changelog/changelog-6-4.txt
 ```
 
-1. Update documentation:
+1. Update documentation
  
- * fixup docs/en/development/changelog/changelog-x-y.txt to include a header and a backreference
+ * fixup previously generated docs/en/development/changelog/changelog-x-y.txt to include a header and a backreference, and to filter out unwanted commit entries
  * fixup docs/en/development/changelog/index.txt to reference previous changelog
  * update docs/en/download.txt, docs/en/announcements_all.txt, docs/en/include/announcements.inc
 
