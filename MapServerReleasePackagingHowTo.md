@@ -35,7 +35,6 @@ Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and
 ```
 
 1. Update documentation
- 
  * fixup previously generated docs/en/development/changelog/changelog-x-y.txt to include a header and a backreference, and to filter out unwanted commit entries
  * fixup docs/en/development/changelog/index.txt to reference previous changelog
  * update docs/en/download.txt, docs/en/announcements_all.txt, docs/en/include/announcements.inc
