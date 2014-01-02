@@ -30,7 +30,6 @@ Note that in HISTORY.TXT we remove the "Current Version (Git master)" header and
 ```
 
 1. Get a changelog from the commit messages. The provided script takes two git tags separated by .. as an argument, and creates a list of commits with clickable references to each individual commit and issue.
-
 ```bash
  $ /path/to/docs/scripts/changelog.sh rel-6-4-0..rel-6-4-1 >> /path/to/docs/en/development/changelog/changelog-6-4.txt
 ```
