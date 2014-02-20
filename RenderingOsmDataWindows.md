@@ -434,6 +434,8 @@ Now we are ready to generate the mapfile.
 ```
   * You should have a new mapfile inside the basemaps directory named: **osm-google.map**
 
+
+
 ### Prepare Background Data Files
 
 The generated mapfile (osm-google-map) does rely on some non-OSM data for reference layers (such as world boundaries), so we must execute a few more steps to gather/prepare this data:
@@ -501,6 +503,9 @@ We should make some minor adjustments to the generated mapfile.  Open /basemaps/
         #CONFIG "MS_ERRORFILE" "stderr"
         #CONFIG "PROJ_LIB" "/cygdrive/c/ms4w/apps/osm/basemaps"
 ```
+  * This mapfile uses "List expressions", new with mapserver 6.4. For older mapserver version you need to modify the mapfile by replacing the expressions as explained [here](http://mapserver.org/fr/mapfile/expressions.html#list-expressions)
+
+  * If you are using mapserver version below 6.2, you need to modify the TYPE of "placesX" layers. The TYPE of theses layers should be ANNOTATION instead of POINT. [See this issue](https://github.com/mapserver/basemaps/issues/9)
 
 ## <a name="map-test"></a>Step 10. Test the OSM Mapfile
 
