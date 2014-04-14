@@ -46,7 +46,7 @@ The setup will include:
 
 ## Download OSM data
 
- You can download data for your region of interest from http://download.geofabrik.de/ (up-to-date from OSM) or from http://downloads.cloudmade.com/ (2011 datas from OSM).
+ You can download data for your region of interest from http://download.geofabrik.de/ (up-to-date from OSM).
 The rest of these instructions assume that we work with the data for the state of Rhode Island.
  * Commands:
 
