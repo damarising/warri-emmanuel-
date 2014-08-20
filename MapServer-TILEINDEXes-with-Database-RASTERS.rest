@@ -1,6 +1,15 @@
 Database TILEINDEXes are a little odd in MapServer, they require 2 separate layers, 
 a TILEINDEX layer and a RASTER layer that refers to the TILEINDEX layer.                                     
                                                                                                                                                                                                  
+In Postgres a  TILEINDEX view is required and can be created as follows:-
+
+::
+
+  CREATE or REPLACE MATERIALISED VIEW my_raster_tindex AS
+  SELECT 'PG:host=HOST port=PORT dbname=''DATABASE'' user=''USER'' password=''PASSWORD''  schema=''SCHEMA''  table=''TABLE'' mode=''1'' where=rid='||rid as location, ST_ConvexHull(rast) as shape from rasters_table 
+
+::
+
 In Oracle, you'll want to create the TILEINDEX as a view to the GEORASTER table of interest.                                                                                                     
                                                                                                                                                                                                  
 
