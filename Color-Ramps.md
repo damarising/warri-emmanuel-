@@ -1,7 +1,7 @@
 # Adding Color Ramps In MapServer
 
 Mapserver has the ability to display raster data using color ramps which is useful for displaying Hillshades, Digital Elevation Models, and other quantitative data.
-
+```
 CLASS
  
   EXPRESSION ([pixel] >= 1524 AND [pixel] < 1621) 
@@ -17,10 +17,10 @@ CLASS
   END #STYLE
 
 END #end class
-
+```
 
 ## DEM Example
-
+```
 CLASS
 
   EXPRESSION ([pixel] >= 1524 AND [pixel] < 1621)
@@ -132,9 +132,9 @@ CLASS
   END #STYLE
 
 END #end class
-
+```
 ## Hillshade Example
-
+```
 CLASS
 
   STYLE
@@ -148,10 +148,10 @@ CLASS
   END #Style
 
 END #Class
-
+```
 # Note, alternatively you can GDAL to build a color-relief image
 
-## This information is provided from Even Rouault
+_This information is provided from Even Rouault_
 
 
 An alternate way is to use the gdaldem utility from GDAL with the color-relief 
@@ -161,18 +161,19 @@ As a bonus, you can avoid generating a full new raster, by outputing to a VRT
 file (an XML file) that will only contain the LUT to map the elevations to 
 colors.
 
-gdaldem color-relief n43.dt0 dem.pct n43_pct.vrt -of vrt
+```gdaldem color-relief n43.dt0 dem.pct n43_pct.vrt -of vrt```
 
 with dem.pct :
+```
 3500   white
 2500   235:220:175
 50%   190 185 135
 700    240 250 150
 0      50  180  50
 nv     0   0   0   0 
-
+```
 generates n43_pct.vrt  :
-
+```
 <VRTDataset rasterXSize="121" rasterYSize="121">
   <SRS>GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 
 84&quot;,6378137,298.257223563]],PRIMEM[&quot;Greenwich&quot;,0],UNIT[&quot;degree&quot;,0.0174532925199433],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</SRS>
@@ -215,7 +216,7 @@ BlockXSize="1" BlockYSize="121"/>
     </ComplexSource>
   </VRTRasterBand>
 </VRTDataset>
-
+```
 that you can use as a raster name in your mapfile.
 
 
