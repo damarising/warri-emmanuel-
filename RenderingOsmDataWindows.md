@@ -28,7 +28,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
       * Under the system tab choose 'Select all'
       * Press OK: now any bz2 files should automatically open in 7-Zip
 * [Cygwin](http://www.cygwin.com/)
-  * download and save the [installer](http://cygwin.com/setup.exe) (hint: don't delete this file after, as it can be used to modify your install)
+  * download and save the [installer](http://cygwin.com/setup-x86.exe) (hint: don't delete this file after, as it can be used to modify your install)
   * run the installer
     * keep defaults
     * for the "Choose a Download Site" select any mirror
