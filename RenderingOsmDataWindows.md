@@ -190,7 +190,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
          The Apache MS4W Web Server service is starting.
          The Apache MS4W Web Server service was started successfully.
 ```
-* Finally open your Web browser (Firefox, Chrome, or Internet Explorer) and goto http://127.0.0.1
+* Finally open your Web browser (Firefox, Chrome, or Internet Explorer) and goto [http://127.0.0.1](http://127.0.0.1)
   * the MS4W homepage should be displayed such as:
 [[http://download.osgeo.org/mapserver/docs/github-images/ms4w-home.jpg]]   
    
