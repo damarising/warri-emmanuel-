@@ -354,7 +354,7 @@ _Note:_ During the creation of this document the file used was the .osm.bz2 file
 * First we need to get the extent of our data, so we will use PostGIS
   * in the command window, execute the following:
 ```
-              psql -U postgres -d osm -c "SELECT extent(way) FROM osm_line"
+              psql -U postgres -d osm -c "SELECT ST_extent(way) FROM osm_line"
 ```
     which will return the extents such as:
 ```
