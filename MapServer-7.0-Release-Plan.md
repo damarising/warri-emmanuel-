@@ -1,5 +1,13 @@
 ## New features in 7.0:
-* TBD
+* RFC 93: UTF Grid Support
+* RFC 98: Label/Text Rendering Overhaul
+* RFC 99: Remove support for GD renderer
+* RFC 102: Support of Styleitem JavaScript Plugin
+* RFC 105: Support for WFS 2.0 (server side)
+* RFC 108: Dynamic Heatmap (Kernel Density Estimation) Layers
+* RFC 109: Optimizing Runtime Substitutions
+* RFC 113: Layer Compositing Pipeline
+* TBF
 
 ## Other notable enhancements include:
 * TBD
