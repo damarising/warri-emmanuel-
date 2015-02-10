@@ -13,14 +13,14 @@ TODO: Add a link to the 6.4 => 7.0 migration guide
                                                                    
 ##Planned Dates
 
-We will plan for a sufficient number of betas and release candidates (RC) aiming for a final release sometime around beginning of April:
+We will plan for a sufficient number of betas and release candidates (RC) aiming for a final release sometime around mid march 2015:
 
 * branch-7-0 creation, 7.0.0-beta1 : Thursday February 12th, 2015
 * 7.0.0-beta2
 * ...
 * 7.0.0-rc1
 * ...
-* 7.0.0 (final)
+* 7.0.0 (final, tentative: mid march 2015)
 
 ## Release Manager (see http://mapserver.org/development/rfc/ms-rfc-34.html) 
 TBD: Thomas volunteered
