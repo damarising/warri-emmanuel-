@@ -95,3 +95,4 @@ TBD
 - [ ] RFC 113 - layer compositing pipeline, including documentation
 - [ ] Documentation of Scaletokens
 - [ ] Write migration guide
+- [ ] RFC 109 updates (substitution using env vars and in PROCESSING directives)
