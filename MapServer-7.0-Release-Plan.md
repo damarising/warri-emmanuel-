@@ -6,6 +6,7 @@
 * RFC 103: Layer Level Character Encoding Handling
 * RFC 104: Replace BITMAP labels with embedded Truetype font
 * RFC 105: Support for WFS 2.0 (server side)
+* RFC 106: Support of Geomtransform JavaScript Plugin
 * RFC 108: Dynamic Heatmap (Kernel Density Estimation) Layers
 * RFC 109: Optimizing Runtime Substitutions
 * RFC 113: Layer Compositing Pipeline
@@ -19,7 +20,7 @@
 
 See also:
 * TODO: https://github.com/mapserver/mapserver/blob/branch-7-0/HISTORY.TXT
-* TODO: Add a link to the 6.4 => 7.0 migration guide
+* http://mapserver.org/MIGRATION_GUIDE.html#mapserver-6-4-to-7-0-migration
                                                                    
 ##Planned Dates
 
