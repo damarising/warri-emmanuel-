@@ -88,7 +88,7 @@ TBD
 
 ##Open Tasks
 
-- [ ] Filter issue (Daniel)
+- [ ] Check WFS filter issue
 - [ ] #5001
 - [ ] #4298
 - [ ] Open Pull Requests
