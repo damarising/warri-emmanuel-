@@ -18,9 +18,9 @@
 ## Deprecated Features
 * TBD
 
-See also the HISTORY.TXT for this release:
-TODO: https://github.com/mapserver/mapserver/blob/branch-7-0/HISTORY.TXT
-TODO: Add a link to the 6.4 => 7.0 migration guide
+See also:
+* TODO: https://github.com/mapserver/mapserver/blob/branch-7-0/HISTORY.TXT
+* TODO: Add a link to the 6.4 => 7.0 migration guide
                                                                    
 ##Planned Dates
 
@@ -87,4 +87,11 @@ You can further limit the issues assigned to you or targeting a specific compone
 TBD
 
 ##Open Tasks
-TBD
+
+- [ ] Filter issue (Daniel)
+- [ ] #5001
+- [ ] #4298
+- [ ] Open Pull Requests
+- [ ] RFC 113 including documentation
+- [ ] Documentation of Scaletokens
+- [ ] Write migration guide
