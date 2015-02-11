@@ -88,10 +88,10 @@ TBD
 
 ##Open Tasks
 
-- [ ] Check WFS filter issue
+- [x] Check WFS filter issue vs PostGIS
 - [ ] #5001
 - [ ] #4298
 - [ ] Open Pull Requests
-- [ ] RFC 113 including documentation
+- [ ] RFC 113 - layer compositing pipeline, including documentation
 - [ ] Documentation of Scaletokens
 - [ ] Write migration guide
