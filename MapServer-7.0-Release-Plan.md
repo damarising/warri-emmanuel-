@@ -1,5 +1,4 @@
 ## New features in 7.0:
-* RFC 86: Scale-dependant String Substitutions
 * RFC 93: UTF Grid Support
 * RFC 98: Label/Text Rendering Overhaul
 * RFC 99: Remove support for GD renderer
