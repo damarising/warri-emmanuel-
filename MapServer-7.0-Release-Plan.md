@@ -21,7 +21,7 @@
 * Item queries (mode=item[n]query) now *only* support MapServer expression syntax for the qstring CGI parameter regardless of the layer backend. You can no longer pass native SQL.
 
 See also:
-* TODO: https://github.com/mapserver/mapserver/blob/branch-7-0/HISTORY.TXT
+* https://github.com/mapserver/mapserver/blob/branch-7-0/HISTORY.TXT
 * http://mapserver.org/MIGRATION_GUIDE.html#mapserver-6-4-to-7-0-migration
                                                                    
 ##Planned Dates
@@ -90,12 +90,11 @@ TBD
 
 ##Open Tasks
 
-- [x] Check WFS filter issue vs PostGIS
-- [ ] #5001
-- [ ] #4298
 - [ ] Open Pull Requests
-- [X] RFC 113 - layer compositing pipeline, including documentation
 - [ ] Documentation of Scaletokens
 - [ ] Write migration guide
-- [ ] Update HISTORY.TXT
+- [x] Check WFS filter issue vs PostGIS
+- [X] #5001
+- [X] RFC 113 - layer compositing pipeline, including documentation
+- [X] Update HISTORY.TXT
 - [X] RFC 109 updates (substitution using env vars and in PROCESSING directives)
