@@ -1,4 +1,5 @@
 ## New features in 7.0:
+* RFC 91: Filter Normalization and Translation
 * RFC 93: UTF Grid Support
 * RFC 98: Label/Text Rendering Overhaul
 * RFC 99: Remove support for GD renderer
@@ -16,7 +17,7 @@
 * TBD
 
 ## Deprecated Features
-* Layer FILTERS *must* be defined using MapServer expression syntax. To set native SQL you should use either: 1) sub-selects in the DATA statement or a new PROCESSING option called "NATIVE_FILTER".
+* Layer FILTERS *must* be defined using MapServer expression syntax. To set native SQL you should use either: 1) sub-selects in the DATA statement or 2) a new PROCESSING option called "NATIVE_FILTER".
 * Item queries (mode=item[n]query) now *only* support MapServer expression syntax for the qstring CGI parameter regardless of the layer backend. You can no longer pass native SQL.
 
 See also:
