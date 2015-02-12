@@ -94,8 +94,8 @@ TBD
 - [ ] #5001
 - [ ] #4298
 - [ ] Open Pull Requests
-- [ ] RFC 113 - layer compositing pipeline, including documentation
+- [X] RFC 113 - layer compositing pipeline, including documentation
 - [ ] Documentation of Scaletokens
 - [ ] Write migration guide
 - [ ] Update HISTORY.TXT
-- [ ] RFC 109 updates (substitution using env vars and in PROCESSING directives)
+- [X] RFC 109 updates (substitution using env vars and in PROCESSING directives)
