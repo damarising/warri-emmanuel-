@@ -109,13 +109,17 @@ vi ./create-db.sh # cross check if all path are set properly
 createlang plpgsql osm
 ------------------->8--------------
 
-Further edits may be required (at least when used with later versions of Postgres & Ubuntu):
-instead of running Postgis install SQL scripts, you can install Postgis as a Postgres service,
+Further edits may be required (at least when used with later versions of
+Postgres & Ubuntu):
+- instead of running Postgis install SQL scripts, you can install Postgis
+  as a Postgres service,
 - explicitly set the osm user password in Postgres to "osm",
-- the EPSG:900913 projection should already be present, so an error message about this is
-  normal with recent versions of Postgis,
-- make sure the path to pg_hba.conf reflects the version of Postgres and points to the correct
-  file, finishing up with a create-db.sh script more like this:
+- the EPSG:900913 projection should already be present, so an error message
+  about this is normal with recent versions of Postgis,
+- make sure the path to pg_hba.conf reflects the version of Postgres and 
+  points to the correct file, 
+
+finishing up with a create-db.sh script more like this:
 
     # run this as postgres user, eg:
     # imposm-psqldb > create_db.sh; sudo su postgres; sh ./create_db.sh
