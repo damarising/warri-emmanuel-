@@ -112,9 +112,10 @@ createlang plpgsql osm
 Further edits may be required (at least when used with later versions of Postgres & Ubuntu):
 instead of running Postgis install SQL scripts, you can install Postgis as a Postgres service,
 - explicitly set the osm user password in Postgres to "osm",
-- the EPSG:900913 projection should already be present, so an error message about this is normal with recent versions of Postgis,
-- make sure the path to pg_hba.conf reflects the version of Postgres and points to the correct file,
- finishing up with a create-db.sh script more like this:
+- the EPSG:900913 projection should already be present, so an error message about this is
+  normal with recent versions of Postgis,
+- make sure the path to pg_hba.conf reflects the version of Postgres and points to the correct
+  file, finishing up with a create-db.sh script more like this:
 
     # run this as postgres user, eg:
     # imposm-psqldb > create_db.sh; sudo su postgres; sh ./create_db.sh
@@ -125,7 +126,7 @@ instead of running Postgis install SQL scripts, you can install Postgis as a Pos
     psql -d osm -c "alter user osm with password 'osm';"
     psql -d osm -c "create extension postgis;"
     
-    psql -d osm -f /home/baw/osm-demo/venv/local/lib/python2.7/site-packages/imposm/900913.sql
+    psql -d osm -f ./venv/local/lib/python2.7/site-packages/imposm/900913.sql
     echo "ALTER TABLE geometry_columns OWNER TO osm;" | psql -d osm
     echo "ALTER TABLE spatial_ref_sys OWNER TO osm;" | psql -d osm
     echo "ALTER USER osm WITH PASSWORD 'osm';" |psql -d osm
