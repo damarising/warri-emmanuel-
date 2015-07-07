@@ -141,7 +141,8 @@ finishing up with a create-db.sh script more like this:
     echo "Done. Don't forget to restart postgresql!"
     
 
-Run the edited script and restart the Postgres server using the following commands:
+Run the edited script and restart the Postgres server using the following
+commands:
 
 sudo su postgres
 sh ./create-db.sh
