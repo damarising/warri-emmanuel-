@@ -101,8 +101,6 @@ imposm-psqldb > create-db.sh
 This creates a script to create the osm Postgres database, install Posgis and set up the osm user. 
 
 
-
-
 vi ./create-db.sh # cross check if all path are set properly
 ... remove the following line:
 -------------------8<--------------
@@ -133,7 +131,7 @@ finishing up with a create-db.sh script more like this:
     psql -d osm -f ./venv/local/lib/python2.7/site-packages/imposm/900913.sql
     echo "ALTER TABLE geometry_columns OWNER TO osm;" | psql -d osm
     echo "ALTER TABLE spatial_ref_sys OWNER TO osm;" | psql -d osm
-    echo "ALTER USER osm WITH PASSWORD 'osm';" |psql -d osm
+    echo "ALTER USER osm WITH PASSWORD 'osm';" | psql -d osm
     
     # check the pg_hba.conf file below has the correct path
     echo "host	osm	osm	127.0.0.1/32	md5" >> /etc/postgresql/9.3/main/pg_hba.conf
