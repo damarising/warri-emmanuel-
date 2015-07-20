@@ -8,7 +8,7 @@ Test suites are versionned, under branch names that match the mapserver branch t
 
 ## submodule inside the mapserver repository
 
-**Obsolete as of Mapserver 7.0**
+**Obsolete as of Mapserver 7.0, kept as a reference if branch-6-x need updating**
 
 The msautotest repository is included as a git submodule in the main mapserver repository. A submodule references a specific commit in the msautotest history, and must therefore be updated whenever changes are applied to the msautotest suite itself. The procedure to accomplish this e.g. in the branch-6-2 branch is:
 
