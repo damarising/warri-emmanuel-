@@ -8,6 +8,8 @@ Test suites are versionned, under branch names that match the mapserver branch t
 
 ## submodule inside the mapserver repository
 
+**Obsolete as of Mapserver 7.0**
+
 The msautotest repository is included as a git submodule in the main mapserver repository. A submodule references a specific commit in the msautotest history, and must therefore be updated whenever changes are applied to the msautotest suite itself. The procedure to accomplish this e.g. in the branch-6-2 branch is:
 
 ```bash
@@ -59,3 +61,13 @@ There is also a php test suite that requires the presence of phpunit, the instal
 
 We rely on travis-ci to run our test suite, the results of which can be seen at http://travis-ci.org/#!/mapserver/mapserver/builds .
 The test suite is automatically run each time new code gets committed to the master or branch-6-2 branches. As of Sept. 20 2012, all tests pass successfully. It is the responsibility of the developer committing code to  ensure that his changes has not broken any tests. The test suite is also run when pull requests are opened on our issue tracker, giving instant feedback on wether the proposed changes have unwanted side-effects.
+
+The test suite runs from the same branch name in msautotest as the one being tested in mapserver, i.e. a commit on mapserver's *branch-7-0* will be tested against msautotest's *branch-7-0*. You may override this behavior and have the test suite run on any third party repo/branch by adding a line of the form
+
+    msautotest=repo@sha
+
+in your commit message, e.g:
+
+    msautotest=git://github.com/mapserver/msautotest.git@master
+    msautotest=git://github.com/tbonfort/msautotest.git@mybranch
+    msautotest=git://github.com/myuser/msautotest.git@3ed45ea23
