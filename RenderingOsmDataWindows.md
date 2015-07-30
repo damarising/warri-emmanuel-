@@ -126,7 +126,9 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * These instructions assume that you already have a PostgreSQL 'postgres' user
 * Open a command prompt and enter the following commands ( the password will always be: postgres )
 ```
-         createdb -E utf8 -U postgres osm
+         --createdb -E utf8 -U postgres osm
+
+         CREATE DATABASE osm OWNER postgres ENCODING 'UTF8';
 
          psql -U postgres -d osm -f "C:\Program Files\PostgreSQL\9.1\share\contrib\postgis-2.0\postgis.sql"
 
