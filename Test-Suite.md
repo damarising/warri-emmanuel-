@@ -59,6 +59,8 @@ There is also a php test suite that requires the presence of phpunit, the instal
 
 # Continuous integration
 
+## Linux
+
 We rely on travis-ci to run our test suite, the results of which can be seen at http://travis-ci.org/#!/mapserver/mapserver/builds .
 The test suite is automatically run each time new code gets committed to the master or branch-6-2 branches. As of Sept. 20 2012, all tests pass successfully. It is the responsibility of the developer committing code to  ensure that his changes has not broken any tests. The test suite is also run when pull requests are opened on our issue tracker, giving instant feedback on wether the proposed changes have unwanted side-effects.
 
@@ -71,3 +73,8 @@ in your commit message, e.g:
     msautotest=git://github.com/mapserver/msautotest.git@master
     msautotest=git://github.com/tbonfort/msautotest.git@mybranch
     msautotest=git://github.com/myuser/msautotest.git@3ed45ea23
+
+## Windows
+
+For Windows builds, an AppVeyor account has been setup for branch-7-0 and master. The results are available at : https://ci.appveyor.com/project/MapServer/mapserver . Currently, only build is done (for Visual Studio 13 / VC 12, 32&64 bit), no tests are run.
+AppVeyor builds are triggered on pull requests and commit pushes.
