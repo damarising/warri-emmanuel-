@@ -47,7 +47,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * [PostgreSQL](http://www.postgresql.org/)
   * make sure to install PostGIS 2.0
   * see Step 2 below for full installation instructions
-* [MS4W](http://www.maptools.org/ms4w/)
+* [MS4W](http://ms4w.com/)
   * follow the instructions in Step 4 below.
 * [osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
   * download the [Windows binaries](http://tile.openstreetmap.org/osm2pgsql.zip) (2MB)
@@ -159,9 +159,8 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 
 ## <a name="ms4w"></a>Step 4. Install MapServer for Windows (MS4W)
 
-* download the latest [MS4W zip archive](http://www.maptools.org/ms4w/index.phtml?page=downloads.html) (such as 'ms4w_3.0.6.zip')
+* download the latest [MS4W zip archive](http://www.ms4w.com/download.html#download) (such as 'ms4w_3.0.6.zip')
 * extract the contents to the root of a drive (so you have something like C:/ms4w)
-* also, download the [MapServer 6.2-beta1 update](http://www.maptools.org/dl/ms4w/mapserver_ms4w-6.2.0-beta1.zip), and extract that at the same C:/ drive
 * open a command prompt window and cd to the ms4w directory
 * execute the following command:
 ```
