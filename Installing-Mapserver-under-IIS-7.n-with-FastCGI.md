@@ -32,12 +32,12 @@ Also covers setting up Classic ASP.
     * Mapping Tab: Check “Invoke handler … “, then set for “File”.
     * Verbs Tab: “One of the following …”, enter “GET,HEAD,POST”.
     * Access Tab: Check “Execute”.
-29. Whilst the “Mapserver via FastCGI” handler mapping is highlighted, click on Edit feature permissions in the right hand panel then ensure that read, script and execute are checked.
+29. Whilst the “MapServer via FastCGI” handler mapping is highlighted, click on Edit feature permissions in the right hand panel then ensure that read, script and execute are checked.
 
-## For 64 bit Mapserver:
+## For 64 bit MapServer:
  
-1. Mapserver x64
-2. Download x64 version of Mapserver from http://www.gisinternals.com/sdk/
-3. Delete all existing files in d:\mapserver\cgi-bin\. These are the 32 bit Mapserver files from MS4W.
-4. From the above download, copy all dlls from /bin/ to d:\mapserver\cgi-bin\.
+1. MapServer x64
+2. Download x64 version of MapServer from http://www.gisinternals.com/sdk/ Alternatively, there are the 32 bit MapServer files from MS4W (http://ms4w.com) - please contact [Gateway Geomatics](mailto:info@gatewaygeomatics.com), the developers of MS4W, directly if you need custom x64 builds. 
+3. Delete all existing files in d:\mapserver\cgi-bin\. 
+4. From the above download, copy all dlls from /bin/ to d:\MapServer\cgi-bin\.
 5. Copy Mapserv.exe from /bin/ms/apps/ to d:\mapserver\cgi-bin
