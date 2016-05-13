@@ -20,7 +20,7 @@ Also covers setting up Classic ASP.
     * _Enable Parent Paths_
 15. Click on Application Pools in the left hand panel of IIS Manager, click DefaultAppPool in the centre panel then click advanced settings in the right hand panel. Ensure that Enable 32-Bit Applications is set to True.
 16. Create the following virtual directories in IIS:
-    * cgi-bin                    d:\mapserver\cgi-bin (This will probably be MS4W cgi-bin)
+    * cgi-bin                    d:\mapserver\cgi-bin (This will probably be [MS4W's](http://ms4w.com) cgi-bin)
     * mapserver               d:\mapserver\wwwroot (You might not require this)
 19. Click on Default Web Site then double-click Handler Mappings in the centre panel.
 20. In the Actions Pane, click Add Module Mapping then set the following:
