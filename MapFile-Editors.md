@@ -6,6 +6,6 @@ The following tools allow you to create and manage MapServer .map files:
 
 - MapManager: http://www.gisinternals.com/mapmanager.html
 
-- ScibeUI: http://scribeui.org/
+- ScribeUI: http://scribeui.org/
 
  
