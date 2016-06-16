@@ -25,3 +25,5 @@ QGIS mapfile viewer plugin.
 QGIS plugin repository: http://build.sourcepole.ch/qgis/plugins.xml
 
 Source code: https://github.com/sourcepole/qgis-mapfile-tools
+
+🔔 Please also check the [Mapfile editors](/mapserver/mapserver/wiki/MapFile-editors) page
