@@ -1,4 +1,4 @@
-The following tools allow you to create and manage MapServer .map files:
+The following tools allow you to create and manage MapServer .map files (please also check the [Mapfile viewers](/mapserver/mapserver/wiki/MapFile-viewers) page:
 
 - gvSIG Export: http://www.gvsig.com/es/web/guest/productos/gvsig-desktop/descargas
 
