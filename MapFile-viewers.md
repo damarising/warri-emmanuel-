@@ -1,3 +1,5 @@
+🔔 Please also check the [Mapfile editors](/mapserver/mapserver/wiki/MapFile-editors) page
+
 ## Built-in viewer
 Since MapServer 6.0 you can use [built-in viewer](http://mapserver.org/cgi/openlayers.html).
 
@@ -26,4 +28,3 @@ QGIS plugin repository: http://build.sourcepole.ch/qgis/plugins.xml
 
 Source code: https://github.com/sourcepole/qgis-mapfile-tools
 
-🔔 Please also check the [Mapfile editors](/mapserver/mapserver/wiki/MapFile-editors) page
