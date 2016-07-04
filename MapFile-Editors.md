@@ -2,6 +2,8 @@ The following tools allow you to create and manage MapServer .map files (please 
 
 - gvSIG Export: http://www.gvsig.com/es/web/guest/productos/gvsig-desktop/descargas
 
+- Magnacarto: https://github.com/omniscale/magnacarto
+
 - MapFile Generator: https://github.com/jbelien/MapFile-Generator
 
 - MapManager: http://www.gisinternals.com/mapmanager.html
