@@ -46,4 +46,4 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Using WFS Server with ArcMap](/mapserver/mapserver/wiki/WFS-Server-working-with-ArcGIS-Data-Interoperability-Extensions)
 * [Installing Mapserver under IIS 7.n with FastCGI](/mapserver/mapserver/wiki/Installing-Mapserver-under-IIS-7.n-with-FastCGI)
 * [Configuring FastCGI for Mapserver on IIS 5.n and 6.n x86](/mapserver/mapserver/wiki/Configuring-FastCGI-for-Mapserver-on-IIS-5.n-and-6.n-x86)
-* [Python MapScript via WSGI example](/tomkralidis/9adbd4864c03647aa7eb4f96a3c33297)
+* [Python MapScript via WSGI example](https://gist.github.com/tomkralidis/9adbd4864c03647aa7eb4f96a3c33297#file-mapscript-wsgi-py-L18)
