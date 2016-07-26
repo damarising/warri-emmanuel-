@@ -10,5 +10,8 @@ The following tools allow you to create and manage MapServer .map files (please 
 
 - ScribeUI: http://scribeui.org/
 
+- Crowmap : https://github.com/Maptell/crowmap
+
+
 
 🔔 *As this is a wiki page, please edit it as you wish*
