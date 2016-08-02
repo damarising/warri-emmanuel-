@@ -1,12 +1,12 @@
 ## New features in 7.2
-* TBD
+* RFC XX: Vector tile generation.
 * ...
 
 ## Other notable enhancements include:
 * TBD
 
 ## Deprecated Features
-* NOne
+* None
 
 See also:
 * https://github.com/mapserver/mapserver/blob/branch-7-2/HISTORY.TXT
