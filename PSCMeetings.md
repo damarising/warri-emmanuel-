@@ -14,5 +14,5 @@ The MapServer PSC uses the `mapserver-dev` mailing list for all discussions ([*s
 
 ### Minutes
 
-* [PSC Meeting 2016-10-13](wiki/PSCMeeting2016-10-13)
+* [PSC Meeting 2016-10-13](PSCMeeting2016-10-13)
 
