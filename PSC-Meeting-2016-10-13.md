@@ -14,4 +14,5 @@
     * MS4W maintenance
     * 2017 Code Sprint
     * *add your items here*
+  * Set next meeting date
 
