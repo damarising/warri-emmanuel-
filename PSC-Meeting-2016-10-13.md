@@ -2,6 +2,7 @@
 * **Location**: #mapserver channel on irc.freenode.net (connect directly in your browser via [webchat](https://webchat.freenode.net/?channels=mapserver))
 * **Agenda**
   * PSC member status (see [list](http://mapserver.org/psc.html))
+  * Agree on meeting frequency (once a month?)
   * Release plans 
     * discuss schedule
     * edit [7.2 ReleasePlan](MapServer-7.2-Release-Plan)
