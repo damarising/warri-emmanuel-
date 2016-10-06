@@ -15,7 +15,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 ## Developer Notes
 * [Release Plans](wiki/ReleasePlans)
 * [Release Instructions](wiki/MapServerReleasePackagingHowTo)
-* [PSC Meetings](wiki/MapServerPSCMeetings)
+* [PSC Meetings](wiki/PSCMeetings)
 * [Test Suite](wiki/Test-Suite)
 * [Coding Style](wiki/CodingStyle)
 * [Coding Guidelines - Memory Management](wiki/CodingGuidelines)
