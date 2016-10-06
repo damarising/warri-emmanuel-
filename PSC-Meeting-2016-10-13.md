@@ -5,7 +5,7 @@
   * Release plans 
     * discuss schedule
     * edit [7.2 ReleasePlan](MapServer-7.2-Release-Plan)
-  * Discuss Project Funding (sponsor plan)
+  * Discuss Project Funding (sponsor plan? similar to QGIS grants?)
   * Other Items for possible discussion
     * PHP MapScript 7 plans
     * Mac OS/X installer update
