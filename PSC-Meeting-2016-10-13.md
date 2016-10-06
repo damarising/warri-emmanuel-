@@ -11,5 +11,6 @@
     * Mac OS/X installer update
     * Documentation maintenance
     * MS4W maintenance
+    * 2017 Code Sprint
     * *add your items here*
 
