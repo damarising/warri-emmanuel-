@@ -5,3 +5,11 @@
   * Release plans 
     * discuss schedule
     * edit [7.2 ReleasePlan](MapServer-7.2-Release-Plan)
+  * Discuss Project Funding (sponsor plan)
+  * Other Items for possible discussion
+    * PHP MapScript 7 plans
+    * Mac OS/X installer update
+    * Documentation maintenance
+    * MS4W maintenance
+    * *add your items here*
+
