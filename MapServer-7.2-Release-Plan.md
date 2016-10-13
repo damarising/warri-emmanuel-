@@ -2,6 +2,7 @@
 * RFC XX: Vector tile generation.
 * RFC-113 Extension: compositing filters (blurring, shadows)
 * RFC-112: Better placement of follow labels
+* "Mixed" JPEG/PNG output format
 
 ## Other notable enhancements include:
 * TBD
