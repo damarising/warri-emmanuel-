@@ -1,6 +1,7 @@
 ## New features in 7.2
 * RFC XX: Vector tile generation.
-* ...
+* RFC-113 Extension: compositing filters (blurring, shadows)
+* RFC-112: Better placement of follow labels
 
 ## Other notable enhancements include:
 * TBD
