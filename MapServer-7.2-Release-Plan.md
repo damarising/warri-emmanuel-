@@ -3,6 +3,7 @@
 * RFC-113 Extension: compositing filters (blurring, shadows)
 * RFC-112: Better placement of follow labels
 * "Mixed" JPEG/PNG output format
+* MapScript support for PHP 7
 
 ## Other notable enhancements include:
 * TBD
