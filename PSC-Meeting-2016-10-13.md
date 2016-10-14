@@ -48,7 +48,7 @@
     * Agreement on next meeting date: 2016-11-17 http://www.timeanddate.com/worldclock/fixedtime.html?year=2016&month=11&day=17&hour=15&min=0&sec=0%2016.00UTC
 
 * **Action Items**
-  * DanielM, StephanM, JeffM: discuss code sprint with Steve Lehr
+  * DanielM, StephanM, JeffM: discuss code sprint with Steve Lehr (Daytona Beach)
   * JeffM: draft and propose 7.2 release plan https://github.com/mapserver/mapserver/wiki/MapServer-7.2-Release-Plan
   * TomK, TanyaH, JeffM: draft a case study template on the wiki
 
