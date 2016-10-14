@@ -40,8 +40,8 @@
     * Discussion of items to include in next major release, such as
       * jpeg-png output
       * vector tiles
-      * PHP MapScript
-      * Python3 (mentioned by unknown user during meeting)
+      * PHP 7 mapscript support
+      * Python3 support (mentioned by unknown user during meeting)
     * Discussion on needing funding for development (unresolved)
     * Discussion on the 2017 code sprint possible locations (Daytona Beach, Victoria)
 
