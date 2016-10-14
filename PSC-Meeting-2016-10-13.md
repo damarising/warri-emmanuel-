@@ -37,11 +37,11 @@
     * Considered a change in the Chair of the PSC, but all in favor of Steve Lime's continued leadership
     * Agreement on meeting frequency of once a month, noting that all PSC members cannot attend each meeting
     * Discussion of developing a release plan that the project will follow
-    * Discussion of items to include in next major release, such as
-      * jpeg-png output
-      * vector tiles
-      * PHP 7 mapscript support
-      * Python3 support (mentioned by unknown user during meeting)
+    * Discussion of possible items to include in next major release, such as
+      * jpeg-png output (in master)
+      * vector tiles (unfinished)
+      * PHP 7 mapscript support (needs effort)
+      * Python3 support (needs testing)
     * Discussion on needing funding for development (unresolved)
     * Discussion on the 2017 code sprint possible locations (Daytona Beach, Victoria)
 
