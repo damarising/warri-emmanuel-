@@ -16,3 +16,22 @@
     * *add your items here*
   * Set next meeting date
 
+* **Log**: http://irclogs.geoapt.com/mapserver/%23mapserver.2016-10-13.log
+
+* **Summary**
+  * Attending:
+    * Tom Kralidis
+    * Jukka Rahkonen
+    * Jeff McKenna
+    * Mike Smith
+    * Thomas Bonfort
+    * Daniel Morissette
+    * Stephan Meissl
+    * Steven Woodbridge
+    * Assefa Yewondwossen
+    * Steve Lime
+    * Olivier Courtin
+    * Even Rouault
+  * Sends regrets: Perry Nacionales
+
+
