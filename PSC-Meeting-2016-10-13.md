@@ -33,5 +33,8 @@
     * Olivier Courtin
     * Even Rouault
   * Sends regrets: Perry Nacionales
+  * Discussion
+    * Considered a change in the Chair of the PSC, but all in favor of Steve Lime's continued leadership
+    * 
 
 
