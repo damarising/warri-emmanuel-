@@ -28,6 +28,7 @@
     * Daniel Morissette
     * Stephan Meissl
     * Steven Woodbridge
+    * Tanya Haddad
     * Assefa Yewondwossen
     * Steve Lime
     * Olivier Courtin
@@ -41,8 +42,15 @@
       * jpeg-png output (in master)
       * vector tiles (unfinished)
       * PHP 7 mapscript support (needs effort)
-      * Python3 support (needs testing)
+      * Python3 support (needs cleanup & testing)
     * Discussion on needing funding for development (unresolved)
     * Discussion on the 2017 code sprint possible locations (Daytona Beach, Victoria)
+    * Discussion on promoting MapServer implementations (possibly through case studies, to randomly share on the main site)
+    * Agreement on next meeting date: 2016-11-17 http://www.timeanddate.com/worldclock/fixedtime.html?year=2016&month=11&day=17&hour=15&min=0&sec=0%2016.00UTC
+
+* **Action Items**
+  * DanielM, StephanM, JeffM: discuss code sprint with Steve Lehr
+  * JeffM: draft and propose 7.2 release plan https://github.com/mapserver/mapserver/wiki/MapServer-7.2-Release-Plan
+  * TomK, TanyaH, JeffM: draft a case study template on the wiki
 
 
