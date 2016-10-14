@@ -13,7 +13,6 @@
     * Documentation maintenance
     * MS4W maintenance
     * 2017 Code Sprint
-    * *add your items here*
   * Set next meeting date
 
 * **Log**: http://irclogs.geoapt.com/mapserver/%23mapserver.2016-10-13.log
