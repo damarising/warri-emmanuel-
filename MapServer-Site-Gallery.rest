@@ -40,3 +40,10 @@ Let's use this page to list sites that use MapServer, until a formal gallery is 
  * description: Tracking of ships, hurricane, and weather reports                                                                                                                                             
  * specs: PHP !MapScript and MySQL                                                                                                                                                                            
  * contact: Hal Muelle
+
+----                                                                                                                                                                                                          
+                                                                                                                                                                                                              
+ * site: [http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities]                                                                                                                                               
+ * description: Meteorological Service of Canada Geospatial Web Services (beta)                                                                                                                                            
+ * specs: MapServer 6.4.2, MapScript, custom code                                                                                                                                                                            
+ * contact: ec.dps-client.ec@canada.ca
