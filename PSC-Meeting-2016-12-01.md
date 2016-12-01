@@ -3,5 +3,6 @@
 * **Agenda**
     * next Release?
     * next Google Summer of Code program
+    * Daytona Beach Code Sprint updates
     * *add your items here*
     * Set next meeting date
