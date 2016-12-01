@@ -39,4 +39,4 @@
     * Agreement on next meeting date: 2017-01-19 http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=01&day=19&hour=15&min=0&sec=0%2016.00UTC
 
 * **Action Items**
-  * 
+  * Steve Lime to file for a CVE id at https://cveform.mitre.org/ regarding the OGR credentials exposure
