@@ -7,3 +7,29 @@
     * Daytona Beach Code Sprint updates
     * *add your items here*
     * Set next meeting date
+
+* **Log**: http://irclogs.geoapt.com/mapserver/%23mapserver.2016-12-01.log
+
+* **Summary**
+  * Attending:
+    * Mike Smith
+    * Jeff McKenna
+    * Jukka Rahkonen
+    * Thomas Bonfort
+    * Tom Kralidis
+    * Stephan Meissl
+    * Steve Lime
+    * Daniel Morissette
+    * Steven Woodbridge
+    * Seth Girvin
+  * Discussion
+    * Discussion on OGR connections exposing credentials, and whether to file a CVE
+      * related issues:
+        * https://github.com/mapserver/mapserver/pull/5356
+        * https://github.com/mapserver/mapserver/pull/4928
+      * how far to backport the fix: back to 5.x?
+      * most feel that back to 6.4 is enough
+    * Agreement on next meeting date: 2017-01-19 http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=01&day=19&hour=15&min=0&sec=0%2016.00UTC
+
+* **Action Items**
+  * 
