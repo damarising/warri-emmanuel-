@@ -6,6 +6,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Several example for MapServer based for WebGIS application
  * specs: MapServer 7.0, OpenLayers 2.6 with CGXP or OpenLayers 3.x with nGeo (AngularJs)
  * contact: Yves Jacolin ([@yjacolin](https://github.com/yjacolin))
+
+----    
+ 
+ * site: [GeoMet WMS](http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities)
+ * description: Meteorological Service of Canada Geospatial Web Services (beta)
+ * specs: MapServer 6.4.2, MapScript, custom code
+ * contact: ec.dps-client.ec@canada.ca
                    
 ----
 
@@ -20,10 +27,4 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Mobile version of our desktop Recreation Compass application (see above). Built using a number of services: tile services from MapCache and RESTful services for place searches, point searches and accessing feature details. 
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
-                                                                                                                                       
-----    
- 
- * site: [GeoMet WMS](http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities)
- * description: Meteorological Service of Canada Geospatial Web Services (beta)
- * specs: MapServer 6.4.2, MapScript, custom code
- * contact: ec.dps-client.ec@canada.ca
+                                                                                                                                      
