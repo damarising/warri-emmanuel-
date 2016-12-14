@@ -12,14 +12,14 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * site: [MN DNR Recreation Compass](http://www.dnr.state.mn.us/maps/compass.html)     
  * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities.
  * specs: MapServer (6.4.x), MapCache, OpenLayers, Perl/MapScript
- * contact: Steve Lime  
+ * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
                                                                 
 ----              
 
  * site: [MN DNR Recreation Compass (mobile)](http://mobile.dnr.state.mn.us/compass)       
  * description: Mobile version of our desktop Recreation Compass application (see above). Built using a number of services: tile services from MapCache and RESTful services for place searches, point searches and accessing feature details. 
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
- * contact: Steve Lime  
+ * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
                                                                 
 ----              
                                                       
