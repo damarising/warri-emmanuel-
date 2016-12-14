@@ -23,7 +23,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
                                                                                                                                        
 ----    
  
- * site: [http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities]
+ * site: [GeoMet WMS](http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities)
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 6.4.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
