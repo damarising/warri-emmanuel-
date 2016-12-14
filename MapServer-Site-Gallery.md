@@ -48,4 +48,11 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: OBS Canada WMS service.  Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads to database, checks for version changes, and updates the mapfile through PHP MapScript.
  * specs: MapServer 7.0.3, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
+
+----    
+ 
+ * site: [Rogers County Online](http://mapview-rogers.com/)
+ * description: Application that queries land parcel information, connecting to a proprietary database, and returns an updated parcel map and associated property images and information.  Hosted at various counties throughout Oklahoma, US.
+ * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt, PostGIS
+ * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
                                                                                                                                       
