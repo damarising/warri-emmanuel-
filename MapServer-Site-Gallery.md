@@ -21,13 +21,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
                                                                                                                                        
-----
-
- * site: [http://www.sailwx.info/shiptrack/shiplocations.phtml]
- * description: Tracking of ships, hurricane, and weather reports
- * specs: PHP !MapScript and MySQL
- * contact: Hal Muelle
-
 ----    
  
  * site: [http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities]
