@@ -1,49 +1,42 @@
-Let's use this page to list sites that use MapServer, until a formal gallery is developed.  Please use the following format:                                                                                 
-                                                                                                                                                                                                              
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://www.dnr.state.mn.us/maps/compass.html MN DNR Recreation Compass]                                                                                                                             
- * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities
- * specs: MapServer 5.2, TileCache 2.01, OpenLayers 2.6 & a bit of custom code                                                                                                                                
- * contact: Steve Lime                                                                                                                                                                                        
-                                                                                                                                                                                                              
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://www.mapsgeek.com MapsGeek]                                                                                                                                                                   
- * description: Online thematic mapping website.                                                                                                                                                              
- * specs: MapServer 5.4.2, a lot of home code                                                                                                                                                                 
- * contact: Alexandre Lagache                                                                                                                                                                                 
-                                                                                                                                                                                                              
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://www.biketrip.org biketrip.org]                                                                                                                                                               
- * description: A wiki dedicated to traveling on a bicycle. Features MapScript generated maps and topological info. See [http://www.biketrip.org/wiki/biketrip.org:Mapserver] for details.                    
- * specs: MapServer 5.4.2, home code                                                                                                                                                                          
- * contact: Alexandre Lagache                                                                                                                                                                                 
-                                                                                                                                                                                                              
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://geuskort.geus.dk/GeusMap/index_samba.jsp]                                                                                                                                                    
- * description: Coverage map of the Danish national database for the exploration of oil and gas. Data maintained and hosted by [http://www.geus.dk].                                                          
- * specs: Oracle 10g + MapServer 5.6 (thanks to [http://vbkto.dyndns.org:1280/sdk]) wrapped in JSP and home-made javascript frontend                                                                          
- * contact: Bjarni Pjetursson [mailto:bpj-at-geus.dk]                                                                                                                                                         
-                                                                                                                                                                                                              
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://www.itacasoft.com]                                                                                                                                                                           
- * description: Commercialization and development of web GIS solutions using !MapScript.                                                                                                                      
- * specs: Silverlight + !MapScript 6.0 + Delphi wrapper to !MapScript.                                                                                                                                        
- * contact: Fabrizio Vita                                                                                                                                                                                     
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://www.sailwx.info/shiptrack/shiplocations.phtml]                                                                                                                                               
- * description: Tracking of ships, hurricane, and weather reports                                                                                                                                             
- * specs: PHP !MapScript and MySQL                                                                                                                                                                            
- * contact: Hal Muelle
+Let's use this page to list sites that use MapServer, until a formal gallery is developed.  Please use the following format:
 
-----                                                                                                                                                                                                          
-                                                                                                                                                                                                              
- * site: [http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities]                                                                                                                                               
- * description: Meteorological Service of Canada Geospatial Web Services (beta)                                                                                                                                            
- * specs: MapServer 6.4.2, MapScript, custom code                                                                                                                                                                            
+----                                                                               
+ * site: [http://geomapfish.org GeoMapFish]
+ * description: Several example for MapServer based for WebGIS application
+ * specs: MapServer 7.0, OpenLayers 2.6 with CGXP or OpenLayers 3.x with nGeo (AngularJs)
+ * contact: Yves Jacolin                     
+----                                                                               
+ * site: [http://www.dnr.state.mn.us/maps/compass.html MN DNR Recreation Compass]       
+ * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities
+ * specs: MapServer 5.2, TileCache 2.01, OpenLayers 2.6 & a bit of custom code
+ * contact: Steve Lime                                                                  
+----                                                                           
+ * site: [http://www.mapsgeek.com MapsGeek]                                            
+ * description: Online thematic mapping website.                                
+ * specs: MapServer 5.4.2, a lot of home code                                          
+ * contact: Alexandre Lagache                                                                                 
+----                                                                                 
+ * site: [http://www.biketrip.org biketrip.org]
+ * description: A wiki dedicated to traveling on a bicycle. Features MapScript generated maps and topological info. See [http://www.biketrip.org/wiki/biketrip.org:Mapserver] for details.
+ * specs: MapServer 5.4.2, home code
+ * contact: Alexandre Lagache                                                                                 
+----                                                             
+ * site: [http://geuskort.geus.dk/GeusMap/index_samba.jsp]                              
+ * description: Coverage map of the Danish national database for the exploration of oil and gas. Data maintained and hosted by [http://www.geus.dk].
+ * specs: Oracle 10g + MapServer 5.6 (thanks to [http://vbkto.dyndns.org:1280/sdk]) wrapped in JSP and home-made javascript frontend
+ * contact: Bjarni Pjetursson [mailto:bpj-at-geus.dk]                                                                           
+----                                                                                   
+ * site: [http://www.itacasoft.com]                                                     
+ * description: Commercialization and development of web GIS solutions using !MapScript.
+ * specs: Silverlight + !MapScript 6.0 + Delphi wrapper to !MapScript.
+ * contact: Fabrizio Vita
+----
+ * site: [http://www.sailwx.info/shiptrack/shiplocations.phtml]
+ * description: Tracking of ships, hurricane, and weather reports
+ * specs: PHP !MapScript and MySQL
+ * contact: Hal Muelle
+----     
+ * site: [http://geo.weather.gc.ca/geomet-beta?service=WMS&version=1.3.0&request=GetCapabilities]
+ * description: Meteorological Service of Canada Geospatial Web Services (beta)
+ * specs: MapServer 6.4.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
