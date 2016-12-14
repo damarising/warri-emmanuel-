@@ -2,6 +2,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 
 ----    
  
+ * site: [City of Buenos Aires](http://mapa.buenosaires.gob.ar/)
+ * description: Application launched in late-2015 that performs routing requests through pgRouting with OpenStreetMap data, and displayed by MapServer.
+ * specs: MapServer 6.4.1, Bootstrap, Leaflet, PostGIS, pgRouting, OpenStreetMap
+ * contact: Pablo Cecconi
+
+----    
+ 
  * site: [COINAtlantic Geocontent Generator](http://coinatlantic.tools/cgg/)
  * description: Application that allows users to enter and publish their metadata, and assign spatial features to their metadata.
  * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt
