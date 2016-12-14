@@ -3,7 +3,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 ----    
  
  * site: [COINAtlantic Search Utility](http://coinatlantic.tools/csu/)
- * description: Application that performs a live search for public WMS/KML on the web, and loads them on-the-fly, as well as saves search results in a PG database and parses the extents daily.
+ * description: Application that performs a live search for public WMS/KML on the web, and loads them on-the-fly, as well as saves search results in a PG database and parses the extents daily; also exports map in various formats.
  * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt, PostGIS
  * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
 
