@@ -53,6 +53,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  
  * site: [Rogers County Online](http://mapview-rogers.com/)
  * description: Application that queries land parcel information, connecting to a proprietary database, and returns an updated parcel map and associated property images and information.  Hosted at various counties throughout Oklahoma, US.
- * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt, PostGIS
+ * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
                                                                                                                                       
