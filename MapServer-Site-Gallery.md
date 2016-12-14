@@ -2,7 +2,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 
 ----   
                                                                            
- * site: [GeoMapFish](http://www.geomapfish.org)
+ * site: [GeoMapFish](http://geomapfish.org)
  * description: Several example for MapServer based for WebGIS application
  * specs: MapServer 7.0, OpenLayers 2.6 with CGXP or OpenLayers 3.x with nGeo (AngularJs)
  * contact: Yves Jacolin ([@yjacolin](https://github.com/yjacolin))
@@ -13,13 +13,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
-
-----    
- 
- * site: [OBIS Canada WMS](coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1)
- * description: OBS Canada WMS service.  Researchers upload datasets across Canada, and daily this WMS service checks the database for changes and updates the mapfile through PHP MapScript.
- * specs: MapServer 7.0.3, PHP MapScript, PostGIS
- * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
                    
 ----
 
@@ -34,4 +27,11 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Mobile version of our desktop Recreation Compass application (see above). Built using a number of services: tile services from MapCache and RESTful services for place searches, point searches and accessing feature details. 
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
+
+----    
+ 
+ * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1)
+ * description: OBS Canada WMS service.  Researchers upload datasets across Canada, and daily this WMS service checks the database for changes and updates the mapfile through PHP MapScript.
+ * specs: MapServer 7.0.3, PHP MapScript, PostGIS
+ * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
                                                                                                                                       
