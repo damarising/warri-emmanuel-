@@ -9,7 +9,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
                    
 ----
 
- * site: [http://www.dnr.state.mn.us/maps/compass.html MN DNR Recreation Compass]       
+ * site: [MN DNR Recreation Compass](http://www.dnr.state.mn.us/maps/compass.html)     
  * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities.
  * specs: MapServer (6.4.x), MapCache, OpenLayers, Perl/MapScript
  * contact: Steve Lime  
