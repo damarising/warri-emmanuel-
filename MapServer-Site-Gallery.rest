@@ -1,4 +1,4 @@
-Let's use this page to list sites that use MapServer, until a formal gallery is developed.  Please use the following format:
+The MapServer Gallery is a community-driven page where you can list your MapServer application, and details, to help show new users the power of MapServer.  Please share your application link here, use the following format:
 
 ----   
                                                                            
