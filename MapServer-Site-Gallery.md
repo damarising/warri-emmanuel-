@@ -1,4 +1,4 @@
-The MapServer Gallery is a community-driven page where you can list your MapServer application, and details, to help show new users the power of MapServer.  Please share your application link here, and use the following (Markdown) format:
+The MapServer Gallery is a community-driven page where you can list your MapServer application (including MapServer-driven WMS, WFS,..services), and details, to help show new users the power of MapServer.  Please share your application link here, and use the following (Markdown) format:
 
 ----   
                                                                            
