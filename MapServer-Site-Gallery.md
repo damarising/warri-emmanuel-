@@ -16,7 +16,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
                                                                 
 ----              
 
- * site: [http://mobile.dnr.state.mn.us/compass MN DNR Recreation Compass (mobile)]       
+ * site: [MN DNR Recreation Compass (mobile)](http://mobile.dnr.state.mn.us/compass)       
  * description: Mobile version of our desktop Recreation Compass application (see above). Built using a number of services: tile services from MapCache and RESTful services for place searches, point searches and accessing feature details. 
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime  
