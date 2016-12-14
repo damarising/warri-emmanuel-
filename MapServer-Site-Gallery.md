@@ -17,7 +17,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 ----   
                                                                            
  * site: [GeoMapFish](http://geomapfish.org)
- * description: Several example for MapServer based for WebGIS application
+ * description: Lists several example MapServer-based applications
  * specs: MapServer 7.0, OpenLayers 2.6 with CGXP or OpenLayers 3.x with nGeo (AngularJs)
  * contact: Yves Jacolin ([@yjacolin](https://github.com/yjacolin))
 
