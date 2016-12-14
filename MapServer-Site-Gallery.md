@@ -20,14 +20,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Mobile version of our desktop Recreation Compass application (see above). Built using a number of services: tile services from MapCache and RESTful services for place searches, point searches and accessing feature details. 
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
-                                                                
-----              
-                                                      
- * site: [http://geuskort.geus.dk/GeusMap/index_samba.jsp]                              
- * description: Coverage map of the Danish national database for the exploration of oil and gas. Data maintained and hosted by [http://www.geus.dk].
- * specs: Oracle 10g + MapServer 5.6 (thanks to [http://vbkto.dyndns.org:1280/sdk]) wrapped in JSP and home-made javascript frontend
- * contact: Bjarni Pjetursson [mailto:bpj-at-geus.dk]  
-                                                                         
+                                                                                                                                       
 ----    
                                                                                
  * site: [http://www.itacasoft.com]                                                     
