@@ -21,13 +21,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime ([@sdlime](https://github.com/sdlime))
                                                                                                                                        
-----    
-                                                                               
- * site: [http://www.itacasoft.com]                                                     
- * description: Commercialization and development of web GIS solutions using !MapScript.
- * specs: Silverlight + !MapScript 6.0 + Delphi wrapper to !MapScript.
- * contact: Fabrizio Vita
-
 ----
 
  * site: [http://www.sailwx.info/shiptrack/shiplocations.phtml]
