@@ -3,7 +3,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 ----    
  
  * site: [City of Buenos Aires](http://mapa.buenosaires.gob.ar/)
- * description: Application launched in late-2015 giving local citizens various transit and site information, that performs routing requests through pgRouting with OpenStreetMap data, and displayed by MapServer with many thematic maps to choose from.
+ * description: Application launched in late-2015 giving local citizens various transit and site information, that performs routing requests through pgRouting with OpenStreetMap data, and displayed by MapServer with many thematic styles to choose from.
  * specs: MapServer 6.4.1, Bootstrap, Leaflet, PostGIS, pgRouting, OpenStreetMap
  * contact: Pablo Cecconi [@pcecconi](https://github.com/pcecconi)
 
