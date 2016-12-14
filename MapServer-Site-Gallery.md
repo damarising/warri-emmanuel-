@@ -13,6 +13,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
+
+----    
+ 
+ * site: [OBIS Canada WMS](coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1)
+ * description: OBS Canada WMS service.  Researchers upload datasets across Canada, and daily this WMS service checks the database for changes and updates the mapfile through PHP MapScript.
+ * specs: MapServer 7.0.3, PHP MapScript, PostGIS
+ * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
                    
 ----
 
