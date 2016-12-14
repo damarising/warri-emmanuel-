@@ -45,7 +45,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 ----    
  
  * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1)
- * description: OBS Canada WMS service.  Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads to database, checks for version changes, and updates the mapfile through PHP MapScript.
+ * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers).
  * specs: MapServer 7.0.3, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna ([@jmckenna](https://github.com/jmckenna))
 
