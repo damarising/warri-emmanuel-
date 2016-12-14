@@ -11,7 +11,14 @@ Let's use this page to list sites that use MapServer, until a formal gallery is 
 
  * site: [http://www.dnr.state.mn.us/maps/compass.html MN DNR Recreation Compass]       
  * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities
- * specs: MapServer 5.2, TileCache 2.01, OpenLayers 2.6 & a bit of custom code
+ * specs: MapServer (6.4.x), MapCache, OpenLayers, Perl/MapScript
+ * contact: Steve Lime  
+                                                                
+----              
+
+ * site: [http://mobile.dnr.state.mn.us/compass MN DNR Recreation Compass (mobile)]       
+ * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities
+ * specs: MapServer (6.4.x), MapCache, Leaflet, Perl/MapScript, Backbone.js, Underscore.js
  * contact: Steve Lime  
                                                                 
 ----              
