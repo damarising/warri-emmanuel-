@@ -1,10 +1,17 @@
-The MapServer Gallery is a community-driven page :+1: where you can list your MapServer application (including MapServer-driven WMS, WFS,..services), and details, to help show new users the power of MapServer.  Please share your application by adding it below, using the same ([Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)) format, and respecting the alphabetical order of the sites:
+The MapServer Gallery is a community-driven page where you can list your MapServer application (including MapServer-driven WMS, WFS,..services), and details, to help show new users the power of MapServer.  Please share your application link here, and use the following (Markdown) format:
 
-----    
+----
+
+ * site: [Sistema de Información Territorial Estatal en Línea, Jalisco](http://sitel.jalisco.gob.mx)
+ * description: Application launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
+ * specs: Mapserver, PHP Mapscript, PostGIS
+ * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
+
+----
  
- * site: [Buenos Aires City Interactive Map](http://mapa.buenosaires.gob.ar/)
- * description: Application launched in 2005 and updated regularly since then giving local citizens various transit and site information, performs routing requests through OSRM with OpenStreetMap data merged with official data, and displayed by MapServer with many thematic styles to choose from. There's also a mobile version available for Android and iOS that goes by the name "BA Cómo Llego" and has more than 1.5M downloads.
- * specs: MapServer 6.4.1, Bootstrap, Leaflet, PostGIS, OSRM, OpenStreetMap
+ * site: [City of Buenos Aires](http://mapa.buenosaires.gob.ar/)
+ * description: Application launched in late-2015 giving local citizens various transit and site information, that performs routing requests through pgRouting with OpenStreetMap data, and displayed by MapServer with many thematic styles to choose from.
+ * specs: MapServer 6.4.1, Bootstrap, Leaflet, PostGIS, pgRouting, OpenStreetMap
  * contact: Pablo Cecconi [@pcecconi](https://github.com/pcecconi)
 
 ----    
@@ -21,13 +28,6 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
-----
-
-* site: [Fondazione Edmund Mach WMS](http://www.geodati.fmach.it/wms_catalogue/), [Fondazione Edmund Mach WFS](http://www.geodati.fmach.it/wfs_catalogue/)
-* description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
-* specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
-* contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
-
 ----   
                                                                            
  * site: [GeoMapFish](http://geomapfish.org)
@@ -41,28 +41,14 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
-
-----
-
-* site: [Internet Map Services City of Munich](http://maps.muenchen.de)
-* description: Internet maps of the administration of the City of Munich. This is a collection of 25+ maps of various aspects of the city (city plan, cycling lanes, groundwater etc.) The interface is in German, the links "Karte >" lead to the maps
-* specs: Mapserver 7.0.1, mapcache
-* contact: Markus Spring <markus.spring@muenchen.de>
-
----- 
-
- * site: [Maptell](http://www.maptell.com/maps.html)     
- * description: Maptell is an interactive mapping platform for providing Indian maps. The site is one of India's first mapping portals providing online maps and geocoding service. The geocoding service is implemented using a custom PostGIS function.
- * specs: MapServer (6.4.x), Modified KaMap, OpenLayers, PostGIS
- * contact: Jithesh P Joseph [@jithesh](https://github.com/jithesh) 
-
+                   
 ----
 
  * site: [MN DNR Recreation Compass](http://www.dnr.state.mn.us/maps/compass.html)     
  * description: Application designed to allow users to better understand the relationships between various recreation opportunities in Minnesota, and to access detailed information about those opportunities.
  * specs: MapServer (6.4.x), MapCache, OpenLayers, Perl/MapScript
- * contact: Steve Lime [@sdlime](https://github.com/sdlime)  
-                
+ * contact: Steve Lime [@sdlime](https://github.com/sdlime)
+                                                                
 ----              
 
  * site: [MN DNR Recreation Compass (mobile)](http://mobile.dnr.state.mn.us/compass)       
@@ -72,17 +58,10 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----    
  
- * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.3.0)
+ * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.1.1)
  * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers).
  * specs: MapServer 7.0.3, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
-
-----    
- 
- * site: [RegattaGame](http://www.regattagame.net)
- * description: Online sail boat regatta game, races on all seas and oceans of the world with real wind forecasts (from NOAA). Choose the best sail and best heading to compete with other skippers with the help of waypoints, scheduler, and sail polars diagram.
- * specs: Mapserver 6.4.1, WFS/GML, Python MapScript, PHP, MySQL, OpenLayers 3.13 
- * contact: contact@regattagame.net
 
 ----    
  
@@ -90,7 +69,4 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Application that queries land parcel information (either through text or the map), connecting to a proprietary database, and returns an updated parcel map and associated property images and information.  Hosted at various counties throughout Oklahoma, US.
  * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
-
-
-
-
+                                                                                                                                      
