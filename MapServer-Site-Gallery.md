@@ -69,4 +69,11 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Application that queries land parcel information (either through text or the map), connecting to a proprietary database, and returns an updated parcel map and associated property images and information.  Hosted at various counties throughout Oklahoma, US.
  * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
+
+----
+
+* site: [Fondazione Edmund Mach WMS](http://www.geodati.fmach.it/wms_catalogue/), [Fondazione Edmund Mach WFS](http://www.geodati.fmach.it/wfs_catalogue/)
+* description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
+* specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
+* contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
                                                                                                                                       
