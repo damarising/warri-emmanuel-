@@ -76,7 +76,8 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 * description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
 * specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
 * contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
-                                                                                                                      ----
+
+----
 
 * site: [Internet Map Services City of Munich](http://maps.muenchen.de)
 * description: Internet maps of the administration of the City of Munich. This is a collection of 25+ maps of various aspects of the city (city plan, cycling lanes, groundwater etc.) The interface is in German, the links "Karte >" lead to the maps
