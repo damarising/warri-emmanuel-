@@ -21,6 +21,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
+----
+
+* site: [Fondazione Edmund Mach WMS](http://www.geodati.fmach.it/wms_catalogue/), [Fondazione Edmund Mach WFS](http://www.geodati.fmach.it/wfs_catalogue/)
+* description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
+* specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
+* contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
+
 ----   
                                                                            
  * site: [GeoMapFish](http://geomapfish.org)
@@ -34,6 +41,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
+
+----
+
+* site: [Internet Map Services City of Munich](http://maps.muenchen.de)
+* description: Internet maps of the administration of the City of Munich. This is a collection of 25+ maps of various aspects of the city (city plan, cycling lanes, groundwater etc.) The interface is in German, the links "Karte >" lead to the maps
+* specs: Mapserver 7.0.1, mapcache
+* contact: Markus Spring <markus.spring@muenchen.de>
 
 ---- 
 
@@ -70,18 +84,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
-----
 
-* site: [Fondazione Edmund Mach WMS](http://www.geodati.fmach.it/wms_catalogue/), [Fondazione Edmund Mach WFS](http://www.geodati.fmach.it/wfs_catalogue/)
-* description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
-* specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
-* contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
-
-----
-
-* site: [Internet Map Services City of Munich](http://maps.muenchen.de)
-* description: Internet maps of the administration of the City of Munich. This is a collection of 25+ maps of various aspects of the city (city plan, cycling lanes, groundwater etc.) The interface is in German, the links "Karte >" lead to the maps
-* specs: Mapserver 7.0.1, mapcache
-* contact: Markus Spring <markus.spring@muenchen.de>
 
 
