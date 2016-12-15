@@ -91,6 +91,11 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
+----
 
+ * site: [Sistema de Información Territorial Estatal en Línea](http://sitel.jalisco.gob.mx)
+ * description: Website launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
+ * specs: Mapserver, PHP Mapscript, PostGIS
+ * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
 
 
