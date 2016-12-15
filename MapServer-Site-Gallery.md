@@ -79,6 +79,13 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 
 ----    
  
+ * site: [Regatta Game](http://www.regattagame.net)
+ * description: Online sail boat regatta game, races on all seas and oceans of the world with real wind forecasts (from NOAA). Choose the best sail and best heading to compete with other skippers with the help of waypoints, scheduler, and sail polars diagram.
+ * specs: Mapserver 6.4.1, WFS/GML, Python MapScript, PHP, MySQL, OpenLayers 3.13 
+ * contact: contact@regattagame.net
+
+----    
+ 
  * site: [Rogers County Online](http://mapview-rogers.com/)
  * description: Application that queries land parcel information (either through text or the map), connecting to a proprietary database, and returns an updated parcel map and associated property images and information.  Hosted at various counties throughout Oklahoma, US.
  * specs: MapServer 6.4.1, PHP MapScript, OpenLayers, GeoExt
