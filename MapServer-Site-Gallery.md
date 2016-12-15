@@ -2,7 +2,7 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
 
 ----
 
- * site: [Sistema de Información Territorial Estatal en Línea, Jalisco](http://sitel.jalisco.gob.mx)
+ * site: [Sistema de Información Territorial Estatal en Línea](http://sitel.jalisco.gob.mx)
  * description: Application launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
  * specs: Mapserver, PHP Mapscript, PostGIS
  * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
