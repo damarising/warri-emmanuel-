@@ -34,7 +34,14 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca
- 
+
+---- 
+
+ * site: [Maptell](http://www.maptell.com/maps.html)     
+ * description: Maptell is an interactive mapping platform for providing Indian maps. The site is one of India's first mapping portals providing online maps and geocoding service. The geocoding service is implemented using a custom PostGIS function.
+ * specs: MapServer (6.4.x), Modified KaMap, OpenLayers, PostGIS
+ * contact: Jithesh P Joseph [@jithesh](https://github.com/jithesh) 
+
 ----
 
  * site: [MN DNR Recreation Compass](http://www.dnr.state.mn.us/maps/compass.html)     
@@ -42,13 +49,6 @@ The MapServer Gallery is a community-driven page where you can list your MapServ
  * specs: MapServer (6.4.x), MapCache, OpenLayers, Perl/MapScript
  * contact: Steve Lime [@sdlime](https://github.com/sdlime)  
                 
-----
-
- * site: [Maptell](http://www.maptell.com/maps.html)     
- * description: Maptell is an interactive mapping platform for providing Indian maps. The site is one of India's first mapping portals providing online maps and geocoding service. The geocoding service is implemented using a custom PostGIS function.
- * specs: MapServer (6.4.x), Modified KaMap, OpenLayers, PostGIS
- * contact: Jithesh P Joseph [@jithesh](https://github.com/jithesh)
-                                                                
 ----              
 
  * site: [MN DNR Recreation Compass (mobile)](http://mobile.dnr.state.mn.us/compass)       
