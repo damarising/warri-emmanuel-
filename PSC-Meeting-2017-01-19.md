@@ -2,6 +2,7 @@
 * **Location**: #mapserver channel on irc.freenode.net (connect directly in your browser via [webchat](https://webchat.freenode.net/?channels=mapserver))
 * **Agenda**
     * handle "secure" tickets in old Trac instance
+    * propose [RFC 117](http://mapserver.org/development/rfc/ms-rfc-117.html) (PHP MapScript through SWIG) for acceptance
     * next Release?
     * Daytona Beach Code Sprint updates
     * *add your items here*
