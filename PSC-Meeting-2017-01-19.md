@@ -4,6 +4,6 @@
     * handle "secure" tickets in old Trac instance ([ticket](https://trac.osgeo.org/mapserver/ticket/4275))
     * propose [RFC 117](http://mapserver.org/development/rfc/ms-rfc-117.html) (PHP MapScript through SWIG) for acceptance
     * next Release?
-    * Daytona Beach Code Sprint updates
+    * Daytona Beach [Code Sprint](https://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017) updates
     * *add your items here*
     * Set next meeting date
