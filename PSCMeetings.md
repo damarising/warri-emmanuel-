@@ -14,10 +14,11 @@ The MapServer PSC uses the `mapserver-dev` mailing list for all discussions ([*s
 
 ### Next Meeting
 
-* [PSC Meeting 2017-01-19](PSC-Meeting-2017-01-19)
+* [PSC Meeting 2017-03-02](PSC-Meeting-2017-03-02)
 
 ### Minutes
 
+* [PSC Meeting 2017-01-19](PSC-Meeting-2017-01-19)
 * [PSC Meeting 2016-12-01](PSC-Meeting-2016-12-01)
 * [PSC Meeting 2016-10-13](PSC-Meeting-2016-10-13)
 
