@@ -21,7 +21,7 @@
   * Discussion
     * Handling "secure" tickets in old Trac instance (https://trac.osgeo.org/mapserver/ticket/4275)
       * motion to simply delete old 3 tickets
-      * also discussion on dropping the Trac instance
+      * also discussion on dropping the entire Trac instance
         * however the old Trac wiki pages need to be checked to make sure they exist on the Github wiki (already done by jmckenna, needs another set of eyes)
     * Update on the next OSGeo code sprint
       * http://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017
@@ -29,4 +29,4 @@
     * Agreement on next meeting date: 2017-03-02 [15:00 UTC](http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=03&day=02&hour=15&min=0&sec=0%2016.00UTC)
 
 * **Action Items**
-  * 
+  * jmckenna: tackle old Trac tickets issue.  Update: the 3 problem Trac tickets are now deleted.
