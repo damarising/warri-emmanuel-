@@ -23,7 +23,7 @@
     * Update on the next OSGeo code sprint
       * http://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017
       * 
-    * Agreement on next meeting date: 2017-01-19 http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=01&day=19&hour=15&min=0&sec=0%2016.00UTC
+    * Agreement on next meeting date: 2017-03-02 http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=03&day=02&hour=15&min=0&sec=0%2016.00UTC
 
 * **Action Items**
   * 
