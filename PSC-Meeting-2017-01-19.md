@@ -7,3 +7,23 @@
     * Daytona Beach [Code Sprint](https://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017) updates
     * *add your items here*
     * Set next meeting date
+
+* **Log**: http://irclogs.geoapt.com/mapserver/%23mapserver.2017-01-19.log
+
+* **Summary**
+  * Attending:
+    * Bruno Friedmann
+    * Even Rouault
+    * Jeff McKenna
+    * Steve Lime
+    * Steven Woodbridge
+    * Seth Girvin
+  * Discussion
+    * 
+    * Update on the next OSGeo code sprint
+      * http://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017
+      * 
+    * Agreement on next meeting date: 2017-01-19 http://www.timeanddate.com/worldclock/fixedtime.html?year=2017&month=01&day=19&hour=15&min=0&sec=0%2016.00UTC
+
+* **Action Items**
+  * 
