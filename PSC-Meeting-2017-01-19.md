@@ -13,11 +13,11 @@
 * **Summary**
   * Attending:
     * Bruno Friedmann
-    * Even Rouault
-    * Jeff McKenna
-    * Steve Lime
-    * Steven Woodbridge
     * Seth Girvin
+    * Steve Lime
+    * Jeff McKenna
+    * Even Rouault
+    * Steven Woodbridge
   * Discussion
     * 
     * Update on the next OSGeo code sprint
