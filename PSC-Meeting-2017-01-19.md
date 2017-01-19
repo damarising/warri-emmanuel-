@@ -19,7 +19,10 @@
     * Even Rouault
     * Steven Woodbridge
   * Discussion
-    * 
+    * Handling "secure" tickets in old Trac instance (https://trac.osgeo.org/mapserver/ticket/4275)
+      * motion to simply delete old 3 tickets
+      * also discussion on dropping the Trac instance
+        * however the old Trac wiki pages need to be checked to make sure they exist on the Github wiki (already done by jmckenna, needs another set of eyes)
     * Update on the next OSGeo code sprint
       * http://wiki.osgeo.org/wiki/Daytona_Beach_Code_Sprint_2017
       * 
