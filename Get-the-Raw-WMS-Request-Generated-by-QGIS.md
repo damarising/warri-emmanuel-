@@ -1,6 +1,6 @@
   - download and install the software "Fiddler" (Google will help you find its current 
 download location)
-  - open it and leave it running
+  - start Fiddler and leave it running
   - in QGIS goto /Settings/Options/Network
   - click on "Use proxy for web access"
   - for Proxy Type select "HttpProxy"
