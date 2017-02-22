@@ -7,8 +7,8 @@ download)
   - for Host enter: 127.0.0.1
   - for Port enter: 8888
   - presss "ok" button
-  - now Add a WCS layer in QGIS again, but watch the Fiddler window
-  - click on the GetCoverage request in Fiddler
+  - now Add a WMS/WFS/WCS layer in QGIS again, but watch the Fiddler window
+  - click on the request in Fiddler (such as GetCapabilities, or GetCoverage)
   - to see the full requested url in Fiddler, check the 'Inspector' tab, 
 and then select 'Raw'
 
