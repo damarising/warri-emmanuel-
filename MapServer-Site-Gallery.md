@@ -11,14 +11,14 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  
  * site: [COINAtlantic Geocontent Generator](http://coinatlantic.tools/cgg/)
  * description: Application that allows users to enter and publish their metadata, and assign spatial features to their metadata.
- * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt
+ * specs: MapServer 7.0.4, PHP MapScript, OpenLayers, GeoExt
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
 ----    
  
  * site: [COINAtlantic Search Utility](http://coinatlantic.tools/csu/)
  * description: Application that performs a live search for public WMS/KML on the web, and loads them on-the-fly, as well as saves search results in a PG database and parses the extents daily; also exports map in various formats.
- * specs: MapServer 7.0.3, PHP MapScript, OpenLayers, GeoExt, PostGIS
+ * specs: MapServer 7.0.4, PHP MapScript, OpenLayers, GeoExt, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
 ----
@@ -74,7 +74,7 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  
  * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.3.0)
  * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers).
- * specs: MapServer 7.0.3, PHP MapScript, GDAL, PostGIS
+ * specs: MapServer 7.0.4, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
 ----    
