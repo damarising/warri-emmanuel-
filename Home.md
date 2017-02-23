@@ -1,6 +1,6 @@
 ## Welcome to the MapServer wiki
 
-This wiki allows [[MapServer|http://mapserver.org]] users to create pages that could be helpful for other users and developers.  Please feel free to add pages and link them below.  To edit this wiki you will need to create a free [[open source/personal account|https://github.com/plans]] at github.  For general background on this type of wiki you might want to read the [[gollum wiki README|https://github.com/github/gollum/blob/master/README.md]] page.  The [[basic-writing-and-formatting-syntax|https://help.github.com/articles/basic-writing-and-formatting-syntax/]] page is a helpful guide.
+This wiki allows [[MapServer|http://mapserver.org]] users to create pages that could be helpful for other users and developers.  Please feel free to add pages and link them below :+1:  To edit this wiki you will need to create a free [[open source/personal account|https://github.com/plans]] at github.  For general background on this type of wiki you might want to read the [[gollum wiki README|https://github.com/github/gollum/blob/master/README.md]] page.  The [[basic-writing-and-formatting-syntax|https://help.github.com/articles/basic-writing-and-formatting-syntax/]] page is a helpful guide.
 
 >
 > The old Trac wiki is still [[accessible|http://trac.osgeo.org/mapserver/wiki#MapServerWikiPages]], but is read-only.
