@@ -3,4 +3,5 @@
 * **Agenda**
     * next Release?
     * *add your items here*
+    * GSOC Ideas for MapServer? https://wiki.osgeo.org/wiki/Google_Summer_of_Code_2017_Ideas
     * Set next meeting date
