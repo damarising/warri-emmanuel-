@@ -1,7 +1,8 @@
 # Google Summer of Code Ideas
 
 OSGeo has been accepted as a mentor organization for GSoC 2017, see http://www.osgeo.org/node/1772
-It helps student developers to contribute to open source softwware - https://summerofcode.withgoogle.com/
+
+It helps student developers to contribute to open source software - https://summerofcode.withgoogle.com/
 
 See the OSGeo page for more details: https://wiki.osgeo.org/wiki/Google_Summer_of_Code_2017_Administrative
 
