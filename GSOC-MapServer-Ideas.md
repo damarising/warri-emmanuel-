@@ -24,3 +24,7 @@ Note each idea needs 2 mentors, even if not proposing mentorship please list pos
 
 
 ## Ideas List
+
+* Apply patches to the TinyOWS project
+* An online MapFile validator in a similar style to http://jsonlint.com using the https://pypi.python.org/pypi/mappyfile/ library on the back-end
+* An interactive "gallery" showcasing all the features on MapServer as part of the online docs
