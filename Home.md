@@ -22,6 +22,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Working With Git](wiki/WorkingWithGit)
 * [Boston CodeSprint Agenda](wiki/Boston-Codesprint-Agenda)
 * [GSoC UTFGrid](wiki/GSoC-UTF-Grid-implementation)
+* [GSoC MapServer Ideas Page](wiki/GSOC-MapServer-Ideas)
 
 ## Tricks, Tips, and HowTos
 * [FAQ](/mapserver/mapserver/wiki/FAQ)
