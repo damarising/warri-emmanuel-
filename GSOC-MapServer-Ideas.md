@@ -15,9 +15,9 @@ The timeline for 2017 is:
 
 In previous years the MapServer project has mentored students for the following features:
 
-* 2013 - [GSoC UTFGrid](wiki/GSoC-UTF-Grid-implementation)
-* 2009 - [KML Output](wiki/GSoC_KML_output)
-* 2009 - [SVG Symbol Support](wiki/GSoC_SVG_Symbols)
+* 2013 - [GSoC UTFGrid](/mapserver/mapserver/wiki/GSoC-UTF-Grid-implementation)
+* 2009 - [KML Output](/mapserver/mapserver/wiki/GSoC_KML_output)
+* 2009 - [SVG Symbol Support](/mapserver/mapserver/wiki/GSoC_SVG_Symbols)
 
 Please add any ideas below. Even if it is not possible this year it could be useful to keep track of possible future features. 
 Note each idea needs 2 mentors, even if not proposing mentorship please list possible new features for discussion. 
