@@ -5,3 +5,5 @@
     * GSOC Ideas for MapServer? https://wiki.osgeo.org/wiki/Google_Summer_of_Code_2017_Ideas
     * *add your items here*
     * Set next meeting date
+
+* **Log**: http://irclogs.geoapt.com/mapserver/%23mapserver.2017-03-02.log
