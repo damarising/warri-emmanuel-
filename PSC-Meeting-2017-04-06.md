@@ -2,6 +2,5 @@
 * **Location**: #mapserver channel on irc.freenode.net (connect directly in your browser via [webchat](https://webchat.freenode.net/?channels=mapserver))
 * **Agenda**
     * next Release?
-    * GSOC Ideas for MapServer? https://wiki.osgeo.org/wiki/Google_Summer_of_Code_2017_Ideas
     * *add your items here*
     * Set next meeting date
