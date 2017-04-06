@@ -2,6 +2,7 @@
 * RFC XX: Vector tile generation.
 * RFC-113 Extension: compositing filters (blurring, shadows)
 * RFC-112: Better placement of follow labels
+* RFC-82: Enhanced Layer Metadata Management
 * RFC-118: Support Vendor-Specific OGC FILTER parameter in WMS requests
 * "Mixed" JPEG/PNG output format
 * MapScript support for PHP 7
