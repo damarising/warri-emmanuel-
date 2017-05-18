@@ -23,19 +23,19 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----
 
+* site: [Density map of car accidents with injuries by hour occurred in the Guadalajara metropolitan area](https://www.youtube.com/watch?v=DmUrNrUfbVY)
+* description: A video that shows density maps of collisions, run-overs and collisions with fixed objects by hour occurred in the Guadalajara metropolitan area during 2013-2014
+* specs: MapServer, PHP MapScript, PostGIS
+* contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
+
+----
+
 * site: [Fondazione Edmund Mach WMS](http://www.geodati.fmach.it/wms_catalogue/), [Fondazione Edmund Mach WFS](http://www.geodati.fmach.it/wfs_catalogue/)
 * description: Web services used by Fondazione Edmund Mach. The web interfaces to show the layers and services is done by ourself and released as free software
 * specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
 * contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
 
 ----
-
-* site: [Density map of car accidents with injuries by hour occurred in the Guadalajara metropolitan area](https://www.youtube.com/watch?v=DmUrNrUfbVY)
-* description: A video that shows density maps of collisions, run-overs and collisions with fixed objects by hour occurred in the Guadalajara metropolitan area during 2013-2014
-* specs: MapServer, PHP MapScript, PostGIS
-* contact: Carlos Ruiz https://www.linkedin.com/in/cruizch
-
-----   
                                                                            
  * site: [GeoMapFish](http://geomapfish.org)
  * description: Lists several example MapServer-based applications
