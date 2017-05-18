@@ -28,6 +28,13 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 * specs: Mapserver 6.4.1, [urlCapabilities](https://github.com/lucadelu/urlCapabilities)
 * contact: Luca Delucchi [@lucadelu](https://wiki.osgeo.org/wiki/User:Lucadelu)
 
+----
+
+* site: [Density map of car accidents with injuries by hour occurred in the Guadalajara metropolitan area](https://www.youtube.com/watch?v=DmUrNrUfbVY)
+* description: A video that shows density maps of collisions, run-overs and collisions with fixed objects by hour occurred in the Guadalajara metropolitan area during 2013-2014
+* specs: MapServer, PHP MapScript, PostGIS
+* contact: Carlos Ruiz https://www.linkedin.com/in/cruizch
+
 ----   
                                                                            
  * site: [GeoMapFish](http://geomapfish.org)
@@ -97,5 +104,3 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Website launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
  * specs: MapServer, PHP MapScript, PostGIS
  * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
-
-
