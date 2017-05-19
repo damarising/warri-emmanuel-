@@ -2,13 +2,6 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 
 ---- 
-   
- * site: [Geoportal Mannheim](https://www.gis-mannheim.de/)
- * description: Geoportal of the city of Mannheim Germany
- * specs: MapServer, PHP MapScript, OpenLayers, PostGIS
- * contact: Sven Schroeter  <schroeter@netgis.de>
-
----- 
  
  * site: [Buenos Aires City Interactive Map](http://mapa.buenosaires.gob.ar/)
  * description: Application launched in 2005 and updated regularly since then giving local citizens various transit and site information, performs routing requests through OSRM with OpenStreetMap data merged with official data, and displayed by MapServer with many thematic styles to choose from. There's also a mobile version available for Android and iOS that goes by the name "BA Cómo Llego" and has more than 1.5M downloads.
@@ -56,6 +49,13 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Meteorological Service of Canada Geospatial Web Services (beta)
  * specs: MapServer 7.0.2, MapScript, custom code
  * contact: ec.dps-client.ec@canada.ca ([@tomkralidis](https://github.com/tomkralidis), [@alexandreleroux](https://github.com/alexandreleroux))
+
+---- 
+   
+ * site: [Geoportal Mannheim](https://www.gis-mannheim.de/)
+ * description: Geoportal of the city of Mannheim Germany
+ * specs: MapServer, PHP MapScript, OpenLayers, PostGIS
+ * contact: Sven Schroeter  <schroeter@netgis.de>
 
 ----
 
