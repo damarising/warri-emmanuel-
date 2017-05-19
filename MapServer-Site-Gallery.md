@@ -127,4 +127,16 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * specs: MapServer, PHP MapScript, PostGIS
  * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
 
+----
 
+ * site: [Satellite-Derived Great Lakes Remote Sensing](http://greatlakesremotesensing.org/)
+ * description: Developed by [Michigan Tech Research Institute](http://mtri.org) as part of the [Great Lakes Observing System](http://glos.us), this site displays MapServer WMS services of satellite-derived Great Lakes water quality products. Site development was funded under NASA and [Great Lakes Restoration Initiative (GLRI)](https://www.glri.us) grants.
+ * specs: MapServer 7.0.0, Leaflet, ExtJS
+ * contact: Michael Billmire <mgbillmi@mtu.edu>
+
+----
+
+ * site: [Gay Stamp Sands Extent and Imagery, 1938-2016](http://spatial.mtri.org/stampsands)
+ * description: Application for displaying historic imagery and data products for monitoring large deposits of waste rock from copper mining around the Keweenaw Peninsula in Gay, Michigan. Developed by [Michigan Tech Research Institute](http://mtri.org) 
+ * specs: MapServer 7.0.0, Leaflet
+ * contact: Michael Billmire <mgbillmi@mtu.edu>
