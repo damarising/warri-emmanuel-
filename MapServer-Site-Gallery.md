@@ -107,7 +107,7 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----
 
- * site: [Simplemappr](http://www.simplemappr.net/)
- * description: Application launched in 2010 and updated regularly. It is used by the scientific community to produce publication-quality point maps for articles in scientific journals. Features shapefile data from Natural Earth, Conservation International, and the World Wildlife Fund.
+ * site: [SimpleMappr](http://www.simplemappr.net/)
+ * description: Application launched in 2010 and updated regularly. It is used by the scientific community to produce publication-quality point maps for articles in scientific journals. To date, just under 300 research articles have been published that feature the Public Domain outputs from SimpleMappr. It features shapefile data from Natural Earth, Conservation International, and the World Wildlife Fund.
  * specs: MapServer 7.0.4, PHP MapScript
  * contact: David Shorthouse [@dshorthouse](https://github.com/dshorthouse)
