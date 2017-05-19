@@ -80,7 +80,7 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 ----    
  
  * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.3.0)
- * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers).
+ * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers by wms_title).
  * specs: MapServer 7.0.4, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
@@ -88,7 +88,7 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  
  * site: [RegattaGame](http://www.regattagame.net)
  * description: Online sail boat regatta game, races on all seas and oceans of the world with real wind forecasts (from NOAA). Choose the best sail and best heading to compete with other skippers with the help of waypoints, scheduler, and sail polars diagram.
- * specs: Mapserver 6.4.1, WFS/GML, Python MapScript, PHP, MySQL, OpenLayers 3.13 
+ * specs: MapServer 6.4.1, WFS/GML, Python MapScript, PHP, MySQL, OpenLayers 3.13 
  * contact: contact@regattagame.net
 
 ----    
@@ -100,14 +100,16 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----
 
+ * site: [SimpleMappr](http://www.simplemappr.net/)
+ * description: Application launched in 2010 and updated regularly. It is used by the scientific community to produce publication-quality point maps for articles in scientific journals. To date, just under 300 research articles have been published that feature the Public Domain outputs from SimpleMappr. It features shapefile data from Natural Earth, Conservation International, and the World Wildlife Fund.
+ * specs: MapServer 7.0.4, PHP MapScript
+ * contact: David Shorthouse [@dshorthouse](https://github.com/dshorthouse)
+
+----
+
  * site: [Sistema de Información Territorial Estatal en Línea](http://sitel.jalisco.gob.mx)
  * description: Website launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
  * specs: MapServer, PHP MapScript, PostGIS
  * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
 
-----
 
- * site: [SimpleMappr](http://www.simplemappr.net/)
- * description: Application launched in 2010 and updated regularly. It is used by the scientific community to produce publication-quality point maps for articles in scientific journals. To date, just under 300 research articles have been published that feature the Public Domain outputs from SimpleMappr. It features shapefile data from Natural Earth, Conservation International, and the World Wildlife Fund.
- * specs: MapServer 7.0.4, PHP MapScript
- * contact: David Shorthouse [@dshorthouse](https://github.com/dshorthouse)
