@@ -1,5 +1,12 @@
 The MapServer Gallery is a community-driven page :+1: where you can list your MapServer application (including MapServer-driven WMS, WFS,..services), and details, to help show new users the power of MapServer.  Please share your application by adding it below, using the same ([Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)) format, and respecting the alphabetical order of the sites:
 
+---- 
+   
+ * site: [LANIS WebGIS](http://map1.naturschutz.rlp.de/kartendienste_naturschutz/)
+ * description: Environmental Information System of the Nature Conservation Administration Rheinland Pfalz Germany
+ * specs: MapServer, PHP MapScript, OpenLayers, Mapcache
+ * contact: Sven Schroeter  <schroeter@netgis.de>
+
 ----    
  
  * site: [Buenos Aires City Interactive Map](http://mapa.buenosaires.gob.ar/)
