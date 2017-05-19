@@ -1,11 +1,5 @@
 The MapServer Gallery is a community-driven page :+1: where you can list your MapServer application (including MapServer-driven WMS, WFS,..services), and details, to help show new users the power of MapServer.  Please share your application by adding it below, using the same ([Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/)) format, and respecting the alphabetical order of the sites:
 
----- 
-   
- * site: [LANIS WebGIS](http://map1.naturschutz.rlp.de/)
- * description: Environmental Information System of the Nature Conservation Administration Rhineland-Palatinate  Germany with a WebGIS Client and a PHP Mapserver Wrapper for OGC Services (WMS and WFS)
- * specs: MapServer, PHP MapScript, OpenLayers, Mapcache, PostGIS
- * contact: Sven Schroeter  <schroeter@netgis.de>
 
 ---- 
    
@@ -69,6 +63,13 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 * description: Internet maps of the administration of the City of Munich. This is a collection of 25+ maps of various aspects of the city (city plan, cycling lanes, groundwater etc.) The interface is in German, the links "Karte >" lead to the maps
 * specs: Mapserver 7.0.1, mapcache
 * contact: Markus Spring <markus.spring@muenchen.de>
+
+---- 
+   
+ * site: [LANIS WebGIS](http://map1.naturschutz.rlp.de/)
+ * description: Environmental Information System of the Nature Conservation Administration Rhineland-Palatinate  Germany with a WebGIS Client and a PHP Mapserver Wrapper for OGC Services (WMS and WFS)
+ * specs: MapServer, PHP MapScript, OpenLayers, Mapcache, PostGIS
+ * contact: Sven Schroeter  <schroeter@netgis.de>
 
 ---- 
 
