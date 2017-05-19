@@ -104,3 +104,10 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Website launched in mid-2007 for visualization and publishing of raster and vectorial geographic information of Jalisco, Mexico through OGC web services.
  * specs: MapServer, PHP MapScript, PostGIS
  * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
+
+----
+
+ * site: [Simplemappr](http://www.simplemappr.net/)
+ * description: Application launched in 2010 and updated regularly. It is used by the scientific community to produce publication-quality point maps for articles in scientific journals. Features shapefile data from Natural Earth, Conservation International, and the World Wildlife Fund.
+ * specs: MapServer 7.0.4, PHP MapScript
+ * contact: David Shorthouse [@dshorthouse](https://github.com/dshorthouse)
