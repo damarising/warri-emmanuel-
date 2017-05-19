@@ -2,8 +2,8 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ---- 
    
- * site: [LANIS WebGIS](http://map1.naturschutz.rlp.de/kartendienste_naturschutz/)
- * description: Environmental Information System of the Nature Conservation Administration Rhineland-Palatinate  Germany
+ * site: [LANIS WebGIS](http://map1.naturschutz.rlp.de/)
+ * description: Environmental Information System of the Nature Conservation Administration Rhineland-Palatinate  Germany with a WebGIS Client and a PHP Mapserver Wrapper for OGC Services (WMS and WFS)
  * specs: MapServer, PHP MapScript, OpenLayers, Mapcache, PostGIS
  * contact: Sven Schroeter  <schroeter@netgis.de>
 
