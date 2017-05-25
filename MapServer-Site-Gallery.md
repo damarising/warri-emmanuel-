@@ -101,12 +101,12 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----    
  
- * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=wms&REQUEST=GetCapabilities&VERSION=1.3.0)
+ * site: [OBIS Canada WMS](http://coinatlantic.tools/cgi-bin/iptobiscanada?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0)
  * description: Researchers upload metadata (with point locations) in DarwinCore format, across Canada, and daily this WMS service converts the uploaded datasets, uploads them to a PG database, checks for version changes, and updates the mapfile through PHP MapScript (and reorders mapfile layers by wms_title).
  * specs: MapServer 7.0.4, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
-----    
+----   
  
  * site: [RegattaGame](http://www.regattagame.net)
  * description: Online sail boat regatta game, races on all seas and oceans of the world with real wind forecasts (from NOAA). Choose the best sail and best heading to compete with other skippers with the help of waypoints, scheduler, and sail polars diagram.
