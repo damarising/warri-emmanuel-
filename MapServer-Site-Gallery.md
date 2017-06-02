@@ -106,6 +106,13 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * specs: MapServer 7.0.4, PHP MapScript, GDAL, PostGIS
  * contact: Jeff McKenna [@jmckenna](https://github.com/jmckenna)
 
+----      
+ 
+ * site: [Quebec Forest Data WMS](https://geoegl.msp.gouv.qc.ca/ws/mffpecofor.fcgi?request=getcapabilities&service=wms&VERSION=1.3.0)
+ * description: Interactive map featuring several layers of forest, ecological classification and LiDAR data from Quebec government. Its allows visualization, but also the free dowload of some products (ex.: LiDAR DTM, 1m resolution). The [interactive map] (https://geoegl.msp.gouv.qc.ca/igo/mffpecofor/) also offers users the possibility to create custom maps. This application was launched in 2016 and is updated regularly..
+ * specs: MapServer 7.0.4, PostGIS
+ * contact: inventaires.forestiers@mffp.gouv.qc.ca
+
 ----   
  
  * site: [RegattaGame](http://www.regattagame.net)
