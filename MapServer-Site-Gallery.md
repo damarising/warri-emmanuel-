@@ -7,6 +7,12 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
  * description: Application launched in 2005 and updated regularly since then giving local citizens various transit and site information, performs routing requests through OSRM with OpenStreetMap data merged with official data, and displayed by MapServer with many thematic styles to choose from. There's also a mobile version available for Android and iOS that goes by the name "BA Cómo Llego" and has more than 1.5M downloads.
  * specs: MapServer 6.4.1, Bootstrap, Leaflet, PostGIS, OSRM, OpenStreetMap
  * contact: Pablo Cecconi [@pcecconi](https://github.com/pcecconi)
+---- 
+ 
+ * site: [Communauté d'Agglomération du Pays Chatellerauldais](http://carto.agglo-chatellerault.fr/)
+ * description: Geoportal application launched in 2015 to view, edit, request layers grouped in several thematics. Four differents modules are avialable: desktop application, mobile application, edit application and routing application. Routing requests is based on OSRM with OpenStreetMap data. OpenStreetMap background layers are displayed by MapServer (basemaps project). Edit application is based on specific application for edition but can be done with also WFS-T service via TinyOWS. MapCache is used to managed on-the-fly seed of tiles cache.
+ * specs: GeoMapfish, MapServer 7.0.x, OpenLayers, GeoExt, PostGIS, OSRM, OpenStreetMap data
+ * contact:  [@yjacolin](https://github.com/yjacolin)
 
 ----    
  
