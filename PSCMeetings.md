@@ -18,7 +18,7 @@ The MapServer PSC uses the `mapserver-dev` mailing list for all discussions ([*s
 
 ### Minutes
 
-* [FOSS4G BoF Meeting 2017-07-19](PSC-Meeting-2017-07-19)
+* [FOSS4G-E BoF Meeting 2017-07-19](FOSS4G-E-Meeting-2017-07-19)
 * [PSC Meeting 2017-04-06](PSC-Meeting-2017-04-06)
 * [PSC Meeting 2017-03-02](PSC-Meeting-2017-03-02)
 * [PSC Meeting 2017-01-19](PSC-Meeting-2017-01-19)
