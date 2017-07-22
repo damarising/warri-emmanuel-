@@ -16,15 +16,17 @@
   * Discussion
 start: 6:30pm
 
-- python 2 / 3 compatibility
+* Release Discussion
+
+ - python 2 / 3 compatibility
 
    - seth tested python 2 msautotest (travis)
 
-- php 5 no longer distributed on ubuntu
+ - php 5 no longer distributed on ubuntu
 
-- goal of release candidate by Boston?
+ - goal of release candidate by Boston?
 
-  - release master as-is?
+   - release master as-is?
 
        some items by thomas from a few years ago? (even)
 
