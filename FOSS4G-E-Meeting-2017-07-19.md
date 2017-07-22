@@ -24,7 +24,7 @@ start: 6:30pm
 
  - php 5 no longer distributed on ubuntu
 
- - goal of release candidate by Boston?
+ - jeff: goal of release candidate by Boston?
 
    - release master as-is?
 
@@ -34,11 +34,11 @@ start: 6:30pm
 
    even: complex features in mapserver?
 
-   - even might get funding for python funding support end of year
+   - even: might get funding for python funding support end of year
 
- qgis: - list of companies + estimate 
+   - jeff: the QGIS list of companies + estimate for each release is a good working example
 
-         - maintenance costs?
+         - QGIS also includes maintenance cost in feature estimates (docs, installers)
 
     astrid: company likely interested in general yearly sponsorship
 
@@ -46,31 +46,28 @@ start: 6:30pm
 
   seth: update live demo
 
-  astrid: use "mapserver" twitter?
+  astrid: create "mapserver" twitter?
 
- - QGIS mapfile export????
+ - QGIS mapfile export status????
 
-   - Oslandia QGIS Server 
+   - Oslandia QGIS Server is doing well
 
  - carto-css support?  eg. mapnik
 
-                           same style for 40 years?
-
-- competition:  geoserver, but most are looking at QGIS Server
-
+- other projects:  GeoServer, but most new users are looking at QGIS Server
                   eg. openstreetmap using mapnik
 
 - seth: is mapserver still fastest?
 
-- stephan: have you heard of new mapserver users?
+- stephan: have you heard of new MapServer users?
 
-- eva: use mapserver long time, qgis server slower and closing connections properly
+- Eva: use MS for long time, qgis server slower and closing connections properly
 
-- stephan: basemaps osm steps very popular
+- Stephan: basemaps osm steps very popular
 
-- related / friends of mapserver projects listed on mapserver.org?????
+- should we include related / friends of MS projects listed on mapserver.org?????
 
-- "mapserver suite" : ZOO-Project PSC
+- "mapserver suite" : include ZOO-Project PSC + Mappyfile
 
 - code sprint goals:
 
