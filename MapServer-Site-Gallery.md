@@ -30,8 +30,8 @@ The MapServer Gallery is a community-driven page :+1: where you can list your Ma
 
 ----
 
-* site: [Density map of car accidents with injuries by hour occurred in the Guadalajara metropolitan area](https://www.youtube.com/watch?v=DmUrNrUfbVY)
-* description: A video that shows density maps of collisions, run-overs and collisions with fixed objects by hour occurred in the Guadalajara metropolitan area during 2013-2014
+* site: [Density maps of car accidents with injuries by hour occurred in the Guadalajara metropolitan area](https://www.youtube.com/channel/UCN1mFBJmRdOAm6yHa_kV6ug)
+* description: Videos that shows density maps of collisions, run-overs and collisions with fixed objects by hour occurred in the Guadalajara metropolitan area during 2013-2014
 * specs: MapServer, PHP MapScript, PostGIS
 * contact: Carlos Ruiz [https://www.linkedin.com/in/cruizch](https://www.linkedin.com/in/cruizch)
 
