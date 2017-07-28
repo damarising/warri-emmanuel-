@@ -216,8 +216,7 @@ You have several choices/options for how to obtain the OSM data.  Save the file 
    * extracts to ~250GB
    * you may want to use another option if you need a specific region only
 2. Or, download a .osm file of a specific region (country, state, or province)
-   * a popular site for this is [CloudMade](http://downloads.cloudmade.com/)
-   * there are other various sites for [country extracts](http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts)
+   * there are various sites for [country extracts](http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts)
 3. Or, use the HTTP API to download your specific region (this can only be used for **small regions**)
    * goto http://www.openstreetmap.org/
    * zoom the map to the small area that you want
