@@ -50,7 +50,7 @@ This wiki page will be used to create a Cookbook Recipe for sharing freely avail
 * [MS4W](http://ms4w.com/)
   * follow the instructions in Step 4 below.
 * [osm2pgsql](http://wiki.openstreetmap.org/wiki/Osm2pgsql)
-  * download the [Windows binaries](http://tile.openstreetmap.org/osm2pgsql.zip) (2MB)
+  * download the [Windows binaries](https://ci.appveyor.com/api/projects/openstreetmap/osm2pgsql/artifacts/osm2pgsql_Release.zip?tag=0.92.0) (2MB)
   * extract inside your "Program Files" directory
   * add that directory to your PATH environment variable (so you can open a command prompt window and type 'osm2pgsql --help')
 * [Notepad++](http://notepad-plus-plus.org/)
