@@ -2,7 +2,7 @@ Meet other MapServer users and developers at these conferences around the world.
 
 ## Future and Past MapServer-related Conferences
 
-* [[FOSS4G2017|http://2017.foss4g.org/]] - The Free and Open Source Software for Geospatial conference will be held in Boston, U.S. from September 14th to 18th, 2017.
+* [[FOSS4G2017|http://2017.foss4g.org/]] - The Free and Open Source Software for Geospatial conference will be held in Boston, U.S. from August 14th to 19th, 2017.
 * [[FOSS4G2016|http://2016.foss4g.org/]] - The Free and Open Source Software for Geospatial conference was held in Bonn, Germany from September 24th to 26th, 2016.
 * [[FOSS4G2015|http://2015.foss4g.org/]] - The Free and Open Source Software for Geospatial conference was held in Seoul, South Korea from September 14th to 19th, 2015.
 * [[FOSS4G2014|http://2014.foss4g.org/]] - The Free and Open Source Software for Geospatial conference was held in Portland Oregon, U.S from September 8th to 13th, 2014.
