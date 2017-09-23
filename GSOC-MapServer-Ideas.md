@@ -19,6 +19,8 @@ In previous years the MapServer project has mentored students for the following 
 * 2009 - [KML Output](/mapserver/mapserver/wiki/GSoC_KML_output)
 * 2009 - [SVG Symbol Support](/mapserver/mapserver/wiki/GSoC_SVG_Symbols)
 
+Several items of interest can still be found on the [2009 GSOC page](https://wiki.osgeo.org/wiki/MapServer_2009_SOC_Ideas) - binary Mapfile format and tilted perspective maps. 
+
 Please add any ideas below. Even if it is not possible this year it could be useful to keep track of possible future features. 
 Note each idea needs 2 mentors, even if not proposing mentorship please list possible new features for discussion. 
 
