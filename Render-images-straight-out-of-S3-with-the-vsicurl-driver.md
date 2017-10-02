@@ -114,11 +114,17 @@ Configure the VSI driver for increased performance:
 
 Example configuration for the MAP object of your MAPFILE:
 
+        # AWS IAM User keys (make sure the associated policy is limited to getobjects on specific bucket/prefix)
+        # Protect your map file
+        CONFIG "AWS_ACCESS_KEY_ID" "yourAccessKeyHere"
+        CONFIG "AWS_SECRET_ACCESS_KEY" "yourSecretAccessKeyHere"
+        # Constrain GDAL to read just the tif it is pointed at
 	CONFIG "CPL_VSIL_CURL_ALLOWED_EXTENSIONS" ".tif"
+        CONFIG "GDAL_DISABLE_READDIR_ON_OPEN" "TRUE"
+        # cache size in bytes
 	CONFIG "VSI_CACHE" "TRUE"
-	# cache size in bytes
 	CONFIG "VSI_CACHE_SIZE" "50000000"
-	CONFIG "GDAL_DISABLE_READDIR_ON_OPEN" "TRUE"
+
 
 Docker Image
 ============
