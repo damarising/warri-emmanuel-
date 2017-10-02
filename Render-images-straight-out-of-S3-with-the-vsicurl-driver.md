@@ -22,8 +22,11 @@ The format & layout of your data have a critical impact on Mapserver performance
 
 I typically start with imagery stored as a GeoTIFF. [Lossy JPEG compression can make your data dramatically smaller with little visual impact](http://blog.cleverelephant.ca/2015/02/geotiff-compression-for-dummies.html). Internal tiling the data improves random access performance. Generating overviews (aka pyramids) minimizes the amount of data required at various zoom levels.  GDAL can be used to prepare a file with these considerations in mind:
 
-    gdal_translate in.tif out.tif -co COMPRESS=JPEG -co PHOTOMETRIC=YCBCR -co TILED=YES
-	gdaladdo -r average out.tif 2 4 8 16 32 64 128 --config COMPRESS_OVERVIEW JPEG --config PHOTOMETRIC_OVERVIEW YCBCR --config INTERLEAVE_OVERVIEW PIXEL
+    gdal_translate in.tif out.tif -co tiled=yes -co BLOCKXSIZE=512 -co BLOCKYSIZE=512 -co COMPRESS=DEFLATE -co PREDICTOR=2   
+
+    gdaladdo -r average out.tif 2 4 8 16 32 64 128 --config PHOTOMETRIC_OVERVIEW=YCBCR --config COMPRESS_OVERVIEW=JPEG --config JPEG_QUALITY_OVERVIEW=85 --config INTERLEAVE_OVERVIEW PIXEL 
+
+    gdal_translate out.tif cloudoptmized.tif -co TILED=YES -co BLOCKXSIZE=512 -co BLOCKYSIZE=512 -co COMPRESS=JPEG -co JPEG_QUALITY=85 -co PHOTOMETRIC=YCBCR -co COPY_SRC_OVERVIEWS=YES --config GDAL_TIFF_OVR_BLOCKSIZE 512
 
 If you are using an mask band, you may need to add the flag `--config GDAL_TIFF_INTERNAL_MASK YES`. You can also set transparency via MAPfile parameter `OFFSITE 0 0 0` to mark (0,0,0) pixels transparent.
 
