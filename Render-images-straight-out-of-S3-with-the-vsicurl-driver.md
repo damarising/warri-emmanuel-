@@ -119,11 +119,11 @@ Example configuration for the MAP object of your MAPFILE:
         CONFIG "AWS_ACCESS_KEY_ID" "yourAccessKeyHere"
         CONFIG "AWS_SECRET_ACCESS_KEY" "yourSecretAccessKeyHere"
         # Constrain GDAL to read just the tif it is pointed at
-	CONFIG "CPL_VSIL_CURL_ALLOWED_EXTENSIONS" ".tif"
+        CONFIG "CPL_VSIL_CURL_ALLOWED_EXTENSIONS" ".tif"
         CONFIG "GDAL_DISABLE_READDIR_ON_OPEN" "TRUE"
         # cache size in bytes
-	CONFIG "VSI_CACHE" "TRUE"
-	CONFIG "VSI_CACHE_SIZE" "50000000"
+        CONFIG "VSI_CACHE" "TRUE"
+        CONFIG "VSI_CACHE_SIZE" "50000000"
 
 
 Docker Image
