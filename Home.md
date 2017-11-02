@@ -11,6 +11,7 @@ This wiki allows [[MapServer|http://mapserver.org]] users to create pages that c
 * [Users Groups](/mapserver/mapserver/wiki/MUGs)
 * [Service Providers](/mapserver/mapserver/wiki/MapServer-Service-Providers)
 * [Site Gallery](/mapserver/mapserver/wiki/MapServer-Site-Gallery)
+* [Google Code-In](/mapserver/mapserver/wiki/MapServer-Google-Code-In)
 
 ## Developer Notes
 * [Release Plans](wiki/ReleasePlans)
