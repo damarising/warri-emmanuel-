@@ -1,0 +1,1 @@
+A page for the upcoming Google Code-In initiative (28 November to January 18)
