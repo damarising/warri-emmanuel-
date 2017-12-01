@@ -4,6 +4,6 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 * student name:
 * submission:
-* description:
+* description/vision:
 
  
