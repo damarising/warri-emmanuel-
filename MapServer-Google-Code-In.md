@@ -11,3 +11,9 @@ A page for the Google Code-In initiative (28 November to January 18).
 * student name: A. L.
 * submission: [link to design](https://docs.google.com/document/d/1mQhxiQ3IBtFT6w0JPFgdXe0V9jqWHvz-GK77rUX3HJM/edit?usp=sharing)
 * description/vision: I noticed that the map had 9 squares and "MapServer" has 9 letters, so I decided to make a square split into 9 squares with 1 letter per square.
+
+--- 
+
+* student name: Alton Culver
+* submission: [link to design](https://docs.google.com/document/d/1Tf27P5HQtT33q_Bb9sIgbrtrdaiUdfOjy1HHIJSRzaI/edit?usp=sharing)
+* description/vision: It is not a vector image and is meant to be small since it is a sticker, so you will probably have to zoom out a little. The name gave me inspiration for how I wanted it to look. Mapserver sounds kind of old school when I think about it, so I decided to go with a retro/grainy kind of look.
