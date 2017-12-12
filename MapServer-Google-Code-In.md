@@ -17,3 +17,9 @@ A page for the Google Code-In initiative (28 November to January 18).
 * student name: Alton Culver
 * submission: [link to design](https://docs.google.com/document/d/1Tf27P5HQtT33q_Bb9sIgbrtrdaiUdfOjy1HHIJSRzaI/edit?usp=sharing)
 * description/vision: It is not a vector image and is meant to be small since it is a sticker, so you will probably have to zoom out a little. The name gave me inspiration for how I wanted it to look. Mapserver sounds kind of old school when I think about it, so I decided to go with a retro/grainy kind of look.
+
+---
+
+*student name: Sunveer Singh
+*submission:[Link To Sticker(https://github.com/Sunveer54/Mapserver-Logo/blob/master/Mapserverlogo.svg)
+*description:As In the task description they said Mapserver is nicknamed as cheetah, so I used cheetah in the sticker.
