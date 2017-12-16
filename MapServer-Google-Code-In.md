@@ -57,10 +57,13 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 * *student name:*
 * *submission:*
+* *description:*
 
 # <a name="bug"> Fix any bug in the issue tracker
 
 * *student name:* Sunveer Singh
 * *submission:* [Link To Change](https://github.com/mapserver/docs/pull/205)
+* *description:* Logical expressions Documentation was wrong so i corrected it
+
 
 ---
