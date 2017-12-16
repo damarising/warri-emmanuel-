@@ -1,6 +1,6 @@
 A page for the Google Code-In initiative (28 November to January 18).
 
-**TABLE OF CONTENTS**
+**CONTENTS**
 * [Task: Design a laptop sticker](#logo)
 * [Task: Make a Promotion Video](#video)
 * [Task: Install MS4W](#ms4w)
