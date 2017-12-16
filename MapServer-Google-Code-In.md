@@ -1,6 +1,11 @@
 A page for the Google Code-In initiative (28 November to January 18).
 
-# Task: Design a laptop sticker
+**TABLE OF CONTENTS**
+* [Task: Design a laptop sticker](#logo)
+
+# <a name="logo"> Task: Design a laptop sticker
+# <a name="video"> Task: Make a Promotion Video
+# <a name="ms4w"> Task: Install MS4W
 
 * *student name:*
 * *submission:*
@@ -29,7 +34,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 * submission: [Link To Sticker](https://github.com/Sunveer54/Mapserver-Logo/blob/master/Mapserverlogo.svg)
 * description: As In the task description they said Mapserver is nicknamed as cheetah, so I used cheetah in the sticker.
 
-# Task: Make a Promotion Video
+# <a name="video"> Task: Make a Promotion Video
 
 * *student name:*
 * *submission:*
@@ -47,7 +52,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 * submission: [Link To Video](https://www.youtube.com/watch?v=Du0qIHYXmj4)
 * description/vision: 
 
-# Task: Install MS4W
+# <a name="ms4w"> Task: Install MS4W
 
 * *student name:*
 * *submission:*
