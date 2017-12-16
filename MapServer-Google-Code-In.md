@@ -40,3 +40,10 @@ A page for the Google Code-In initiative (28 November to January 18).
 * student name: Sunveer Singh
 * submission:[Link To Video](https://youtu.be/EkPd2v22Vxk)
 * description/vision:As MapServer is fast so i decided to make the video fast!
+
+# Task: Install MS4W
+
+* *student name:*
+* *submission:*
+
+---
