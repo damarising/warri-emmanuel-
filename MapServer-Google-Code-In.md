@@ -4,6 +4,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 * [Task: Design a laptop sticker](#logo)
 * [Task: Make a Promotion Video](#video)
 * [Task: Install MS4W](#ms4w)
+* [Task: Fix any bug in the issue tracker](#bug)
 
 # <a name="logo"> Design a laptop sticker
 
@@ -56,5 +57,10 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 * *student name:*
 * *submission:*
+
+# <a name="bug"> Fix any bug in the issue tracker
+
+* *student name:* Sunveer Singh
+* *submission:* [Link To Change](https://github.com/mapserver/docs/pull/205)
 
 ---
