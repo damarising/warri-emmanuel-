@@ -25,7 +25,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 ---
 
-* student name: Sunveer Sing
+* student name: Sunveer Singh
 * submission:[Link To Sticker](https://github.com/Sunveer54/Mapserver-Logo/blob/master/Mapserverlogo.svg)
 * description:As In the task description they said Mapserver is nicknamed as cheetah, so I used cheetah in the sticker.
 
@@ -37,3 +37,6 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 ---
 
+* student name: Sunveer Singh
+* submission:[Link To Video](https://youtu.be/EkPd2v22Vxk)
+* description/vision:As MapServer is fast so i decided to make the video fast!
