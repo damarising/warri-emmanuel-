@@ -38,7 +38,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 --- 
 
 * student name: Gabe Mitnick
-* submission: [link to design](lut.im/R4A3qvw62y/t5K1esCxe7hZ1Myh.svg)
+* submission: [link to design](https://lut.im/R4A3qvw62y/t5K1esCxe7hZ1Myh.svg)
 * description/vision: A simple I <3 MAPS design. The font is Futura, as used in the official logo, except for a custom glyph for the `I` to distinguish it from an `l`.
 
 # <a name="video"> Task: Make a Promotion Video
