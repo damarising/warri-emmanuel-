@@ -57,7 +57,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 
 * student name: Aryan Batheja
 * submission: [Link To Video](https://www.youtube.com/watch?v=Du0qIHYXmj4)
-* description/vision: 
+* description/vision: features, steering committee, platforms
 
 # <a name="ms4w"> Task: Install MS4W
 
