@@ -11,6 +11,13 @@ A page for the Google Code-In initiative (28 November to January 18).
 * *student name:*
 * *submission:*
 * *description/vision:*
+
+---
+
+* student name: Vinay Jagan
+* submission: [link to design](https://codein.withgoogle.com/serve/5514688127303680/)
+* description/vision: I went for a minimalistic logo with Roboto-style text around the globe. The globe shows the layout of a map. For the full image, open the document on Inkscape.
+
 ---
 
 * student name: Aagam Sheth
