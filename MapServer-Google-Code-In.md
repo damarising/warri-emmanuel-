@@ -76,7 +76,7 @@ A page for the Google Code-In initiative (28 November to January 18).
 * *student name:* Jerry Huang
 * *submission:* [Link To Change](https://github.com/mapserver/mapserver/pull/5535)
 * *description:* log2vis deprecated due to not having multi-line support
-
+---
 * *student name:* Sunveer Singh
 * *submission:* [Link To Change](https://github.com/mapserver/docs/pull/205)
 * *description:* Logical expressions Documentation was wrong so i corrected it
